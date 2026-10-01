@@ -1,0 +1,9 @@
+# Notebook, charts, corpus building and tests (not needed to serve the site)
+-r requirements.txt
+reportlab==4.4.10
+matplotlib==3.10.9
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+pytest==9.1.1
+httpx==0.28.1

@@ -33,7 +33,7 @@ scale. A website (FastAPI + React) exposes every module live.
 
 ```bash
 # Python 3.11
-pip install -r requirements.txt
+pip install -r requirements-dev.txt          # requirements.txt alone is enough to serve the site
 export NLTK_ALLOW_PROXIED_URLOPEN=1          # only needed behind an HTTPS proxy
 
 # 1. Data (already included in data/ and data_scale/; re-download and rebuild if you want)

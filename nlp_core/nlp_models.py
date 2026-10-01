@@ -12,6 +12,8 @@ SPACY_MODEL = "en_core_web_sm"
 def ensure_nltk() -> None:
     import nltk
 
+    if os.environ.get("VERCEL"):
+        nltk.data.path.insert(0, "/tmp/nltk_data")
     need = {"tokenizers/punkt_tab": "punkt_tab", "corpora/stopwords": "stopwords", "corpora/wordnet": "wordnet",
             "taggers/averaged_perceptron_tagger_eng": "averaged_perceptron_tagger_eng",
             "corpora/treebank": "treebank", "taggers/universal_tagset": "universal_tagset", "corpora/words": "words"}
@@ -19,7 +21,7 @@ def ensure_nltk() -> None:
         try:
             nltk.data.find(path)
         except LookupError:
-            nltk.download(pkg, quiet=True)
+            nltk.download(pkg, quiet=True, download_dir="/tmp/nltk_data" if os.environ.get("VERCEL") else None)
 
 
 @lru_cache(maxsize=None)

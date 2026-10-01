@@ -9,3 +9,6 @@ sources/
 .pytest_cache/
 web/e2e/shots/
 .vercel/
+
+.vercel
+.env*

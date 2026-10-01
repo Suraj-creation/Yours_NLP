@@ -13,11 +13,15 @@ DATA_SCALE = ROOT / "data_scale"
 GOLD = ROOT / "gold"
 CONFIG = ROOT / "config"
 RESULTS = ROOT / "results"
-CACHE = ROOT / ".cache"
+# Serverless hosts (Vercel) have a read-only project folder; caches go to /tmp there.
+CACHE = Path("/tmp/.cache") if os.environ.get("VERCEL") else ROOT / ".cache"
 SEED = 42
 
 for _p in (RESULTS, CACHE):
-    _p.mkdir(parents=True, exist_ok=True)
+    try:
+        _p.mkdir(parents=True, exist_ok=True)
+    except OSError:
+        pass
 
 
 @lru_cache(maxsize=None)
