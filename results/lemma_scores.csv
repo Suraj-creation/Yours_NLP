@@ -1,0 +1,4 @@
+lemmatizer,accuracy,tokens,correct,errors
+wordnet_nopos,0.8682,220,191,is->is (gold be); are->are (gold be); as->a (gold as); bigger->bigger (gold big); larger->larger (gold large); added->added (gold add); simplest->simplest (gold simple); uses->us (gold use)
+wordnet_pos,0.9818,220,216,as->a (gold as); lower->lower (gold low); scaffolding->scaffold (gold scaffolding)
+spacy,0.9909,220,218,lower->lower (gold low); scaffolding->scaffold (gold scaffolding)

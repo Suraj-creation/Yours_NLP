@@ -1,0 +1,61 @@
+{"id": "N01", "text": "Ms. Priya Raman is Head of Mathematics at Greenfield Public School in Bengaluru, Karnataka.", "entities": [[4, 15, "PERSON"], [42, 66, "ORG"], [70, 79, "GPE"], [81, 90, "GPE"]]}
+{"id": "N02", "text": "The observation period ran from 3 August 2026 to 28 August 2026.", "entities": [[32, 45, "DATE"], [49, 63, "DATE"]]}
+{"id": "N03", "text": "Rohan and Meera wrote 2/3 = 4/5 by adding the same number to the numerator and the denominator.", "entities": [[0, 5, "PERSON"], [10, 15, "PERSON"], [65, 74, "CONCEPT"], [83, 94, "CONCEPT"]]}
+{"id": "N04", "text": "Order 40 sets of fraction tiles for the class, with a budget of Rs 2,500 approved by Mr. Suresh Kumar.", "entities": [[17, 25, "CONCEPT"], [64, 72, "MONEY"], [89, 101, "PERSON"]]}
+{"id": "N05", "text": "Selected students will represent the school at the Inter-School Math Olympiad on 18 October 2026 in Mysuru.", "entities": [[51, 77, "EVENT"], [81, 96, "DATE"], [100, 106, "GPE"]]}
+{"id": "N06", "text": "Share progress with parents on Google Classroom by 4 September 2026.", "entities": [[31, 47, "PRODUCT"], [51, 67, "DATE"]]}
+{"id": "N07", "text": "The Parent Maths Workshop is on 25 September 2026 and the fee is Rs 200 per family.", "entities": [[4, 25, "EVENT"], [32, 49, "DATE"], [65, 71, "MONEY"]]}
+{"id": "N08", "text": "The Fraction Fair 2026 exhibition opens on 6 November 2026.", "entities": [[4, 22, "EVENT"], [43, 58, "DATE"]]}
+{"id": "N09", "text": "Learner: Aarav. Tutor: Ms. Neha Kapoor. Platform: school tutoring pilot, Bengaluru.", "entities": [[9, 14, "PERSON"], [27, 38, "PERSON"], [73, 82, "GPE"]]}
+{"id": "N10", "text": "On 2026-09-01 Aarav said 1/2 + 1/3 = 2/5, a clear case of adding numerators and denominators.", "entities": [[3, 13, "DATE"], [14, 19, "PERSON"], [58, 92, "MISCONCEPTION"]]}
+{"id": "N11", "text": "A cricket bat costs Rs 1,200 during the sale.", "entities": [[20, 28, "MONEY"]]}
+{"id": "N12", "text": "A Samsung tablet costs Rs 18,000 in Mumbai and Rs 17,100 in Pune.", "entities": [[2, 9, "ORG"], [23, 32, "MONEY"], [36, 42, "GPE"], [47, 56, "MONEY"], [60, 64, "GPE"]]}
+{"id": "N13", "text": "Kabir scored 42 out of 50 in the practice test on 5 September 2026.", "entities": [[0, 5, "PERSON"], [50, 66, "DATE"]]}
+{"id": "N14", "text": "Knowledge Tracing in Programming Education Integrating Students' Questions. Authors: Doyoun Kim (Seoul National University); Suin Kim (Elice); Yohan Jo (Seoul National University)", "entities": [[0, 17, "CONCEPT"], [85, 95, "PERSON"], [97, 122, "ORG"], [125, 133, "PERSON"], [135, 140, "ORG"], [143, 151, "PERSON"], [153, 178, "ORG"]]}
+{"id": "N15", "text": "This paper introduces SQKT, a knowledge tracing model that leverages students' questions and automatically extracted skill information.", "entities": [[22, 26, "KT_MODEL"], [30, 47, "CONCEPT"]]}
+{"id": "N16", "text": "In in-domain experiments, SQKT achieved a 33.1% absolute improvement in AUC compared to baseline models.", "entities": [[26, 30, "KT_MODEL"], [72, 75, "METRIC"]]}
+{"id": "N17", "text": "CIKT: A Collaborative and Iterative Knowledge Tracing Framework with Large Language Models", "entities": [[0, 4, "KT_MODEL"], [36, 53, "CONCEPT"]]}
+{"id": "N18", "text": "Authors: Runze Li; Siyu Wu; Jun Wang; Wei Zhang (East China Normal University)", "entities": [[9, 17, "PERSON"], [19, 26, "PERSON"], [28, 36, "PERSON"], [38, 47, "PERSON"], [49, 77, "ORG"]]}
+{"id": "N19", "text": "Authors: Jialin Ouyang (Columbia University)", "entities": [[9, 22, "PERSON"], [24, 43, "ORG"]]}
+{"id": "N20", "text": "Authors: Nicy Scaria (Indian Institute of Science); Deepak Subramani (Indian Institute of Science)", "entities": [[9, 20, "PERSON"], [22, 49, "ORG"], [52, 68, "PERSON"], [70, 97, "ORG"]]}
+{"id": "N21", "text": "Authors: Yann Hicke (Cornell University); Abhishek Masand (Cornell University)", "entities": [[9, 19, "PERSON"], [21, 39, "ORG"], [42, 57, "PERSON"], [59, 77, "ORG"]]}
+{"id": "N22", "text": "We benchmark 18 assistants, including the latest LLMs such as GPT-5, Claude 4.1 Opus, and Gemini 2.5 Pro.", "entities": [[62, 67, "PRODUCT"], [69, 84, "PRODUCT"], [90, 104, "PRODUCT"]]}
+{"id": "N23", "text": "Through a disentangled evaluation on GSM8K and SVAMP, we find that the final-answer accuracy of Llama-3 and Qwen2.5 is bottlenecked by arithmetic.", "entities": [[37, 42, "DATASET"], [47, 52, "DATASET"], [84, 92, "METRIC"], [96, 103, "PRODUCT"], [108, 115, "PRODUCT"]]}
+{"id": "N24", "text": "MathDial: A Dialogue Tutoring Dataset with Rich Pedagogical Properties Grounded in Math Reasoning Problems", "entities": [[0, 8, "DATASET"]]}
+{"id": "N25", "text": "Authors: Jakub Macina; Nico Daheim; Sankalan Pal Chowdhury", "entities": [[9, 21, "PERSON"], [23, 34, "PERSON"], [36, 58, "PERSON"]]}
+{"id": "N26", "text": "The TalkMoves Dataset: K-12 Mathematics Lesson Transcripts Annotated for Teacher and Student Discursive Moves", "entities": [[4, 13, "DATASET"]]}
+{"id": "N27", "text": "The NCTE Transcripts: A Dataset of Elementary Math Classroom Transcripts. Authors: Dorottya Demszky (Stanford University); Heather Hill (Harvard)", "entities": [[4, 20, "DATASET"], [83, 99, "PERSON"], [101, 120, "ORG"], [123, 135, "PERSON"], [137, 144, "ORG"]]}
+{"id": "N28", "text": "The MaE dataset is a collection of 220 diagnostic examples that represent 55 common algebra misconceptions among middle school students.", "entities": [[4, 7, "DATASET"]]}
+{"id": "N29", "text": "Dataset tested with GPT-4, achieving 83.9% accuracy when constrained by topic.", "entities": [[20, 25, "PRODUCT"], [43, 51, "METRIC"]]}
+{"id": "N30", "text": "This dataset supports the paper by Nancy Otero, Stefania Druga, and Andrew Lan.", "entities": [[35, 46, "PERSON"], [48, 62, "PERSON"], [68, 78, "PERSON"]]}
+{"id": "N31", "text": "Misconception MaE01 (Number sense): when students don't understand how to represent proportional relationships. Source: Ashlock, 2006.", "entities": [[120, 127, "PERSON"], [129, 133, "DATE"]]}
+{"id": "N32", "text": "Source: Bush, 2011", "entities": [[8, 12, "PERSON"], [14, 18, "DATE"]]}
+{"id": "N33", "text": "Karan borrowed $3,650 for five months at an interest rate of 10%.", "entities": [[0, 5, "PERSON"], [15, 21, "MONEY"], [26, 37, "DATE"], [53, 57, "CONCEPT"]]}
+{"id": "N34", "text": "He keeps 1/3 of them and gets to go to the amusement park with $50 in spending cash.", "entities": [[63, 66, "MONEY"]]}
+{"id": "N35", "text": "In total, Mandy paid $205 for data in the first 6 months.", "entities": [[10, 15, "PERSON"], [21, 25, "MONEY"], [38, 56, "DATE"]]}
+{"id": "N36", "text": "So the total contribution before Harry added his $30 was 3x.", "entities": [[33, 38, "PERSON"], [49, 52, "MONEY"]]}
+{"id": "N37", "text": "Use your answer to estimate the sales tax Felipa would pay on a $95 dress.", "entities": [[42, 48, "PERSON"], [64, 67, "MONEY"]]}
+{"id": "N38", "text": "For our $5.03 lunch, we can write the decimal 5.03 as a mixed number.", "entities": [[8, 13, "MONEY"], [38, 45, "CONCEPT"], [56, 68, "CONCEPT"]]}
+{"id": "N39", "text": "We know that $1 is the same as $1.00.", "entities": [[13, 15, "MONEY"], [31, 36, "MONEY"]]}
+{"id": "N40", "text": "Teacher: Danielle why don't you come up and show them what you're thinking?", "entities": [[9, 17, "PERSON"]]}
+{"id": "N41", "text": "Brian: I just found out another way that a half can be...", "entities": [[0, 5, "PERSON"]]}
+{"id": "N42", "text": "Graham and Kelly had something very interesting to say about why one half is another name for two fourths.", "entities": [[0, 6, "PERSON"], [11, 16, "PERSON"]]}
+{"id": "N43", "text": "Find the least common denominator (LCD) of 4 and 6, then write each equivalent fraction.", "entities": [[9, 33, "CONCEPT"], [35, 38, "CONCEPT"], [68, 87, "CONCEPT"]]}
+{"id": "N44", "text": "Convert the mixed number to an improper fraction: 11 1/3.", "entities": [[12, 24, "CONCEPT"], [31, 48, "CONCEPT"]]}
+{"id": "N45", "text": "The reciprocal of 5 is 1/5, so dividing by 5 is the same as multiplying by 1/5.", "entities": [[4, 14, "CONCEPT"]]}
+{"id": "N46", "text": "Locate 3/4 on the number line and compare it with 2/3.", "entities": [[18, 29, "CONCEPT"]]}
+{"id": "N47", "text": "The fraction with the larger denominator is always the larger fraction, so 3/10 > 3/5.", "entities": [[4, 12, "CONCEPT"], [22, 70, "MISCONCEPTION"]]}
+{"id": "N48", "text": "BKT models mastery with slip and guess parameters, while DKT uses a recurrent neural network.", "entities": [[0, 3, "KT_MODEL"], [57, 60, "KT_MODEL"]]}
+{"id": "N49", "text": "Bayesian Knowledge Tracing was introduced by Corbett and Anderson in 1994.", "entities": [[0, 26, "KT_MODEL"], [45, 52, "PERSON"], [57, 65, "PERSON"], [69, 73, "DATE"]]}
+{"id": "N50", "text": "Deep Knowledge Tracing was evaluated on ASSISTments and reported a higher AUC than BKT.", "entities": [[0, 22, "KT_MODEL"], [40, 51, "DATASET"], [74, 77, "METRIC"], [83, 86, "KT_MODEL"]]}
+{"id": "N51", "text": "Models like Q-MCKT are evaluated on ASSIST2009 and EdNet.", "entities": [[12, 18, "KT_MODEL"], [36, 46, "DATASET"], [51, 56, "DATASET"]]}
+{"id": "N52", "text": "FoundationalASSIST contains 1.7 million interactions released by ASSISTments.", "entities": [[0, 18, "DATASET"], [65, 76, "ORG"]]}
+{"id": "N53", "text": "We report F1, ECE and RMSE on the held-out split.", "entities": [[10, 12, "METRIC"], [14, 17, "METRIC"], [22, 26, "METRIC"]]}
+{"id": "N54", "text": "Inter-annotator agreement was Cohen's kappa = 0.85 on ASSIST2009.", "entities": [[30, 43, "METRIC"], [54, 64, "DATASET"]]}
+{"id": "N55", "text": "The TalkMoves application gives teachers feedback on talk moves such as revoicing.", "entities": [[4, 13, "DATASET"], [53, 63, "CONCEPT"]]}
+{"id": "N56", "text": "ETH Zurich released MathDial under a CC BY-SA licence.", "entities": [[0, 10, "ORG"], [20, 28, "DATASET"]]}
+{"id": "N57", "text": "OpenStax publishes Prealgebra 2e from Rice University in Houston.", "entities": [[0, 8, "ORG"], [38, 53, "ORG"], [57, 64, "GPE"]]}
+{"id": "N58", "text": "Eedi ran the Mining Misconceptions in Mathematics competition on Kaggle in 2024.", "entities": [[0, 4, "ORG"], [13, 49, "EVENT"], [65, 71, "ORG"], [75, 79, "DATE"]]}
+{"id": "N59", "text": "Students often think a longer decimal is bigger, so they say 0.125 is greater than 0.5.", "entities": [[23, 47, "MISCONCEPTION"]]}
+{"id": "N60", "text": "When students add across, they write 1/4 + 1/2 = 2/6 instead of using a common denominator.", "entities": [[14, 24, "MISCONCEPTION"], [72, 90, "CONCEPT"]]}
+{"id": "N61", "text": "The paper was presented at ACL 2025 in Vienna, Austria, in July 2025.", "entities": [[27, 35, "EVENT"], [39, 45, "GPE"], [47, 54, "GPE"], [59, 68, "DATE"]]}

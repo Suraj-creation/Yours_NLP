@@ -1,0 +1,15 @@
+rule_removed,f1,f1_drop
+url_email,0.9962,0.0
+datetime,0.99,0.0062
+currency,0.9824,0.0138
+mixed_number,0.9801,0.0161
+expression,0.99,0.0062
+fraction,0.9962,0.0
+percent,0.9847,0.0115
+ratio_time,0.9962,0.0
+number,0.9962,0.0
+ordinal,0.9962,0.0
+abbreviation,0.9962,0.0
+compound,0.9892,0.007
+alnum,0.9962,0.0
+informal,0.9938,0.0024

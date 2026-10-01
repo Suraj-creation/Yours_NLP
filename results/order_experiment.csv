@@ -1,0 +1,3 @@
+run,order,index_tokens,vocabulary,stop_word_stems_leaked,leaked_occurrences,examples,mean_f1
+A,stop_then_norm,85104,8549,1,49,hi (49),0.6432
+C1,norm_then_stop,87633,8559,16,2610,"thi (587), ha (475), hi (372), wa (299), doe (168), becaus (155), onli (145), befor (136)",0.6432

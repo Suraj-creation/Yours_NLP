@@ -1,0 +1,8 @@
+measure,pipeline_a,pipeline_b,final_pipeline (B)
+Token Count,85104.0,136273.0,136273.0
+Vocabulary Size,8549.0,8931.0,8931.0
+Meaningful N-Grams (share of top 100),0.31,0.34,0.34
+Domain terms preserved (of 60),55.0,56.0,56.0
+Precision,0.8951,0.8928,0.8928
+Recall,0.5977,0.62,0.62
+F1-score,0.6432,0.6791,0.6791

@@ -1,0 +1,18 @@
+term,occurrences,expected,nltk_tags,spacy_tags,nltk_wrong_share,spacy_wrong_share
+x,30,SYM,"NN:15, JJ:7, NNP:5, NNS:2","SYM:10, LS:5, ::5, .:4",1.0,0.667
+lcd,85,NN,"NNP:81, NN:4","NNP:78, NN:7",0.953,0.918
+shade,9,VB,"JJ:3, VB:2, VBD:2, VBP:1","NNP:3, VBP:2, VB:2, NN:2",0.778,0.778
+plot,17,VB,"NN:7, VB:4, NNP:3, $:1","VB:10, NN:7",0.765,0.412
+reciprocal,45,NN,"NN:26, JJ:19","JJ:34, NN:11",0.422,0.756
+multiply,120,VB,"NNP:63, VB:32, VBP:14, NN:11","NNP:39, VB:38, UH:19, VBP:14",0.733,0.683
+round,43,VB,"NN:13, VB:12, RB:5, IN:5","VB:19, VBP:7, RB:7, NNP:5",0.721,0.558
+simplify,178,VB,"VB:63, NNP:58, NN:49, VBP:6","VB:168, VBP:10",0.646,0.056
+subtract,58,VB,"VB:23, JJ:14, NNP:8, VBP:8","VB:39, VBP:12, NNP:7",0.603,0.328
+fourths,7,NNS,"NNS:5, JJ:2",NNS:7,0.286,0.0
+over,62,IN,"IN:55, RP:6, NNP:1","IN:56, RP:6",0.113,0.097
+fraction tokens (e.g. 3/4),1204,CD,CD:1204,"CD:1166, NNP:27, LS:3, NNS:3",0.0,0.032
+bkt,1,NNP,NNP:1,NNP:1,0.0,0.0
+carry,1,VB,VB:1,VB:1,0.0,0.0
+halves,5,NNS,NNS:5,NNS:5,0.0,0.0
+thirds,10,NNS,NNS:10,NNS:10,0.0,0.0
+top,2,JJ,JJ:2,JJ:2,0.0,0.0

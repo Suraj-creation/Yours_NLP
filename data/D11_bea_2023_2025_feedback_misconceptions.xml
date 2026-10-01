@@ -1,0 +1,954 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection source="ACL Anthology" title="BEA workshops 2023-2025: feedback, tutoring and misconception papers">
+  <volume id="2023.bea">
+    <paper id="44">
+      <title>The <fixed-case>NCTE</fixed-case> Transcripts: A Dataset of Elementary Math Classroom Transcripts</title>
+      <author>
+        <first>Dorottya</first>
+        <last>Demszky</last>
+        <affiliation>Stanford University</affiliation>
+      </author>
+      <author>
+        <first>Heather</first>
+        <last>Hill</last>
+        <affiliation>Harvard</affiliation>
+      </author>
+      <pages>528-538</pages>
+      <abstract>Classroom discourse is a core medium of instruction analyzing it can provide a window into teaching and learning as well as driving the development of new tools for improving instruction. We introduce the largest dataset of mathematics classroom transcripts available to researchers, and demonstrate how this data can help improve instruction. The dataset consists of 1,660 45-60 minute long 4th and 5th grade elementary mathematics observations collected by the National Center for Teacher Effectiveness (NCTE) between 2010-2013. The anonymized transcripts represent data from 317 teachers across 4 school districts that serve largely historically marginalized students. The transcripts come with rich metadata, including turn-level annotations for dialogic discourse moves, classroom observation scores, demographic information, survey responses and student test scores. We demonstrate that our natural language processing model, trained on our turn-level annotations, can learn to identify dialogic discourse moves and these moves are correlated with better classroom observation scores and learning outcomes. This dataset opens up several possibilities for researchers, educators and policymakers to learn about and improve K-12 instruction. The dataset can be found at <url>https://github.com/ddemszky/classroom-transcript-analysis</url>.</abstract>
+      <pdf hash="6ad3811c" />
+      <bibkey>demszky-hill-2023-ncte</bibkey>
+      <doi>10.18653/v1/2023.bea-1.44</doi>
+    </paper>
+    <paper id="53">
+      <title>Is <fixed-case>C</fixed-case>hat<fixed-case>GPT</fixed-case> a Good Teacher Coach? Measuring Zero-Shot Performance For Scoring and Providing Actionable Insights on Classroom Instruction</title>
+      <author>
+        <first>Rose</first>
+        <last>Wang</last>
+        <affiliation>Stanford</affiliation>
+      </author>
+      <author>
+        <first>Dorottya</first>
+        <last>Demszky</last>
+        <affiliation>Stanford University</affiliation>
+      </author>
+      <pages>626-667</pages>
+      <abstract>Coaching, which involves classroom observation and expert feedback, is a widespread and fundamental part of teacher training. However, the majority of teachers do not have access to consistent, high quality coaching due to limited resources and access to expertise. We explore whether generative AI could become a cost-effective complement to expert feedback by serving as an automated teacher coach. In doing so, we propose three teacher coaching tasks for generative AI: (A) scoring transcript segments based on classroom observation instruments, (B)identifying highlights and missed opportunities for good instructional strategies, and (C) providing actionable suggestions for eliciting more student reasoning. We recruit expert math teachers to evaluate the zero-shot performance of ChatGPT on each of these tasks for elementary math classroom transcripts. Our results reveal that ChatGPT generates responses that are relevant to improving instruction, but they are often not novel or insightful. For example, 82% of the model’s suggestions point to places in the transcript where the teacher is already implementing that suggestion. Our work highlights the challenges of producing insightful, novel and truthful feedback for teachers while paving the way for future research to address these obstacles and improve the capacity of generative AI to coach teachers.</abstract>
+      <pdf hash="342d1177" />
+      <bibkey>wang-demszky-2023-chatgpt</bibkey>
+      <doi>10.18653/v1/2023.bea-1.53</doi>
+      <video href="2023.bea-1.53.mp4" />
+    </paper>
+    <paper id="8">
+      <title>Enhancing Video-based Learning Using Knowledge Tracing: Personalizing Students’ Learning Experience with <fixed-case>ORBITS</fixed-case>
+      </title>
+      <author>
+        <first>Shady</first>
+        <last>Shehata</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</affiliation>
+      </author>
+      <author>
+        <first>David</first>
+        <last>Santandreu Calonge</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <author>
+        <first>Philip</first>
+        <last>Purnell</last>
+        <affiliation>Mohamed Bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <author>
+        <first>Mark</first>
+        <last>Thompson</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <pages>100-107</pages>
+      <abstract>As the world regains its footing following the COVID-19 pandemic, academia is striving to consolidate the gains made in students’ education experience. New technologies such as video-based learning have shown some early improvement in student learning and engagement. In this paper, we present ORBITS predictive engine at YOURIKA company, a video-based student support platform powered by knowledge tracing. In an exploratory case study of one master’s level Speech Processing course at the Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI) in Abu Dhabi, half the students used the system while the other half did not. Student qualitative feedback was universally positive and compared the system favorably against current available methods. These findings support the use of artificial intelligence techniques to improve the student learning experience.</abstract>
+      <pdf hash="d52bf878" />
+      <bibkey>shehata-etal-2023-enhancing</bibkey>
+      <doi>10.18653/v1/2023.bea-1.8</doi>
+    </paper>
+    <paper id="11">
+      <title>Evaluating Classroom Potential for Card-it: Digital <fixed-case>F</fixed-case>lashcards for Studying and Learning <fixed-case>I</fixed-case>talian Morphology</title>
+      <author>
+        <first>Mariana</first>
+        <last>Shimabukuro</last>
+        <affiliation>Ontario Tech University</affiliation>
+      </author>
+      <author>
+        <first>Jessica</first>
+        <last>Zipf</last>
+        <affiliation>University of Konstanz</affiliation>
+      </author>
+      <author>
+        <first>Shawn</first>
+        <last>Yama</last>
+        <affiliation>Ontario Tech University</affiliation>
+      </author>
+      <author>
+        <first>Christopher</first>
+        <last>Collins</last>
+        <affiliation>Ontario Tech University</affiliation>
+      </author>
+      <pages>130-136</pages>
+      <abstract>This paper presents Card-it, a web-based application for learning Italian verb conjugation. Card-it integrates a large-scale finite-state morphological~(FSM) analyzer and a flashcard application as a user-friendly way for learners to utilize the analyzer. While Card-it can be used by individual learners, to support classroom adoption, we implemented simple classroom management functionalities such as sharing flashcards to a class and tracking students’ progression. We evaluated Card-it with teachers of Italian. Card-it was reported as engaging and supportive, especially by featuring two different quiz types combined with a verb form look-up feature. Teachers were optimistic about the potential of Card-it as a classroom supplementary tool for learners of Italian as L2. Future work includes sample sentences and a complete learners evaluation.</abstract>
+      <pdf hash="568e2eb7" />
+      <attachment type="attachment" hash="152d9b35">2023.bea-1.11.attachment.mp4</attachment>
+      <bibkey>shimabukuro-etal-2023-evaluating</bibkey>
+      <doi>10.18653/v1/2023.bea-1.11</doi>
+      <video href="2023.bea-1.11.mp4" />
+    </paper>
+    <paper id="52">
+      <title>Evaluating Reading Comprehension Exercises Generated by <fixed-case>LLM</fixed-case>s: A Showcase of <fixed-case>C</fixed-case>hat<fixed-case>GPT</fixed-case> in Education Applications</title>
+      <author>
+        <first>Changrong</first>
+        <last>Xiao</last>
+        <affiliation>Tsinghua University</affiliation>
+      </author>
+      <author>
+        <first>Sean Xin</first>
+        <last>Xu</last>
+        <affiliation>Tsinghua University</affiliation>
+      </author>
+      <author>
+        <first>Kunpeng</first>
+        <last>Zhang</last>
+        <affiliation>University of Maryland</affiliation>
+      </author>
+      <author>
+        <first>Yufang</first>
+        <last>Wang</last>
+        <affiliation>Beijing Xicheng Educational Research Institute</affiliation>
+      </author>
+      <author>
+        <first>Lei</first>
+        <last>Xia</last>
+        <affiliation>Shawn Tech</affiliation>
+      </author>
+      <pages>610-625</pages>
+      <abstract>The recent advancement of pre-trained Large Language Models (LLMs), such as OpenAI’s ChatGPT, has led to transformative changes across fields. For example, developing intelligent systems in the educational sector that leverage the linguistic capabilities of LLMs demonstrates a visible potential. Though researchers have recently explored how ChatGPT could possibly assist in student learning, few studies have applied these techniques to real-world classroom settings involving teachers and students. In this study, we implement a reading comprehension exercise generation system that provides high-quality and personalized reading materials for middle school English learners in China. Extensive evaluations of the generated reading passages and corresponding exercise questions, conducted both automatically and manually, demonstrate that the system-generated materials are suitable for students and even surpass the quality of existing human-written ones. By incorporating first-hand feedback and suggestions from experienced educators, this study serves as a meaningful pioneering application of ChatGPT, shedding light on the future design and implementation of LLM-based systems in the educational context.</abstract>
+      <pdf hash="a53151bc" />
+      <bibkey>xiao-etal-2023-evaluating</bibkey>
+      <doi>10.18653/v1/2023.bea-1.52</doi>
+      <video href="2023.bea-1.52.mp4" />
+    </paper>
+    <paper id="60">
+      <title>Assessing the efficacy of large language models in generating accurate teacher responses</title>
+      <author>
+        <first>Yann</first>
+        <last>Hicke</last>
+        <affiliation>Cornell University</affiliation>
+      </author>
+      <author>
+        <first>Abhishek</first>
+        <last>Masand</last>
+        <affiliation>Cornell University</affiliation>
+      </author>
+      <author>
+        <first>Wentao</first>
+        <last>Guo</last>
+        <affiliation>Cornell University</affiliation>
+      </author>
+      <author>
+        <first>Tushaar</first>
+        <last>Gangavarapu</last>
+        <affiliation>Cornell University</affiliation>
+      </author>
+      <pages>745-755</pages>
+      <abstract>(Tack et al., 2023) organized the shared task hosted by the 18th Workshop on Innovative Use of NLP for Building Educational Applications on generation of teacher language in educational dialogues. Following the structure of the shared task, in this study, we attempt to assess the generative abilities of large language models in providing informative and helpful insights to students, thereby simulating the role of a knowledgeable teacher. To this end, we present an extensive evaluation of several benchmarking generative models, including GPT-4 (few-shot, in-context learning), fine-tuned GPT-2, and fine-tuned DialoGPT. Additionally, to optimize for pedagogical quality, we fine-tuned the Flan-T5 model using reinforcement learning. Our experimental findings on the Teacher-Student Chatroom Corpus subset indicate the efficacy of GPT-4 over other fine-tuned models, measured using BERTScore and DialogRPT. We hypothesize that several dataset characteristics, including sampling, representativeness, and dialog completeness, pose significant challenges to fine-tuning, thus contributing to the poor generalizability of the fine-tuned models. Finally, we note the need for these generative models to be evaluated with a metric that relies not only on dialog coherence and matched language modeling distribution but also on the model’s ability to showcase pedagogical skills.</abstract>
+      <pdf hash="d5e9a58a" />
+      <bibkey>hicke-etal-2023-assessing</bibkey>
+      <doi>10.18653/v1/2023.bea-1.60</doi>
+    </paper>
+    <paper id="64">
+      <title>The <fixed-case>BEA</fixed-case> 2023 Shared Task on Generating <fixed-case>AI</fixed-case> Teacher Responses in Educational Dialogues</title>
+      <author>
+        <first>Anaïs</first>
+        <last>Tack</last>
+        <affiliation>KU Leuven</affiliation>
+      </author>
+      <author>
+        <first>Ekaterina</first>
+        <last>Kochmar</last>
+        <affiliation>Mbzuai</affiliation>
+      </author>
+      <author id="zheng-yuan-cambridge">
+        <first>Zheng</first>
+        <last>Yuan</last>
+        <affiliation>King’s College London</affiliation>
+      </author>
+      <author>
+        <first>Serge</first>
+        <last>Bibauw</last>
+        <affiliation>Universidad Central del Ecuador; UCLouvain</affiliation>
+      </author>
+      <author>
+        <first>Chris</first>
+        <last>Piech</last>
+        <affiliation>Stanford University</affiliation>
+      </author>
+      <pages>785-795</pages>
+      <abstract>This paper describes the results of the first shared task on generation of teacher responses in educational dialogues. The goal of the task was to benchmark the ability of generative language models to act as AI teachers, replying to a student in a teacher-student dialogue. Eight teams participated in the competition hosted on CodaLab and experimented with a wide variety of state-of-the-art models, including Alpaca, Bloom, DialoGPT, DistilGPT-2, Flan-T5, GPT- 2, GPT-3, GPT-4, LLaMA, OPT-2.7B, and T5- base. Their submissions were automatically scored using BERTScore and DialogRPT metrics, and the top three among them were further manually evaluated in terms of pedagogical ability based on Tack and Piech (2022). The NAISTeacher system, which ranked first in both automated and human evaluation, generated responses with GPT-3.5 Turbo using an ensemble of prompts and DialogRPT-based ranking of responses for given dialogue contexts. Despite promising achievements of the participating teams, the results also highlight the need for evaluation metrics better suited to educational contexts.</abstract>
+      <pdf hash="94ff1fc6" />
+      <bibkey>tack-etal-2023-bea</bibkey>
+      <doi>10.18653/v1/2023.bea-1.64</doi>
+    </paper>
+    <paper id="25">
+      <title>Reconciling Adaptivity and Task Orientation in the Student Dashboard of an Intelligent Language Tutoring System</title>
+      <author>
+        <first>Leona</first>
+        <last>Colling</last>
+        <affiliation>University of Tbingen</affiliation>
+      </author>
+      <author>
+        <first>Tanja</first>
+        <last>Heck</last>
+        <affiliation>University of Tbingen</affiliation>
+      </author>
+      <author id="detmar-meurers">
+        <first>Detmar</first>
+        <last>Meurers</last>
+        <affiliation>Universitt Tbingen</affiliation>
+      </author>
+      <pages>288-299</pages>
+      <abstract>In intelligent language tutoring systems, student dashboards should display the learning progress and performance and support the navigation through the learning content. Designing an interface that transparently offers information on students’ learning in relation to specific learning targets while linking to the overarching functional goal, that motivates and organizes the practice in current foreign language teaching, is challenging. This becomes even more difficult in systems that adaptively expose students to different learning material and individualize system interactions. If such a system is used in an ecologically valid setting of blended learning, this generates additional requirements to incorporate the needs of students and teachers for control and customizability.We present the conceptual design of a student dashboard for a task-based, user-adaptive intelligent language tutoring system intended for use in real-life English classes in secondary schools. We highlight the key challenges and spell out open questions for future research.</abstract>
+      <pdf hash="cfe1075f" />
+      <bibkey>colling-etal-2023-reconciling</bibkey>
+      <doi>10.18653/v1/2023.bea-1.25</doi>
+    </paper>
+    <paper id="63">
+      <title>
+        <fixed-case>NAIST</fixed-case>eacher: A Prompt and Rerank Approach to Generating Teacher Utterances in Educational Dialogues</title>
+      <author id="justin-vasselli">
+        <first>Justin</first>
+        <last>Vasselli</last>
+        <affiliation>Nara Institute of Science and Technology</affiliation>
+      </author>
+      <author>
+        <first>Christopher</first>
+        <last>Vasselli</last>
+        <affiliation>Serpenti Sei</affiliation>
+      </author>
+      <author>
+        <first>Adam</first>
+        <last>Nohejl</last>
+        <affiliation>Nara Institute of Science and Technology</affiliation>
+      </author>
+      <author>
+        <first>Taro</first>
+        <last>Watanabe</last>
+        <affiliation>Nara Institute of Science and Technology</affiliation>
+      </author>
+      <pages>772-784</pages>
+      <abstract>This paper presents our approach to the BEA 2023 shared task of generating teacher responses in educational dialogues, using the Teacher-Student Chatroom Corpus. Our system prompts GPT-3.5-turbo to generate initial suggestions, which are then subjected to reranking. We explore multiple strategies for candidate generation, including prompting for multiple candidates and employing iterative few-shot prompts with negative examples. We aggregate all candidate responses and rerank them based on DialogRPT scores. To handle consecutive turns in the dialogue data, we divide the task of generating teacher utterances into two components: teacher replies to the student and teacher continuations of previously sent messages. Through our proposed methodology, our system achieved the top score on both automated metrics and human evaluation, surpassing the reference human teachers on the latter.</abstract>
+      <pdf hash="97fb71f7" />
+      <bibkey>vasselli-etal-2023-naisteacher</bibkey>
+      <doi>10.18653/v1/2023.bea-1.63</doi>
+    </paper>
+    <paper id="65">
+      <title>The <fixed-case>ADAIO</fixed-case> System at the <fixed-case>BEA</fixed-case>-2023 Shared Task: Shared Task Generating <fixed-case>AI</fixed-case> Teacher Responses in Educational Dialogues</title>
+      <author>
+        <first>Adaeze</first>
+        <last>Adigwe</last>
+        <affiliation>University of Edinburgh</affiliation>
+      </author>
+      <author>
+        <first>Zheng</first>
+        <last>Yuan</last>
+        <affiliation>Istituto Italiano di Tecnologia, Universit di Ferrara, Italy</affiliation>
+      </author>
+      <pages>796-804</pages>
+      <abstract>This paper presents the ADAIO team’s system entry in the Building Educational Applications (BEA) 2023 Shared Task on Generating AI Teacher Responses in Educational Dialogues. The task aims to assess the performance of state-of-the-art generative models as AI teachers in producing suitable responses within a student-teacher dialogue. Our system comprises evaluating various baseline models using OpenAI GPT-3 and designing diverse prompts to prompt the OpenAI models for teacher response generation. After the challenge, our system achieved second place by employing a few-shot prompt-based approach with the OpenAI text-davinci-003 model. The results highlight the few-shot learning capabilities of large-language models, particularly OpenAI’s GPT-3, in the role of AI teachers.</abstract>
+      <pdf hash="52bfbf16" />
+      <bibkey>adigwe-yuan-2023-adaio</bibkey>
+      <doi>10.18653/v1/2023.bea-1.65</doi>
+    </paper>
+    <paper id="2">
+      <title>Improving Mathematics Tutoring With A Code Scratchpad</title>
+      <author>
+        <first>Shriyash</first>
+        <last>Upadhyay</last>
+        <affiliation>University of Pennsylvania</affiliation>
+      </author>
+      <author>
+        <first>Etan</first>
+        <last>Ginsberg</last>
+        <affiliation>University of Pennsylvania</affiliation>
+      </author>
+      <author>
+        <first>Chris</first>
+        <last>Callison-Burch</last>
+        <affiliation>University of Pennsylvania</affiliation>
+      </author>
+      <pages>20-28</pages>
+      <abstract>Large language models can solve reasoning tasks (like math problems) more effectively when they are allowed to generate rationales. However, a good tutoring system should not just generate solutions, but should also generate explanations and should be able to correct and guide students. We show that providing a code scratchpad improves performance on each tutoring step with a gradeschool mathematics dataset. On these tutoring tasks, GPT-3 models provided with a code scratchpad significantly outperform those given only a language scratchpad (77.7% vs 48.7% cumulative accuracy).</abstract>
+      <pdf hash="c620ffb9" />
+      <bibkey>upadhyay-etal-2023-improving</bibkey>
+      <doi>10.18653/v1/2023.bea-1.2</doi>
+    </paper>
+    <paper id="12">
+      <title>Scalable and Explainable Automated Scoring for Open-Ended Constructed Response Math Word Problems</title>
+      <author>
+        <first>Scott</first>
+        <last>Hellman</last>
+        <affiliation>Pearson</affiliation>
+      </author>
+      <author>
+        <first>Alejandro</first>
+        <last>Andrade</last>
+        <affiliation>Pearson</affiliation>
+      </author>
+      <author>
+        <first>Kyle</first>
+        <last>Habermehl</last>
+        <affiliation>Pearson</affiliation>
+      </author>
+      <pages>137-147</pages>
+      <abstract>Open-ended constructed response math word problems (“math plus text”, or MPT) are a powerful tool in the assessment of students’ abilities to engage in mathematical reasoning and creative thinking. Such problems ask the student to compute a value or construct an expression and then explain, potentially in prose, what steps they took and why they took them. MPT items can be scored against highly structured rubrics, and we develop a novel technique for the automated scoring of MPT items that leverages these rubrics to provide explainable scoring. We show that our approach can be trained automatically and performs well on a large dataset of 34,417 responses across 14 MPT items.</abstract>
+      <pdf hash="8d22deee" />
+      <bibkey>hellman-etal-2023-scalable</bibkey>
+      <doi>10.18653/v1/2023.bea-1.12</doi>
+      <video href="2023.bea-1.12.mp4" />
+    </paper>
+  </volume>
+  <volume id="2024.bea">
+    <paper id="33">
+      <title>Assessing Student Explanations with Large Language Models Using Fine-Tuning and Few-Shot Learning</title>
+      <author>
+        <first>Dan</first>
+        <last>Carpenter</last>
+        <affiliation>North Carolina State University</affiliation>
+      </author>
+      <author>
+        <first>Wookhee</first>
+        <last>Min</last>
+        <affiliation>North Carolina State University</affiliation>
+      </author>
+      <author>
+        <first>Seung</first>
+        <last>Lee</last>
+        <affiliation>North Carolina State University</affiliation>
+      </author>
+      <author>
+        <first>Gamze</first>
+        <last>Ozogul</last>
+        <affiliation>Indiana University</affiliation>
+      </author>
+      <author>
+        <first>Xiaoying</first>
+        <last>Zheng</last>
+        <affiliation>Indiana University</affiliation>
+      </author>
+      <author id="james-lester">
+        <first>James</first>
+        <last>Lester</last>
+        <affiliation>North Carolina State University</affiliation>
+      </author>
+      <pages>403-413</pages>
+      <abstract>The practice of soliciting self-explanations from students is widely recognized for its pedagogical benefits. However, the labor-intensive effort required to manually assess students’ explanations makes it impractical for classroom settings. As a result, many current solutions to gauge students’ understanding during class are often limited to multiple choice or fill-in-the-blank questions, which are less effective at exposing misconceptions or helping students to understand and integrate new concepts. Recent advances in large language models (LLMs) present an opportunity to assess student explanations in real-time, making explanation-based classroom response systems feasible for implementation. In this work, we investigate LLM-based approaches for assessing the correctness of students’ explanations in response to undergraduate computer science questions. We investigate alternative prompting approaches for multiple LLMs (i.e., Llama 2, GPT-3.5, and GPT-4) and compare their performance to FLAN-T5 models trained in a fine-tuning manner. The results suggest that the highest accuracy and weighted F1 score were achieved by fine-tuning FLAN-T5, while an in-context learning approach with GPT-4 attains the highest macro F1 score.</abstract>
+      <pdf hash="fbd61740" />
+      <bibkey>carpenter-etal-2024-assessing</bibkey>
+      <video href="2024.bea-1.33.mp4" />
+    </paper>
+    <paper id="16">
+      <title>Automated Evaluation of Teacher Encouragement of Student-to-Student Interactions in a Simulated Classroom Discussion</title>
+      <author>
+        <first>Michael</first>
+        <last>Ilagan</last>
+        <affiliation>Educational Testing Service</affiliation>
+      </author>
+      <author>
+        <first>Beata</first>
+        <last>Beigman Klebanov</last>
+        <affiliation>Educational Testing Service</affiliation>
+      </author>
+      <author>
+        <first>Jamie</first>
+        <last>Mikeska</last>
+        <affiliation>Educational Testing Service</affiliation>
+      </author>
+      <pages>182-198</pages>
+      <abstract>Leading students to engage in argumentation-focused discussions is a challenge for elementary school teachers, as doing so requires facilitating group discussions with student-to-student interaction. The Mystery Powder (MP) Task was designed to be used in online simulated classrooms to develop teachers’ skill in facilitating small group science discussions. In order to provide timely and scaleable feedback to teachers facilitating a discussion in the simulated classroom, we employ a hybrid modeling approach that successfully combines fine-tuned large language models with features capturing important elements of the discourse dynamic to evaluate MP discussion transcripts. To our knowledge, this is the first application of a hybrid model to automate evaluation of teacher discourse.</abstract>
+      <pdf hash="08814bdd" />
+      <bibkey>ilagan-etal-2024-automated</bibkey>
+      <video href="2024.bea-1.16.mp4" />
+    </paper>
+    <paper id="1">
+      <title>How Good are <fixed-case>M</fixed-case>odern <fixed-case>LLM</fixed-case>s in Generating Relevant and High-Quality Questions at Different Bloom’s Skill Levels for <fixed-case>I</fixed-case>ndian High School Social Science Curriculum?</title>
+      <author>
+        <first>Nicy</first>
+        <last>Scaria</last>
+        <affiliation>Indian Institute of Science</affiliation>
+      </author>
+      <author>
+        <first>Suma Dharani</first>
+        <last>Chenna</last>
+        <affiliation>Indian Institute of Science</affiliation>
+      </author>
+      <author>
+        <first>Deepak</first>
+        <last>Subramani</last>
+        <affiliation>Indian Institute of Science</affiliation>
+      </author>
+      <pages>1-10</pages>
+      <abstract>The creation of pedagogically effective questions is a challenge for teachers and requires significant time and meticulous planning, especially in resource-constrained economies. For example, in India, assessments for social science in high schools are characterized by rote memorization without regard to higher-order skill levels. Automated educational question generation (AEQG) using large language models (LLMs) has the potential to help teachers develop assessments at scale. However, it is important to evaluate the quality and relevance of these questions. In this study, we examine the ability of different LLMs (Falcon 40B, Llama2 70B, Palm 2, GPT 3.5, and GPT 4) to generate relevant and high-quality questions of different cognitive levels, as defined by Bloom’s taxonomy. We prompt each model with the same instructions and different contexts to generate 510 questions in the social science curriculum of a state educational board in India. Two human experts used a nine-item rubric to assess linguistic correctness, pedagogical relevance and quality, and adherence to Bloom’s skill levels. Our results showed that 91.56% of the LLM-generated questions were relevant and of high quality. This suggests that LLMs can generate relevant and high-quality questions at different cognitive levels, making them useful for creating assessments for scaling education in resource-constrained economies.</abstract>
+      <pdf hash="b96ce05b" />
+      <bibkey>scaria-etal-2024-good</bibkey>
+      <video href="2024.bea-1.1.mp4" />
+    </paper>
+    <paper id="19">
+      <title>Improving Automated Distractor Generation for Math Multiple-choice Questions with Overgenerate-and-rank</title>
+      <author>
+        <first>Alexander</first>
+        <last>Scarlatos</last>
+      </author>
+      <author>
+        <first>Wanyong</first>
+        <last>Feng</last>
+      </author>
+      <author>
+        <first>Digory</first>
+        <last>Smith</last>
+      </author>
+      <author>
+        <first>Simon</first>
+        <last>Woodhead</last>
+      </author>
+      <author>
+        <first>Andrew</first>
+        <last>Lan</last>
+      </author>
+      <pages>222-231</pages>
+      <abstract>Multiple-choice questions (MCQs) are commonly used across all levels of math education since they can be deployed and graded at a large scale. A critical component of MCQs is the distractors, i.e., incorrect answers crafted to reflect student errors or misconceptions. Automatically generating them in math MCQs, e.g., with large language models, has been challenging. In this work, we propose a novel method to enhance the quality of generated distractors through overgenerate-and-rank, training a ranking model to predict how likely distractors are to be selected by real students. Experimental results on a real-world dataset and human evaluation with math teachers show that our ranking model increases alignment with human-authored distractors, although human-authored ones are still preferred over generated ones.</abstract>
+      <pdf hash="bcaf8cca" />
+      <bibkey>scarlatos-etal-2024-improving</bibkey>
+      <video href="2024.bea-1.19.mp4" />
+    </paper>
+    <paper id="24">
+      <title>Towards Fine-Grained Pedagogical Control over <fixed-case>E</fixed-case>nglish Grammar Complexity in Educational Text Generation</title>
+      <author>
+        <first>Dominik</first>
+        <last>Glandorf</last>
+        <affiliation>University of Tübingen, Yale University</affiliation>
+      </author>
+      <author id="detmar-meurers">
+        <first>Detmar</first>
+        <last>Meurers</last>
+        <affiliation>Leibniz-Institut für Wissensmedien (IWM)</affiliation>
+      </author>
+      <pages>299-308</pages>
+      <abstract>Teaching foreign languages and fostering language awareness in subject matter teaching requires a profound knowledge of grammar structures. Yet, while Large Language Models can act as tutors, it is unclear how effectively they can control grammar in generated text and adapt to learner needs. In this study, we investigate the ability of these models to exemplify pedagogically relevant grammar patterns, detect instances of grammar in a given text, and constrain text generation to grammar characteristic of a proficiency level. Concretely, we (1) evaluate the ability of GPT3.5 and GPT4 to generate example sentences for the standard English Grammar Profile CEFR taxonomy using few-shot in-context learning, (2) train BERT-based detectors with these generated examples of grammatical patterns, and (3) control the grammatical complexity of text generated by the open Mistral model by ranking sentence candidates with these detectors. We show that the grammar pattern instantiation quality is accurate but too homogeneous, and our classifiers successfully detect these patterns. A GPT-generated dataset of almost 1 million positive and negative examples for the English Grammar Profile is released with this work. With our method, Mistral’s output significantly increases the number of characteristic grammar constructions on the desired level, outperforming GPT4. This showcases how language domain knowledge can enhance Large Language Models for specific education needs, facilitating their effective use for intelligent tutor development and AI-generated materials. Code, models, and data are available at <url>https://github.com/dominikglandorf/LLM-grammar</url>.</abstract>
+      <pdf hash="9dbc85bf" />
+      <bibkey>glandorf-meurers-2024-towards</bibkey>
+      <video href="2024.bea-1.24.mp4" />
+    </paper>
+    <paper id="36">
+      <title>Transfer Learning of Argument Mining in Student Essays</title>
+      <author>
+        <first>Yuning</first>
+        <last>Ding</last>
+        <affiliation>FernUniversität in Hagen</affiliation>
+      </author>
+      <author>
+        <first>Julian</first>
+        <last>Lohmann</last>
+        <affiliation>Institute for Psychology of Learning and Instruction (IPL), Kiel University (CAU)</affiliation>
+      </author>
+      <author>
+        <first>Nils-Jonathan</first>
+        <last>Schaller</last>
+        <affiliation>Leibniz Institute for Science and Mathematics Education</affiliation>
+      </author>
+      <author>
+        <first>Thorben</first>
+        <last>Jansen</last>
+        <affiliation>Leibniz Institute for Science and Mathematics Education</affiliation>
+      </author>
+      <author>
+        <first>Andrea</first>
+        <last>Horbach</last>
+        <affiliation>Universität Hildesheim</affiliation>
+      </author>
+      <pages>439-449</pages>
+      <abstract>This paper explores the transferability of a cross-prompt argument mining model trained on argumentative essays authored by native English-speaking learners (EN-L1) across educational contexts and languages. Specifically, the adaptability of a multilingual transformer model is assessed through its application to comparable argumentative essays authored by English-as-a-foreign-language learners (EN-L2) for context transfer, and a dataset composed of essays written by native German learners (DE) for both language and task transfer. To separate language effects from educational context effects, we also perform experiments on a machine-translated version of the German dataset (DE-MT). Our findings demonstrate that, even under zero-shot conditions, a model trained on native English speakers exhibits satisfactory performance on the EN-L2/DE datasets. Machine translation does not substantially enhance this performance, suggesting that distinct writing styles across educational contexts impact performance more than language differences.</abstract>
+      <pdf hash="0404ad86" />
+      <bibkey>ding-etal-2024-transfer</bibkey>
+      <video href="2024.bea-1.36.mp4" />
+    </paper>
+    <paper id="37">
+      <title>Building Robust Content Scoring Models for Student Explanations of Social Justice Science Issues</title>
+      <author>
+        <first>Allison</first>
+        <last>Bradford</last>
+        <affiliation>University of California, Berkeley</affiliation>
+      </author>
+      <author>
+        <first>Kenneth</first>
+        <last>Steimel</last>
+        <affiliation>Cisco Systems Incorporated</affiliation>
+      </author>
+      <author>
+        <first>Brian</first>
+        <last>Riordan</last>
+        <affiliation>unaffiliated</affiliation>
+      </author>
+      <author>
+        <first>Marcia</first>
+        <last>Linn</last>
+        <affiliation>University of California, Berkeley</affiliation>
+      </author>
+      <pages>450-458</pages>
+      <abstract>With increased attention to connecting science topics to real-world contexts, like issues of social justice, teachers need support to assess student progress in explaining such issues. In this work, we explore the robustness of NLP-based automatic content scoring models that provide insight into student ability to integrate their science and social justice ideas in two different environmental science contexts. We leverage encoder-only transformer models to capture the degree to which students explain a science phenomenon, understand the intersecting justice issues, and integrate their understanding of science and social justice. We developed models training on data from each of the contexts as well as from a combined dataset. We found that the models developed in one context generate educationally useful scores in the other context. The model trained on the combined dataset performed as well as or better than the models trained on separate datasets in most cases. Quadratic weighted kappas demonstrate that these models are above threshold for use in classrooms.</abstract>
+      <pdf hash="a8205f25" />
+      <bibkey>bradford-etal-2024-building</bibkey>
+      <video href="2024.bea-1.37.mp4" />
+    </paper>
+    <paper id="7">
+      <title>Can Language Models Guess Your Identity? Analyzing Demographic Biases in <fixed-case>AI</fixed-case> Essay Scoring</title>
+      <author>
+        <first>Alexander</first>
+        <last>Kwako</last>
+        <affiliation>University of California, Los Angeles</affiliation>
+      </author>
+      <author>
+        <first>Christopher</first>
+        <last>Ormerod</last>
+        <affiliation>Cambium Assessment</affiliation>
+      </author>
+      <pages>78-86</pages>
+      <abstract>Large language models (LLMs) are increasingly used for automated scoring of student essays. However, these models may perpetuate societal biases if not carefully monitored. This study analyzes potential biases in an LLM (XLNet) trained to score persuasive student essays, based on data from the PERSUADE corpus. XLNet achieved strong performance based on quadratic weighted kappa, standardized mean difference, and exact agreement with human scores. Using available metadata, we performed analyses of scoring differences across gender, race/ethnicity, English language learning status, socioeconomic status, and disability status. Automated scores exhibited small magnifications of marginal differences in human scoring, favoring female students over males and White students over Black students. To further probe potential biases, we found that separate XLNet classifiers and XLNet hidden states weakly predicted demographic membership. Overall, results reinforce the need for continued fairness analyses as use of LLMs expands in education.</abstract>
+      <pdf hash="b4a2a63f" />
+      <bibkey>kwako-ormerod-2024-language</bibkey>
+      <video href="2024.bea-1.7.mp4" />
+    </paper>
+    <paper id="18">
+      <title>Fairness in Automated Essay Scoring: A Comparative Analysis of Algorithms on <fixed-case>G</fixed-case>erman Learner Essays from Secondary Education</title>
+      <author>
+        <first>Nils-Jonathan</first>
+        <last>Schaller</last>
+        <affiliation>Leibniz Institute for Science and Mathematics Education</affiliation>
+      </author>
+      <author>
+        <first>Yuning</first>
+        <last>Ding</last>
+        <affiliation>FernUniversität in Hagen</affiliation>
+      </author>
+      <author>
+        <first>Andrea</first>
+        <last>Horbach</last>
+        <affiliation>Universität Hildesheim</affiliation>
+      </author>
+      <author>
+        <first>Jennifer</first>
+        <last>Meyer</last>
+        <affiliation>Leibniz Institute for Science and Mathematics Education</affiliation>
+      </author>
+      <author>
+        <first>Thorben</first>
+        <last>Jansen</last>
+        <affiliation>Leibniz Institute for Science and Mathematics Education</affiliation>
+      </author>
+      <pages>210-221</pages>
+      <abstract>Pursuing educational equity, particularly in writing instruction, requires that all students receive fair (i.e., accurate and unbiased) assessment and feedback on their texts. Automated Essay Scoring (AES) algorithms have so far focused on optimizing the mean accuracy of their scores and paid less attention to fair scores for all subgroups, although research shows that students receive unfair scores on their essays in relation to demographic variables, which in turn are related to their writing competence. We add to the literature arguing that AES should also optimize for fairness by presenting insights on the fairness of scoring algorithms on a corpus of learner texts in the German language and introduce the novelty of examining fairness on psychological and demographic differences in addition to demographic differences. We compare shallow learning, deep learning, and large language models with full and skewed subsets of training data to investigate what is needed for fair scoring. The results show that training on a skewed subset of higher and lower cognitive ability students shows no bias but very low accuracy for students outside the training set. Our results highlight the need for specific training data on all relevant user groups, not only for demographic background variables but also for cognitive abilities as psychological student characteristics.</abstract>
+      <pdf hash="18efd4da" />
+      <bibkey>schaller-etal-2024-fairness</bibkey>
+      <video href="2024.bea-1.18.mp4" />
+    </paper>
+    <paper id="32">
+      <title>Anna Karenina Strikes Again: Pre-Trained <fixed-case>LLM</fixed-case> Embeddings May Favor High-Performing Learners</title>
+      <author>
+        <first>Abigail</first>
+        <last>Gurin Schleifer</last>
+        <affiliation>Weizmann Institute of Science</affiliation>
+      </author>
+      <author>
+        <first>Beata</first>
+        <last>Beigman Klebanov</last>
+        <affiliation>Educational Testing Service</affiliation>
+      </author>
+      <author>
+        <first>Moriah</first>
+        <last>Ariely</last>
+        <affiliation>Weizmann Institute of Science</affiliation>
+      </author>
+      <author>
+        <first>Giora</first>
+        <last>Alexandron</last>
+        <affiliation>Weizmann Institute of Science</affiliation>
+      </author>
+      <pages>391-402</pages>
+      <abstract>Unsupervised clustering of student responses to open-ended questions into behavioral and cognitive profiles using pre-trained LLM embeddings is an emerging technique, but little is known about how well this captures pedagogically meaningful information. We investigate this in the context of student responses to open-ended questions in biology, which were previously analyzed and clustered by experts into theory-driven Knowledge Profiles (KPs).Comparing these KPs to ones discovered by purely data-driven clustering techniques, we report poor discoverability of most KPs, except for the ones including the correct answers. We trace this ‘discoverability bias’ to the representations of KPs in the pre-trained LLM embeddings space.</abstract>
+      <pdf hash="4dcdf183" />
+      <bibkey>gurin-schleifer-etal-2024-anna</bibkey>
+      <revision id="1" hash="1d8a7729" />
+      <revision id="2" hash="4dcdf183" date="2024-09-17">Corrected a typo.</revision>
+      <video href="2024.bea-1.32.mp4" />
+    </paper>
+    <paper id="5">
+      <title>Beyond Flesch-Kincaid: Prompt-based Metrics Improve Difficulty Classification of Educational Texts</title>
+      <author>
+        <first>Donya</first>
+        <last>Rooein</last>
+        <affiliation>Bocconi University</affiliation>
+      </author>
+      <author>
+        <first>Paul</first>
+        <last>Röttger</last>
+        <affiliation>University of Oxford</affiliation>
+      </author>
+      <author>
+        <first>Anastassia</first>
+        <last>Shaitarova</last>
+        <affiliation>University of Zurich</affiliation>
+      </author>
+      <author>
+        <first>Dirk</first>
+        <last>Hovy</last>
+        <affiliation>Bocconi University</affiliation>
+      </author>
+      <pages>54-67</pages>
+      <abstract>Using large language models (LLMs) for educational applications like dialogue-based teaching is a hot topic. Effective teaching, however, requires teachers to adapt the difficulty of content and explanations to the education level of their students. Even the best LLMs today struggle to do this well. If we want to improve LLMs on this adaptation task, we need to be able to measure adaptation success reliably. However, current Static metrics for text difficulty, like the Flesch-Kincaid Reading Ease score, are known to be crude and brittle. We, therefore, introduce and evaluate a new set of Prompt-based metrics for text difficulty. Based on a user study, we create Prompt-based metrics as inputs for LLMs. They leverage LLM’s general language understanding capabilities to capture more abstract and complex features than Static metrics. Regression experiments show that adding our Prompt-based metrics significantly improves text difficulty classification over Static metrics alone. Our results demonstrate the promise of using LLMs to evaluate text adaptation to different education levels.</abstract>
+      <pdf hash="6a7e9010" />
+      <bibkey>rooein-etal-2024-beyond</bibkey>
+      <video href="2024.bea-1.5.mp4" />
+    </paper>
+    <paper id="27">
+      <title>Error Tracing in Programming: A Path to Personalised Feedback</title>
+      <author>
+        <first>Martha</first>
+        <last>Shaka</last>
+        <affiliation>University College Cork</affiliation>
+      </author>
+      <author>
+        <first>Diego</first>
+        <last>Carraro</last>
+        <affiliation>University College Cork</affiliation>
+      </author>
+      <author>
+        <first>Kenneth</first>
+        <last>Brown</last>
+        <affiliation>University College Cork</affiliation>
+      </author>
+      <pages>330-342</pages>
+      <abstract>Knowledge tracing, the process of estimating students’ mastery over concepts from their past performance and predicting future outcomes, often relies on binary pass/fail predictions. This hinders the provision of specific feedback by failing to diagnose precise errors. We present an error-tracing model for learning programming that advances traditional knowledge tracing by employing multi-label classification to forecast exact errors students may generate. Through experiments on a real student dataset, we validate our approach and compare it to two baseline knowledge-tracing methods. We demonstrate an improved ability to predict specific errors, for first attempts and for subsequent attempts at individual problems.</abstract>
+      <pdf hash="7c1e7efb" />
+      <bibkey>shaka-etal-2024-error</bibkey>
+      <video href="2024.bea-1.27.mp4" />
+    </paper>
+  </volume>
+  <volume id="2025.bea">
+    <paper id="28">
+      <title>Educators’ Perceptions of Large Language Models as Tutors: Comparing Human and <fixed-case>AI</fixed-case> Tutors in a Blind Text-only Setting</title>
+      <author>
+        <first>Sankalan</first>
+        <last>Pal Chowdhury</last>
+        <affiliation>ETH Zurich</affiliation>
+      </author>
+      <author>
+        <first>Terry Jingchen</first>
+        <last>Zhang</last>
+        <affiliation>ETH Zurich</affiliation>
+      </author>
+      <author>
+        <first>Donya</first>
+        <last>Rooein</last>
+        <affiliation>Bocconi University</affiliation>
+      </author>
+      <author>
+        <first>Dirk</first>
+        <last>Hovy</last>
+        <affiliation>Bocconi University</affiliation>
+      </author>
+      <author>
+        <first>Tanja</first>
+        <last>Käser</last>
+        <affiliation>EPFL</affiliation>
+      </author>
+      <author>
+        <first>Mrinmaya</first>
+        <last>Sachan</last>
+        <affiliation>ETH Zurich</affiliation>
+      </author>
+      <pages>356-374</pages>
+      <abstract>The rapid development of Large Language Models (LLMs) opens up the possibility of using them aspersonal tutors. This has led to the development of several intelligent tutoring systems and learning assistants that use LLMs as back-ends with various degrees of engineering. In this study, we seek to compare human tutors with LLM tutorsin terms of engagement, empathy, scaffolding, and conciseness. We ask human tutors to compare the performance of an LLM tutor with that of a human tutor in teaching grade-school math word problems on these qualities. We find that annotators with teaching experience perceive LLMs as showing higher performance than human tutors in all 4 metrics. The biggest advantage is in empathy, where 80% of our annotators prefer the LLM tutor more often than the human tutors. Our study paints a positive picture of LLMs as tutors and indicates that these models can be used to reduce the load on human teachers in the future.</abstract>
+      <pdf hash="b7c630bc" />
+      <bibkey>pal-chowdhury-etal-2025-educators</bibkey>
+      <doi>10.18653/v1/2025.bea-1.28</doi>
+    </paper>
+    <paper id="88">
+      <title>
+        <fixed-case>S</fixed-case>mol<fixed-case>L</fixed-case>ab_<fixed-case>SEU</fixed-case> at <fixed-case>BEA</fixed-case> 2025 Shared Task: A Transformer-Based Framework for Multi-Track Pedagogical Evaluation of <fixed-case>AI</fixed-case>-Powered Tutors</title>
+      <author>
+        <first>Md. Abdur</first>
+        <last>Rahman</last>
+        <affiliation>Southeast University</affiliation>
+      </author>
+      <author>
+        <first>Md Al</first>
+        <last>Amin</last>
+        <affiliation>St. Francis College</affiliation>
+      </author>
+      <author>
+        <first>Sabik</first>
+        <last>Aftahee</last>
+        <affiliation>Chittagong University of Engineering &amp; Technology (CUET)</affiliation>
+      </author>
+      <author>
+        <first>Muhammad</first>
+        <last>Junayed</last>
+        <affiliation>Chittagong University of Engineering &amp; Technology (CUET)</affiliation>
+      </author>
+      <author>
+        <first>Md Ashiqur</first>
+        <last>Rahman</last>
+        <affiliation>Southeast University</affiliation>
+      </author>
+      <pages>1127-1134</pages>
+      <abstract>The rapid adoption of AI in educational technology is changing learning settings, making the thorough evaluation of AI tutor pedagogical performance is quite important for promoting student success. This paper describes our solution for the BEA 2025 Shared Task on Pedagogical Ability Assessment of AI-powered tutors, which assesses tutor replies over several pedagogical dimensions. We developed transformer-based approaches for five diverse tracks: mistake identification, mistake location, providing guidance, actionability, and tutor identity prediction using the MRBench dataset of mathematical dialogues. We evaluated several pre-trained models including DeBERTa-V3, RoBERTa-Large, SciBERT, and EduBERT. Our approach addressed class imbalance problems by incorporating strategic fine-tuning with weighted loss functions. The findings show that, for all tracks, DeBERTa architectures have higher performances than the others, and our models have obtained in the competitive positions, including 9th of Tutor Identity (Exact F1 of 0.8621), 16th of Actionability (Exact F1 of 0.6284), 19th of Providing Guidance (Exact F1 of 0.4933), 20th of Mistake Identification (Exact F1 of 0.6617) and 22nd of Mistake Location (Exact F1 of 0.4935). The difference in performance over tracks highlights the difficulty of automatic pedagogical evaluation, especially for tasks whose solutions require a deep understanding of educational contexts. This work contributes to ongoing efforts to develop robust automated tools for assessing.</abstract>
+      <pdf hash="b9b6cd63" />
+      <bibkey>rahman-etal-2025-smollab</bibkey>
+      <doi>10.18653/v1/2025.bea-1.88</doi>
+    </paper>
+    <paper id="94">
+      <title>
+        <fixed-case>IAL</fixed-case>ab <fixed-case>UC</fixed-case> at <fixed-case>BEA</fixed-case> 2025 Shared Task: <fixed-case>LLM</fixed-case>-Powered Expert Pedagogical Feature Extraction</title>
+      <author>
+        <first>Sofía</first>
+        <last>Correa Busquets</last>
+        <affiliation>Pontificia Universidad Católica de Chile, National Center for Artificial Intelligence Chile, Foundational Research on Data Millenium Institute</affiliation>
+      </author>
+      <author>
+        <first>Valentina</first>
+        <last>Córdova Véliz</last>
+        <affiliation>Pontificia Universidad Católica de Chile, National Center for Artificial Intelligence Chile</affiliation>
+      </author>
+      <author>
+        <first>Jorge</first>
+        <last>Baier</last>
+        <affiliation>Pontificia Universidad Católica de Chile, National Center for Artificial Intelligence Chile, Foundational Research on Data Millenium Institute</affiliation>
+      </author>
+      <pages>1187-1193</pages>
+      <abstract>As AI’s presence in educational environments grows, it becomes critical to evaluate how its feedback may impact students’ learning processes. Pedagogical theory, with decades of effort into understanding how human instructors give good-quality feedback to students, may provide a rich source of insight into feedback automation. In this paper, we propose a novel architecture based on pedagogical-theory feature extraction from the conversation history and tutor response to predict pedagogical guidance on MRBench. Such features are based on Brookhart’s canonical work in pedagogical theory, and extracted by prompting the language model LearnLM. The features are then used to train a random-forest classifier to predict the ‘providing guidance’ dimension of the MRBench dataset. Our approach ranked 8th in the dimension’s leaderboard with a test Macro F1-score of ~0.54. Our work provides some evidence in support of using pedagogical theory qualitative factors treated separately to provide clearer guidelines on how to improve low-scoring intelligent tutoring systems. Finally, we observed several inconsistencies between pedagogical theory and MRBench’s inherent relaxation of the tutoring problem implied in evaluating on a single-conversation basis, calling for the development of more elaborate measures which consider student profiles to serve as true heuristics of AI tutors’ usefulness.</abstract>
+      <pdf hash="afb3b471" />
+      <bibkey>correa-busquets-etal-2025-ialab</bibkey>
+      <doi>10.18653/v1/2025.bea-1.94</doi>
+    </paper>
+    <paper id="55">
+      <title>Exploring <fixed-case>LLM</fixed-case>s for Predicting Tutor Strategy and Student Outcomes in Dialogues</title>
+      <author>
+        <first>Fareya</first>
+        <last>Ikram</last>
+        <affiliation>University of Massachusetts Amherst</affiliation>
+      </author>
+      <author>
+        <first>Alexander</first>
+        <last>Scarlatos</last>
+        <affiliation>University of Massachusetts Amherst</affiliation>
+      </author>
+      <author>
+        <first>Andrew</first>
+        <last>Lan</last>
+        <affiliation>University of Massachusetts Amherst</affiliation>
+      </author>
+      <pages>765-779</pages>
+      <abstract>Tutoring dialogues have gained significant attention in recent years, given the prominence of online learning and the emerging tutoring abilities of artificial intelligence (AI) agents powered by large language models (LLMs). Recent studies have shown that the strategies used by tutors can have significant effects on student outcomes, necessitating methods to predict how tutors will behave and how their actions impact students. However, few works have studied predicting tutor strategy in dialogues. Therefore, in this work we investigate the ability of modern LLMs, particularly Llama 3 and GPT-4o, to predict both future tutor moves and student outcomes in dialogues, using two math tutoring dialogue datasets. We find that even state-of-the-art LLMs struggle to predict future tutor strategy while tutor strategy is highly indicative of student outcomes, outlining a need for more powerful methods to approach this task.</abstract>
+      <pdf hash="edc5d385" />
+      <bibkey>ikram-etal-2025-exploring</bibkey>
+      <doi>10.18653/v1/2025.bea-1.55</doi>
+    </paper>
+    <paper id="79">
+      <title>
+        <fixed-case>W</fixed-case>onderland_<fixed-case>EDU</fixed-case>@<fixed-case>HKU</fixed-case> at <fixed-case>BEA</fixed-case> 2025 Shared Task: Fine-tuning Large Language Models to Evaluate the Pedagogical Ability of <fixed-case>AI</fixed-case>-powered Tutors</title>
+      <author>
+        <first>Deliang</first>
+        <last>Wang</last>
+        <affiliation>The University of Hong Kong</affiliation>
+      </author>
+      <author>
+        <first>Chao</first>
+        <last>Yang</last>
+        <affiliation>The University of Hong Kong</affiliation>
+      </author>
+      <author>
+        <first>Gaowei</first>
+        <last>Chen</last>
+        <affiliation>The University of Hong Kong</affiliation>
+      </author>
+      <pages>1040-1048</pages>
+      <abstract>The potential of large language models (LLMs) as AI tutors to facilitate student learning has garnered significant interest, with numerous studies exploring their efficacy in educational contexts. Notably, Wang and Chen (2025) suggests that the relationship between AI model performance and educational outcomes may not always be positively correlated; less accurate AI models can sometimes achieve similar educational impacts to their more accurate counterparts if designed into learning activities appropriately. This underscores the need to evaluate the pedagogical capabilities of LLMs across various dimensions, empowering educators to select appropriate dimensions and LLMs for specific analyses and instructional activities. Addressing this imperative, the BEA 2025 workshop initiated a shared task aimed at comprehensively assessing the pedagogical potential of AI-powered tutors. In this task, our team employed parameter-efficient fine-tuning (PEFT) on Llama-3.2-3B to automatically assess the quality of feedback generated by LLMs in student-teacher dialogues, concentrating on mistake identification, mistake location, guidance provision, and guidance actionability. The results revealed that the fine-tuned Llama-3.2-3B demonstrated notable performance, especially in mistake identification, mistake location, and guidance actionability, securing a top-ten ranking across all tracks. These outcomes highlight the robustness and significant promise of the PEFT method in enhancing educational dialogue analysis.</abstract>
+      <pdf hash="8042f1c6" />
+      <bibkey>wang-etal-2025-wonderland</bibkey>
+      <doi>10.18653/v1/2025.bea-1.79</doi>
+    </paper>
+    <paper id="85">
+      <title>Phaedrus at <fixed-case>BEA</fixed-case> 2025 Shared Task: Assessment of Mathematical Tutoring Dialogues through Tutor Identity Classification and Actionability Evaluation</title>
+      <author>
+        <first>Rajneesh</first>
+        <last>Tiwari</last>
+        <affiliation>Independent Researcher</affiliation>
+      </author>
+      <author>
+        <first>Pranshu</first>
+        <last>Rastogi</last>
+        <affiliation>Independent Researcher</affiliation>
+      </author>
+      <pages>1098-1107</pages>
+      <abstract>As Large Language Models (LLMs) are increasingly deployed in educational environments, two critical challenges emerge: identifying the source of tutoring responses and evaluating their pedagogical effectiveness. This paper presents our comprehensive approach to the BEA 2025 Shared Task, addressing both tutor identity classification (Track 5) and actionability assessment (Track 4) in mathematical tutoring dialogues. For tutor identity classification, we distinguish between human tutors (expert/novice) and seven distinct LLMs using cross-response context augmentation and ensemble techniques. For actionability assessment, we evaluate whether responses provide clear guidance on student next steps using selective attention masking and instruction-guided training. Our multi-task approach combines transformer-based models with innovative contextual feature engineering, achieving state-of-the-art performance with a CV macro F1 score of 0.9596 (test set 0.9698) for identity classification and 0.655 (test set Strict F1 0.6906) for actionability assessment. We were able to score rank 5th in Track 4 and rank 1st in Track 5. Our analysis reveals that despite advances in human-like responses, LLMs maintain detectable fingerprints while showing varying levels of pedagogical actionability, with important implications for educational technology development and deployment.</abstract>
+      <pdf hash="17a0652e" />
+      <bibkey>tiwari-rastogi-2025-phaedrus</bibkey>
+      <doi>10.18653/v1/2025.bea-1.85</doi>
+    </paper>
+    <paper id="63">
+      <title>Intent Matters: Enhancing <fixed-case>AI</fixed-case> Tutoring with Fine-Grained Pedagogical Intent Annotation</title>
+      <author>
+        <first>Kseniia</first>
+        <last>Petukhova</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <author>
+        <first>Ekaterina</first>
+        <last>Kochmar</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <pages>860-872</pages>
+      <abstract>Large language models (LLMs) hold great promise for educational applications, particularly in intelligent tutoring systems. However, effective tutoring requires alignment with pedagogical strategies – something current LLMs lack without task-specific adaptation. In this work, we explore whether fine-grained annotation of teacher intents can improve the quality of LLM-generated tutoring responses. We focus on MathDial, a dialog dataset for math instruction, and apply an automated annotation framework to re-annotate a portion of the dataset using a detailed taxonomy of eleven pedagogical intents. We then fine-tune an LLM using these new annotations and compare its performance to models trained on the original four-category taxonomy. Both automatic and qualitative evaluations show that the fine-grained model produces more pedagogically aligned and effective responses. Our findings highlight the value of intent specificity for controlled text generation in educational settings, and we release our annotated data and code to facilitate further research.</abstract>
+      <pdf hash="fda34e41" />
+      <bibkey>petukhova-kochmar-2025-intent</bibkey>
+      <doi>10.18653/v1/2025.bea-1.63</doi>
+    </paper>
+    <paper id="77">
+      <title>Findings of the <fixed-case>BEA</fixed-case> 2025 Shared Task on Pedagogical Ability Assessment of <fixed-case>AI</fixed-case>-powered Tutors</title>
+      <author>
+        <first>Ekaterina</first>
+        <last>Kochmar</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <author id="kaushal-maurya">
+        <first>Kaushal Kumar</first>
+        <last>Maurya</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <author>
+        <first>Kseniia</first>
+        <last>Petukhova</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <author>
+        <first>KV Aditya</first>
+        <last>Srivatsa</last>
+        <affiliation>MBZUAI</affiliation>
+      </author>
+      <author>
+        <first>Anaïs</first>
+        <last>Tack</last>
+        <affiliation>KU Leuven; imec; UCLouvain</affiliation>
+      </author>
+      <author id="justin-vasselli">
+        <first>Justin</first>
+        <last>Vasselli</last>
+        <affiliation>Nara Institute of Science and Technology</affiliation>
+      </author>
+      <pages>1011-1033</pages>
+      <abstract>This shared task has aimed to assess pedagogical abilities of AI tutors powered by large language models (LLMs), focusing on evaluating the quality of tutor responses aimed at student’s mistake remediation within educational dialogues. The task consisted of five tracks designed to automatically evaluate the AI tutor’s performance across key dimensions of mistake identification, precise location of the mistake, providing guidance, and feedback actionability, grounded in learning science principles that define good and effective tutor responses, as well as the track focusing on detection of the tutor identity. The task attracted over 50 international teams across all tracks. The submitted models were evaluated against gold-standard human annotations, and the results, while promising, show that there is still significant room for improvement in this domain: the best results for the four pedagogical ability assessment tracks range between macro F1 scores of 58.34 (for providing guidance) and 71.81 (for mistake identification) on three-class problems, with the best F1 score in the tutor identification track reaching 96.98 on a 9-class task. In this paper, we overview the main findings of the shared task, discuss the approaches taken by the teams, and analyze their performance. All resources associated with this task are made publicly available to support futureresearch in this critical domain (<url>https://github.com/kaushal0494/UnifyingAITutorEvaluation/tree/main/BEA_Shared_Task_2025_Datasets</url>).</abstract>
+      <pdf hash="c471d57b" />
+      <bibkey>kochmar-etal-2025-findings</bibkey>
+      <doi>10.18653/v1/2025.bea-1.77</doi>
+    </paper>
+    <paper id="93">
+      <title>
+        <fixed-case>L</fixed-case>exi<fixed-case>L</fixed-case>ogic at <fixed-case>BEA</fixed-case> 2025 Shared Task: Fine-tuning Transformer Language Models for the Pedagogical Skill Evaluation of <fixed-case>LLM</fixed-case>-based tutors</title>
+      <author>
+        <first>Souvik</first>
+        <last>Bhattacharyya</last>
+        <affiliation>Lowe’s</affiliation>
+      </author>
+      <author>
+        <first>Billodal</first>
+        <last>Roy</last>
+        <affiliation>Lowe’s</affiliation>
+      </author>
+      <author>
+        <first>Niranjan</first>
+        <last>M</last>
+        <affiliation>Lowes</affiliation>
+      </author>
+      <author>
+        <first>Pranav</first>
+        <last>Gupta</last>
+        <affiliation>Lowe’s</affiliation>
+      </author>
+      <pages>1180-1186</pages>
+      <abstract>While large language models show promise as AI tutors, evaluating their pedagogical capabilities remains challenging. In this paper, we, team LexiLogic presents our participation in the BEA 2025 shared task on evaluating AI tutors across five dimensions: Mistake Identification, Mistake Location, Providing Guidance, Actionability, and Tutor Identification. We approach all tracks as classification tasks using fine-tuned transformer models on a dataset of 300 educational dialogues between a student and a tutor in the mathematical domain. Our results show varying performance across tracks, with macro average F1 scores ranging from 0.47 to 0.82, achieving rankings between 4th and 31st place. Such models have the potential to be used in developing automated scoring metrics for assessing the pedagogical skills of AI math tutors.</abstract>
+      <pdf hash="1446c9f6" />
+      <bibkey>bhattacharyya-etal-2025-lexilogic-bea</bibkey>
+      <doi>10.18653/v1/2025.bea-1.93</doi>
+    </paper>
+    <paper id="80">
+      <title>bea-jh at <fixed-case>BEA</fixed-case> 2025 Shared Task: Evaluating <fixed-case>AI</fixed-case>-powered Tutors through Pedagogically-Informed Reasoning</title>
+      <author>
+        <first>Jihyeon</first>
+        <last>Roh</last>
+        <affiliation>Kakao corp.</affiliation>
+      </author>
+      <author>
+        <first>Jinhyun</first>
+        <last>Bang</last>
+        <affiliation>Samsung Research</affiliation>
+      </author>
+      <pages>1049-1059</pages>
+      <abstract>The growing use of large language models (LLMs) for AI-powered tutors in education highlights the need for reliable evaluation of their pedagogical abilities. In this work, we propose a reasoning-based evaluation methodology that leverages pedagogical domain knowledge to assess LLM-generated feedback in mathematical dialogues while providing insights into why a particular evaluation is given. We design structured prompts to invoke pedagogically-informed reasoning from LLMs and compare base model candidates selected for their strengths in reasoning, mathematics, and overall instruction-following. We employ Group Relative Policy Optimization (GRPO), a reinforcement learning method known to improve reasoning performance, to train models to perform evaluation in four pedagogically motivated dimensions, Mistake Identification, Mistake Location, Providing Guidance, and Actionability. Experimental results show that our GRPO-based models consistently outperform the base model and GPT-4.1, and surpass models trained using supervised fine-tuning in three out of four dimensions. Notably, our method achieved top-ranked performance in Actionability and competitive performance in two other dimensions in the BEA 2025 Shared Task under the team name bea-jh, underscoring the value of generating pedagogically grounded rationales for improving the quality of educational feedback evaluation.</abstract>
+      <pdf hash="fe135ce8" />
+      <bibkey>roh-bang-2025-bea</bibkey>
+      <doi>10.18653/v1/2025.bea-1.80</doi>
+    </paper>
+    <paper id="102">
+      <title>
+        <fixed-case>BD</fixed-case> at <fixed-case>BEA</fixed-case> 2025 Shared Task: <fixed-case>MPN</fixed-case>et Ensembles for Pedagogical Mistake Identification and Localization in <fixed-case>AI</fixed-case> Tutor Responses</title>
+      <author>
+        <first>Shadman</first>
+        <last>Rohan</last>
+      </author>
+      <author>
+        <first>Ishita</first>
+        <last>Sur Apan</last>
+      </author>
+      <author>
+        <first>Muhtasim Ibteda</first>
+        <last>Shochcho</last>
+      </author>
+      <author>
+        <first>Md</first>
+        <last>Fahim</last>
+      </author>
+      <author>
+        <first>Mohammad Ashfaq Ur</first>
+        <last>Rahman</last>
+      </author>
+      <author>
+        <first>AKM Mahbubur</first>
+        <last>Rahman</last>
+      </author>
+      <author>
+        <first>Amin Ahsan</first>
+        <last>Ali</last>
+      </author>
+      <pages>1266-1277</pages>
+      <abstract>We present Team BD’s submission to the BEA 2025 Shared Task on Pedagogical Ability Assessment of AI-powered Tutors, under Track 1 (Mistake Identification) and Track 2 (Mistake Location). Both tracks involve three-class classification of tutor responses in educational dialogues – determining if a tutor correctly recognizes a student’s mistake (Track 1) and whether the tutor pinpoints the mistake’s location (Track 2). Our system is built on MPNet, a Transformer-based language modelthat combines BERT and XLNet’s pre-training advantages. We fine-tuned MPNet on the task data using a class-weighted cross-entropy loss to handle class imbalance, and leveraged grouped cross-validation (10 folds) to maximize the use of limited data while avoiding dialogue overlap between training and validation. We then performed a hard-voting ensemble of the best models from each fold, which improves robustness and generalization by combining multiple classifiers. Ourapproach achieved strong results on both tracks, with exact-match macro-F1 scores of approximately 0.7110 for Mistake Identification and 0.5543 for Mistake Location on the official test set. We include comprehensive analysis of our system’s performance, including confusion matrices and t-SNE visualizations to interpret classifier behavior, as well as a taxonomy of common errors with examples. We hope our ensemble-based approach and findings provide useful insights for designing reliable tutor response evaluation systems in educational dialogue settings.</abstract>
+      <pdf hash="8995a40f" />
+      <bibkey>rohan-etal-2025-bd</bibkey>
+      <doi>10.18653/v1/2025.bea-1.102</doi>
+    </paper>
+    <paper id="78">
+      <title>Jinan Smart Education at <fixed-case>BEA</fixed-case> 2025 Shared Task: Dual Encoder Architecture for Tutor Identification via Semantic Understanding of Pedagogical Conversations</title>
+      <author>
+        <first>Lei</first>
+        <last>Chen</last>
+        <affiliation>Jinan University</affiliation>
+      </author>
+      <pages>1034-1039</pages>
+      <abstract>With the rapid development of smart education, educational conversation systems have become an important means to support personalized learning. Identifying tutors and understanding their unique teaching style are crucial to optimizing teaching quality. However, accurately identifying tutors from multi-round educational conversation faces great challenges due to complex contextual semantics, long-term dependencies, and implicit pragmatic relationships. This paper proposes a dual-tower encoding architecture to model the conversation history and tutor responses separately, and enhances semantic fusion through four feature interaction mechanisms. To further improve the robustness, this paper adopts a model ensemble voting strategy based on five-fold cross-validation. Experiments on the BEA 2025 shared task dataset show that our method achieves 89.65% Marco-F1 in tutor identification, ranks fourth among all teams(4/20), demonstrating its effectiveness and potential in educational AI applications.We have made the corresponding code publicly accessible at <url>https://github.com/leibnizchen/Dual-Encoder</url>.</abstract>
+      <pdf hash="eb9e9fe1" />
+      <bibkey>chen-2025-jinan</bibkey>
+      <doi>10.18653/v1/2025.bea-1.78</doi>
+    </paper>
+  </volume>
+</collection>

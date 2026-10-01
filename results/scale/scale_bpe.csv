@@ -1,0 +1,7 @@
+method,vocabulary_size,tokens_estimate,tokens_per_word
+"our byte-level BPE, vocab 2000",2000,4918700,1.429
+"our byte-level BPE, vocab 8000",8000,4276820,1.243
+"our byte-level BPE, vocab 32000",32000,4156930,1.208
+tiktoken gpt2,50257,4479650,1.302
+tiktoken cl100k_base,100277,4382910,1.274
+tiktoken o200k_base,200019,4358000,1.266

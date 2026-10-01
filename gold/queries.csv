@@ -1,0 +1,16 @@
+qid,query,information_need,n_relevant
+Q01,denominator,"Documents that explain, practise or show learners reasoning explicitly about denominators.",15
+Q02,misconception,"Documents that identify, describe or study students' misconceptions (systematic misunderstandings).",14
+Q03,common denominator,Documents that explain or apply finding and using a common denominator.,11
+Q04,knowledge tracing model,Documents describing knowledge tracing models (estimating or predicting student knowledge over time).,3
+Q05,added the numerators,"Documents where adding numerators (with or without adding denominators) is described, as the correct procedure or as the add-across error.",9
+Q06,fraction AND misconception,Documents about misconceptions specifically concerning fractions.,8
+Q07,"LCD OR ""least common denominator""",Documents that explain or use the least common denominator.,7
+Q08,denominator AND NOT common,"Documents about denominators in contexts OTHER than finding a common denominator (meaning of the denominator, multiplying and dividing, decimals and percents as fractions).",6
+Q09,dialogue AND (tutor OR teacher),Documents that contain or study tutoring or classroom dialogue between teachers or tutors and students.,14
+Q10,"""knowledge tracing"" AND NOT programming",Knowledge tracing research outside programming education.,2
+Q11,decimal OR percent,"Documents that teach, practise or discuss decimals or percents.",13
+Q12,"""student explanation""","Documents that contain students' explanations of their reasoning, or study such explanations.",14
+Q13,number line,Documents that use the number line to represent or compare fractions or decimals.,9
+Q14,misconception AND student AND fraction,Documents about students' misconceptions about fractions.,8
+Q15,"LLM AND ""knowledge tracing""",Documents on using large language models for knowledge tracing.,1

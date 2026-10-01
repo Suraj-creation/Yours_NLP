@@ -1,0 +1,6 @@
+stage,tokens,dictionary_size
+tokenized,165568,11504
+lowercased,165568,10280
+stopwords_removed,165568,10280
+normalized,165568,8975
+index_terms,136273,8931

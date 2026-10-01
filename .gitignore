@@ -1,0 +1,11 @@
+.cache/
+__pycache__/
+*.pyc
+web/node_modules/
+web/dist/
+web/e2e/shots/
+sources/
+.ipynb_checkpoints/
+.pytest_cache/
+web/e2e/shots/
+.vercel/

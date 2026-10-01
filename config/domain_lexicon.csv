@@ -1,0 +1,61 @@
+term,type,source
+fraction,CONCEPT,OpenStax 4.1
+numerator,CONCEPT,OpenStax 4.1
+denominator,CONCEPT,OpenStax 4.1
+common denominator,CONCEPT,OpenStax 4.4
+least common denominator,CONCEPT,OpenStax 4.5
+LCD,CONCEPT,OpenStax 4.5
+equivalent fraction,CONCEPT,OpenStax 4.1
+mixed number,CONCEPT,OpenStax 4.1
+improper fraction,CONCEPT,OpenStax 4.1
+proper fraction,CONCEPT,OpenStax 4.1
+unit fraction,CONCEPT,TalkMoves transcripts
+reciprocal,CONCEPT,OpenStax 4.2
+decimal,CONCEPT,OpenStax 5.1
+place value,CONCEPT,OpenStax 5.1
+percent,CONCEPT,OpenStax 6.1
+ratio,CONCEPT,OpenStax 5.6
+rate,CONCEPT,OpenStax 5.6
+unit rate,CONCEPT,OpenStax 5.6
+proportion,CONCEPT,OpenStax 6.5
+number line,CONCEPT,OpenStax 4.1
+simplify,CONCEPT,OpenStax 4.2
+simplest form,CONCEPT,OpenStax 4.2
+whole number,CONCEPT,OpenStax 4.1
+fraction bar,CONCEPT,OpenStax 4.1
+lowest terms,CONCEPT,OpenStax 4.2
+least common multiple,CONCEPT,OpenStax 4.5
+LCM,CONCEPT,OpenStax 4.5
+knowledge tracing,CONCEPT,ACL papers
+dialogue act,CONCEPT,MathDial
+talk move,CONCEPT,TalkMoves
+scaffolding,CONCEPT,MathDial
+BKT,KT_MODEL,KT literature
+Bayesian Knowledge Tracing,KT_MODEL,KT literature
+DKT,KT_MODEL,KT literature
+Deep Knowledge Tracing,KT_MODEL,KT literature
+SQKT,KT_MODEL,ACL 2025
+CIKT,KT_MODEL,EMNLP 2025
+Q-MCKT,KT_MODEL,Zhang et al.
+LLMKT,KT_MODEL,Scarlatos et al.
+ASSISTments,DATASET,KT literature
+ASSIST2009,DATASET,KT literature
+MathDial,DATASET,Macina et al. 2023
+TalkMoves,DATASET,Suresh et al. 2022
+MaE,DATASET,Otero et al. 2024
+EdNet,DATASET,KT literature
+NCTE Transcripts,DATASET,Demszky and Hill 2023
+FoundationalASSIST,DATASET,Worden et al. 2026
+AUC,METRIC,KT literature
+F1,METRIC,evaluation
+accuracy,METRIC,evaluation
+ECE,METRIC,calibration
+RMSE,METRIC,KT literature
+Cohen's kappa,METRIC,annotation
+adding numerators and denominators,MISCONCEPTION,misconception literature
+larger denominator means larger fraction,MISCONCEPTION,misconception literature
+longer decimal is bigger,MISCONCEPTION,misconception literature
+multiplication makes bigger,MISCONCEPTION,misconception literature
+whole number bias,MISCONCEPTION,misconception literature
+add across,MISCONCEPTION,misconception literature
+cross multiply,MISCONCEPTION,misconception literature

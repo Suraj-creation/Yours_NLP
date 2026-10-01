@@ -1,0 +1,10 @@
+sentence,word,default_pos_nltk,custom_pos_rules,custom_pos_crf,gold,default_correct,custom_correct,rule_fired
+S07,one,CD,CD,CD,NN,False,False,
+S17,Round,RB,VB,NN,VB,False,True,math instruction verb (imperative)
+S22,Multiply,RB,VB,VB,VB,False,True,math instruction verb (imperative)
+S22,x,JJ,SYM,CD,SYM,False,True,operator between numbers
+S27,LCD,NNP,NN,NN,NN,False,True,domain dictionary
+S29,Plot,NN,VB,NN,VB,False,True,math instruction verb (imperative)
+S31,idk,NN,UH,NN,UH,False,True,domain dictionary
+S31,u,JJ,PRP,MD,PRP,False,True,domain dictionary
+S31,add,VB,VB,VB,VBP,False,False,

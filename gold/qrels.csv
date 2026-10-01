@@ -1,0 +1,451 @@
+qid,doc_id,relevant,reason
+Q01,D01,1,defines numerator and denominator
+Q01,D02,1,denominators in multiplying and dividing fractions
+Q01,D03,1,adding with common denominators
+Q01,D04,1,"adding with different denominators, LCD"
+Q01,D05,1,"decimals written as fractions with denominators 10, 100"
+Q01,D06,1,converting fractions to decimals divides by the denominator
+Q01,D07,1,ratios written as fractions
+Q01,D08,1,percent as a fraction with denominator 100
+Q01,D09,0,
+Q01,D10,0,
+Q01,D11,0,
+Q01,D12,0,
+Q01,D13,0,
+Q01,D14,0,
+Q01,D15,0,
+Q01,D16,1,misconceptions about denominators
+Q01,D17,0,
+Q01,D18,0,
+Q01,D19,0,
+Q01,D20,0,
+Q01,D21,0,
+Q01,D22,0,
+Q01,D23,0,
+Q01,D24,0,
+Q01,D25,1,student explanations about denominators
+Q01,D26,1,student questions about denominators
+Q01,D27,1,teacher notes on denominators
+Q01,D28,1,tutor works on denominators
+Q01,D29,1,unit page: adding denominators misconception
+Q01,D30,1,worksheet item on why 3/4 + 1/2 is not 4/6
+Q02,D01,0,
+Q02,D02,0,
+Q02,D03,0,
+Q02,D04,0,
+Q02,D05,0,
+Q02,D06,0,
+Q02,D07,0,
+Q02,D08,0,
+Q02,D09,1,papers use misconceptions as a signal / for distractors
+Q02,D10,0,
+Q02,D11,1,papers on distractors reflecting misconceptions
+Q02,D12,1,math misconception benchmark paper
+Q02,D13,0,
+Q02,D14,1,MathDial: student confusions and misconception profiles
+Q02,D15,1,MaE misconception dataset card
+Q02,D16,1,MaE misconception catalogue
+Q02,D17,1,dialogues addressing student confusions
+Q02,D18,1,incorrect solutions with teacher-described confusion
+Q02,D19,0,
+Q02,D20,0,
+Q02,D21,0,
+Q02,D22,0,
+Q02,D23,0,
+Q02,D24,0,
+Q02,D25,1,explanations each expressing a malrule
+Q02,D26,1,questions voicing misconception-driven confusion
+Q02,D27,1,teacher notes on observed misconceptions
+Q02,D28,1,learner's add-across misconception and its correction
+Q02,D29,1,page lists misconceptions to address
+Q02,D30,1,diagnostic items targeting misconceptions
+Q03,D01,0,
+Q03,D02,0,
+Q03,D03,1,section on common denominators
+Q03,D04,1,LCD and converting to common denominators
+Q03,D05,1,common denominator used to compare decimals
+Q03,D06,0,
+Q03,D07,1,least common denominator of 8/10 and 5/100
+Q03,D08,0,
+Q03,D09,0,
+Q03,D10,0,
+Q03,D11,0,
+Q03,D12,0,
+Q03,D13,0,
+Q03,D14,0,
+Q03,D15,0,
+Q03,D16,1,misconception MaE09 about common denominators
+Q03,D17,0,
+Q03,D18,0,
+Q03,D19,0,
+Q03,D20,0,
+Q03,D21,0,
+Q03,D22,0,
+Q03,D23,0,
+Q03,D24,0,
+Q03,D25,1,explanations using a common denominator
+Q03,D26,1,question about needing the same denominator
+Q03,D27,1,lesson on common denominators
+Q03,D28,1,learner converts halves and thirds to sixths
+Q03,D29,1,objective: why fractions need a common denominator
+Q03,D30,1,item requiring a common denominator
+Q04,D01,0,
+Q04,D02,0,
+Q04,D03,0,
+Q04,D04,0,
+Q04,D05,0,
+Q04,D06,0,
+Q04,D07,0,
+Q04,D08,0,
+Q04,D09,1,SQKT knowledge tracing model
+Q04,D10,1,CIKT knowledge tracing framework
+Q04,D11,1,ORBITS and error-tracing KT models
+Q04,D12,0,
+Q04,D13,0,
+Q04,D14,0,
+Q04,D15,0,
+Q04,D16,0,
+Q04,D17,0,
+Q04,D18,0,
+Q04,D19,0,
+Q04,D20,0,
+Q04,D21,0,
+Q04,D22,0,
+Q04,D23,0,
+Q04,D24,0,
+Q04,D25,0,
+Q04,D26,0,
+Q04,D27,0,
+Q04,D28,0,
+Q04,D29,0,
+Q04,D30,0,
+Q05,D01,0,
+Q05,D02,0,
+Q05,D03,1,add the numerators over the common denominator
+Q05,D04,1,add the numerators after converting to the LCD
+Q05,D05,0,
+Q05,D06,0,
+Q05,D07,0,
+Q05,D08,0,
+Q05,D09,0,
+Q05,D10,0,
+Q05,D11,0,
+Q05,D12,0,
+Q05,D13,0,
+Q05,D14,0,
+Q05,D15,0,
+Q05,D16,1,fraction-addition error examples
+Q05,D17,0,
+Q05,D18,0,
+Q05,D19,0,
+Q05,D20,0,
+Q05,D21,0,
+Q05,D22,0,
+Q05,D23,0,
+Q05,D24,0,
+Q05,D25,1,students adding tops and bottoms
+Q05,D26,1,question: is 1/2 + 1/2 = 2/4?
+Q05,D27,1,students writing 1/2 + 1/4 = 2/6
+Q05,D28,1,learner added the top and bottom numbers
+Q05,D29,1,misconception: adding numerators and adding denominators
+Q05,D30,1,item: explain why not 4/6
+Q06,D01,0,
+Q06,D02,0,
+Q06,D03,0,
+Q06,D04,0,
+Q06,D05,0,
+Q06,D06,0,
+Q06,D07,0,
+Q06,D08,0,
+Q06,D09,0,
+Q06,D10,0,
+Q06,D11,0,
+Q06,D12,0,
+Q06,D13,0,
+Q06,D14,0,
+Q06,D15,1,MaE card lists fraction operation misconceptions
+Q06,D16,1,MaE fraction misconceptions MaE06-MaE22
+Q06,D17,0,
+Q06,D18,0,
+Q06,D19,0,
+Q06,D20,0,
+Q06,D21,0,
+Q06,D22,0,
+Q06,D23,0,
+Q06,D24,0,
+Q06,D25,1,fraction malrules
+Q06,D26,1,fraction confusions in questions
+Q06,D27,1,fraction misconceptions observed
+Q06,D28,1,add-across fraction misconception
+Q06,D29,1,fraction misconceptions to address
+Q06,D30,1,fraction diagnostic items
+Q07,D01,0,
+Q07,D02,0,
+Q07,D03,0,
+Q07,D04,1,section teaches the LCD
+Q07,D05,0,
+Q07,D06,0,
+Q07,D07,1,least common denominator of 8/10 and 5/100
+Q07,D08,0,
+Q07,D09,0,
+Q07,D10,0,
+Q07,D11,0,
+Q07,D12,0,
+Q07,D13,0,
+Q07,D14,0,
+Q07,D15,0,
+Q07,D16,1,learner determines the LCD
+Q07,D17,0,
+Q07,D18,0,
+Q07,D19,0,
+Q07,D20,0,
+Q07,D21,0,
+Q07,D22,0,
+Q07,D23,0,
+Q07,D24,0,
+Q07,D25,1,LCD of 4 and 6
+Q07,D26,1,question: what does LCD mean
+Q07,D27,1,LCD for 4 and 6 lesson
+Q07,D28,1,learner rewrites halves and thirds in sixths (the LCD)
+Q07,D29,0,
+Q07,D30,0,
+Q08,D01,1,meaning of the denominator
+Q08,D02,1,multiplying and dividing fractions
+Q08,D03,0,
+Q08,D04,0,
+Q08,D05,1,decimals as fractions (one common-denominator aside)
+Q08,D06,1,fractions and decimals
+Q08,D07,1,ratios as fractions (one LCD aside)
+Q08,D08,1,percent as a fraction over 100
+Q08,D09,0,
+Q08,D10,0,
+Q08,D11,0,
+Q08,D12,0,
+Q08,D13,0,
+Q08,D14,0,
+Q08,D15,0,
+Q08,D16,0,
+Q08,D17,0,
+Q08,D18,0,
+Q08,D19,0,
+Q08,D20,0,
+Q08,D21,0,
+Q08,D22,0,
+Q08,D23,0,
+Q08,D24,0,
+Q08,D25,0,
+Q08,D26,0,
+Q08,D27,0,
+Q08,D28,0,
+Q08,D29,0,
+Q08,D30,0,
+Q09,D01,0,
+Q09,D02,0,
+Q09,D03,0,
+Q09,D04,0,
+Q09,D05,0,
+Q09,D06,0,
+Q09,D07,0,
+Q09,D08,0,
+Q09,D09,1,tutoring dialogue systems papers
+Q09,D10,1,dialog-based tutoring benchmark papers
+Q09,D11,1,classroom transcripts and tutoring dialogue shared task
+Q09,D12,1,MathDial dialogue tutoring paper
+Q09,D13,1,coding manual for classroom talk
+Q09,D14,1,MathDial dialogue dataset card
+Q09,D15,0,
+Q09,D16,0,
+Q09,D17,1,tutoring dialogues
+Q09,D18,0,
+Q09,D19,1,classroom transcript
+Q09,D20,1,classroom transcript
+Q09,D21,1,classroom transcript
+Q09,D22,1,classroom transcript
+Q09,D23,1,classroom transcript
+Q09,D24,1,classroom transcript
+Q09,D25,0,
+Q09,D26,0,
+Q09,D27,0,
+Q09,D28,1,tutor chat log
+Q09,D29,0,
+Q09,D30,0,
+Q10,D01,0,
+Q10,D02,0,
+Q10,D03,0,
+Q10,D04,0,
+Q10,D05,0,
+Q10,D06,0,
+Q10,D07,0,
+Q10,D08,0,
+Q10,D09,0,
+Q10,D10,1,CIKT and general KT
+Q10,D11,1,ORBITS KT for video-based learning (the volume also has a programming KT paper)
+Q10,D12,0,
+Q10,D13,0,
+Q10,D14,0,
+Q10,D15,0,
+Q10,D16,0,
+Q10,D17,0,
+Q10,D18,0,
+Q10,D19,0,
+Q10,D20,0,
+Q10,D21,0,
+Q10,D22,0,
+Q10,D23,0,
+Q10,D24,0,
+Q10,D25,0,
+Q10,D26,0,
+Q10,D27,0,
+Q10,D28,0,
+Q10,D29,0,
+Q10,D30,0,
+Q11,D01,0,
+Q11,D02,0,
+Q11,D03,0,
+Q11,D04,0,
+Q11,D05,1,decimals section
+Q11,D06,1,decimals and fractions
+Q11,D07,1,unit rates with decimals
+Q11,D08,1,percent section
+Q11,D09,0,
+Q11,D10,0,
+Q11,D11,0,
+Q11,D12,0,
+Q11,D13,0,
+Q11,D14,0,
+Q11,D15,0,
+Q11,D16,1,decimal and percent misconceptions
+Q11,D17,1,percent word problems
+Q11,D18,1,percent word problems
+Q11,D19,0,
+Q11,D20,0,
+Q11,D21,0,
+Q11,D22,0,
+Q11,D23,0,
+Q11,D24,0,
+Q11,D25,1,decimal and percent explanations
+Q11,D26,1,decimal and percent questions
+Q11,D27,1,decimals and percents lessons
+Q11,D28,1,decimal multiplication in session 3
+Q11,D29,1,unit covers decimals and percents
+Q11,D30,1,decimal and percent items
+Q12,D01,0,
+Q12,D02,0,
+Q12,D03,0,
+Q12,D04,0,
+Q12,D05,0,
+Q12,D06,0,
+Q12,D07,0,
+Q12,D08,0,
+Q12,D09,0,
+Q12,D10,1,think-aloud and student answer assessment papers
+Q12,D11,1,papers assessing student explanations
+Q12,D12,1,"benchmark of 52,000 written explanations"
+Q12,D13,1,codes students providing evidence and reasoning
+Q12,D14,0,
+Q12,D15,0,
+Q12,D16,0,
+Q12,D17,1,students talk through their solutions
+Q12,D18,1,written student solutions with reasoning
+Q12,D19,1,students explain in class
+Q12,D20,1,students explain in class
+Q12,D21,1,students explain in class
+Q12,D22,1,students explain in class
+Q12,D23,1,students explain in class
+Q12,D24,1,students explain in class
+Q12,D25,1,student explanations
+Q12,D26,0,
+Q12,D27,0,
+Q12,D28,1,learner explains why 2/5 is wrong
+Q12,D29,0,
+Q12,D30,0,
+Q13,D01,1,locating fractions on the number line
+Q13,D02,0,
+Q13,D03,0,
+Q13,D04,0,
+Q13,D05,1,locating decimals on the number line
+Q13,D06,1,ordering on the number line
+Q13,D07,0,
+Q13,D08,0,
+Q13,D09,0,
+Q13,D10,0,
+Q13,D11,0,
+Q13,D12,0,
+Q13,D13,0,
+Q13,D14,0,
+Q13,D15,0,
+Q13,D16,0,
+Q13,D17,0,
+Q13,D18,0,
+Q13,D19,0,
+Q13,D20,0,
+Q13,D21,0,
+Q13,D22,0,
+Q13,D23,0,
+Q13,D24,1,lesson on the number line and fractions
+Q13,D25,1,misconception about placing 3/4 on a number line
+Q13,D26,1,question about closeness to 1 on the number line
+Q13,D27,1,reteach addition with the number line
+Q13,D28,0,
+Q13,D29,1,unit models fractions with number lines
+Q13,D30,1,item: justify with a number line
+Q14,D01,0,
+Q14,D02,0,
+Q14,D03,0,
+Q14,D04,0,
+Q14,D05,0,
+Q14,D06,0,
+Q14,D07,0,
+Q14,D08,0,
+Q14,D09,0,
+Q14,D10,0,
+Q14,D11,0,
+Q14,D12,0,
+Q14,D13,0,
+Q14,D14,0,
+Q14,D15,1,MaE card: student fraction misconceptions
+Q14,D16,1,student fraction misconceptions
+Q14,D17,0,
+Q14,D18,0,
+Q14,D19,0,
+Q14,D20,0,
+Q14,D21,0,
+Q14,D22,0,
+Q14,D23,0,
+Q14,D24,0,
+Q14,D25,1,student fraction malrules
+Q14,D26,1,student fraction confusions
+Q14,D27,1,students' fraction misconceptions
+Q14,D28,1,a student's fraction misconception
+Q14,D29,1,students' fraction misconceptions
+Q14,D30,1,fraction diagnostic items for students
+Q15,D01,0,
+Q15,D02,0,
+Q15,D03,0,
+Q15,D04,0,
+Q15,D05,0,
+Q15,D06,0,
+Q15,D07,0,
+Q15,D08,0,
+Q15,D09,0,
+Q15,D10,1,CIKT: LLM-based knowledge tracing
+Q15,D11,0,
+Q15,D12,0,
+Q15,D13,0,
+Q15,D14,0,
+Q15,D15,0,
+Q15,D16,0,
+Q15,D17,0,
+Q15,D18,0,
+Q15,D19,0,
+Q15,D20,0,
+Q15,D21,0,
+Q15,D22,0,
+Q15,D23,0,
+Q15,D24,0,
+Q15,D25,0,
+Q15,D26,0,
+Q15,D27,0,
+Q15,D28,0,
+Q15,D29,0,
+Q15,D30,0,

@@ -1,0 +1,7 @@
+tagger,label,accuracy_test,tokens_test,correct_test,accuracy_all_32,top_errors
+nltk,NLTK averaged perceptron,0.9072,97,88,0.9124,VB->RB x2; NN->CD x1; SYM->JJ x1; NN->NNP x1; VB->NN x1
+spacy,spaCy en_core_web_sm,0.9381,97,91,0.938,TO->IN x2; VB->NNP x2; VB->RB x1; NN->NNP x1
+rules_nltk,Rules + dictionary over NLTK,0.9794,97,95,0.9635,NN->CD x1; VBP->VB x1
+rules_spacy,Rules + dictionary over spaCy,0.9794,97,95,0.9708,TO->IN x2
+backoff,NLTK trigram backoff (ML),0.866,97,84,,NNS->VBZ x2; VB->NNP x2; VBP->VB x1; NN->VBP x1; JJS->NN x1
+crf,CRF (ML),0.9278,97,90,,VB->NN x2; NN->CD x1; SYM->CD x1; UH->NN x1; PRP->MD x1

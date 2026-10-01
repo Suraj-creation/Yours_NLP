@@ -1,0 +1,1156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<collection source="ACL Anthology" title="EMNLP 2025: knowledge tracing and education papers (incl. CIKT)">
+  <volume id="2025.emnlp">
+    <paper id="975">
+      <title>
+        <fixed-case>CIKT</fixed-case>: A Collaborative and Iterative Knowledge Tracing Framework with Large Language Models</title>
+      <author openreview="~Runze_Li5">
+        <first>Runze</first>
+        <last>Li</last>
+      </author>
+      <author id="siyu-wu-7161" orcid="0009-0002-8536-7161" openreview="~siyu_wu8">
+        <first>Siyu</first>
+        <last>Wu</last>
+      </author>
+      <author openreview="~Jun_Wang4">
+        <first>Jun</first>
+        <last>Wang</last>
+      </author>
+      <author id="wei-zhang-8146" orcid="0000-0001-6763-8146" openreview="~Wei_Zhang27">
+        <first>Wei</first>
+        <last>Zhang</last>
+        <affiliation>East China Normal University</affiliation>
+      </author>
+      <pages>19321-19334</pages>
+      <abstract>Knowledge Tracing (KT) aims to model a student’s learning state over time and predict their future performance. However, traditional KT methods often face challenges in explainability, scalability, and effective modeling of complex knowledge dependencies. While Large Language Models (LLMs) present new avenues for KT, their direct application often struggles with generating structured, explainable student representations and lacks mechanisms for continuous, task-specific refinement. To address these gaps, we propose Collaborative Iterative Knowledge Tracing (CIKT), a framework that harnesses LLMs to enhance both prediction accuracy and explainability. CIKT employs a dual-component architecture: an Analyst generates dynamic, explainable user profiles from student historical responses, and a Predictor utilizes these profiles to forecast future performance. The core of CIKT is a synergistic optimization loop. In this loop, the Analyst is iteratively refined based on the predictive accuracy of the Predictor, which conditions on the generated profiles, and the Predictor is subsequently retrained using these enhanced profiles. Evaluated on multiple educational datasets, CIKT demonstrates significant improvements in prediction accuracy, offers enhanced explainability through its dynamically updated user profiles, and exhibits improved scalability. Our work presents a robust and explainable solution for advancing knowledge tracing systems, effectively bridging the gap between predictive performance and model transparency.</abstract>
+      <pdf hash="7342f44d" />
+      <attachment type="checklist" hash="f3e95bd4">2025.emnlp-main.975.checklist.pdf</attachment>
+      <bibkey>li-etal-2025-cikt</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.975</doi>
+    </paper>
+    <paper id="675">
+      <title>Investigating Pedagogical Teacher and Student <fixed-case>LLM</fixed-case> Agents: Genetic Adaptation Meets Retrieval-Augmented Generation Across Learning Styles</title>
+      <author openreview="~Debdeep_Sanyal1">
+        <first>Debdeep</first>
+        <last>Sanyal</last>
+      </author>
+      <author id="agniva-maiti" orcid="0009-0007-2104-2524" openreview="~Agniva_Maiti1">
+        <first>Agniva</first>
+        <last>Maiti</last>
+      </author>
+      <author id="umakanta-maharana" orcid="0009-0005-6581-9660" openreview="~Umakanta_Maharana1">
+        <first>Umakanta</first>
+        <last>Maharana</last>
+        <affiliation>Kalinga Institute of Industrial Technology (KIIT)</affiliation>
+      </author>
+      <author id="dhruv-kumar-1847" orcid="0000-0003-4831-1847" openreview="~Dhruv_Kumar4">
+        <first>Dhruv</first>
+        <last>Kumar</last>
+        <affiliation>BITS Pilani, Birla Institute of Technology and Science</affiliation>
+      </author>
+      <author openreview="~Ankur_Mali2">
+        <first>Ankur</first>
+        <last>Mali</last>
+      </author>
+      <author id="c-lee-giles" orcid="0000-0002-1931-585X" openreview="~C._Lee_Giles1">
+        <first>C. Lee</first>
+        <last>Giles</last>
+        <affiliation>Pennsylvania State University</affiliation>
+      </author>
+      <author id="murari-mandal" orcid="0000-0002-0157-0967" openreview="~Murari_Mandal1">
+        <first>Murari</first>
+        <last>Mandal</last>
+        <affiliation>Kalinga Institute of Industrial Technology (KIIT) Bhubaneswar India</affiliation>
+      </author>
+      <pages>13348-13389</pages>
+      <abstract>Effective teaching necessitates adapting pedagogical strategies to the inherent diversity of students, encompassing variations in aptitude, learning styles, and personality, a critical challenge in education and teacher training. Large Language Models (LLMs) offer a powerful tool to simulate complex classroom dynamics, providing a controlled environment for exploring optimal teaching patterns. However, existing simulation frameworks often fall short by neglecting comprehensive student modeling beyond basic knowledge states and, more importantly, by lacking mechanisms for teachers to dynamically adapt their approach based on student feedback and collective performance. Addressing these limitations, <b>we propose a simulation framework that integrates LLM-based diverse student agents with a self-evolving teacher agent</b>. We use genetic algorithms to automatically tune and optimize the teacher’s pedagogical parameters based on simulated student performance, enabling the teacher agent to discover and refine teaching patterns tailored to specific class characteristics. Complementing this, <b>we introduce Persona-RAG, a novel Retrieval-Augmented Generation method specifically designed for personalized knowledge retrieval in pedagogical contexts, allowing students to retrieve information as per their learning styles</b>. We show how Persona-RAG remains competitive with standard RAG baselines in accurately retrieving relevant information while adding a touch of personalization for students. Crucially, we perform extensive experiments and highlight the different patterns learnt by the teacher agent while optimizing over classes with students of various learning styles. Our work presents a significant step towards creating adaptive educational technologies and improving teacher training through realistic, data-driven simulation.</abstract>
+      <pdf hash="41d741f9" />
+      <attachment type="checklist" hash="af85c762">2025.emnlp-main.675.checklist.pdf</attachment>
+      <bibkey>sanyal-etal-2025-investigating</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.675</doi>
+    </paper>
+    <paper id="63">
+      <title>
+        <fixed-case>M</fixed-case>ath<fixed-case>B</fixed-case>uddy: A Multimodal System for Affective Math Tutoring</title>
+      <author openreview="~Debanjana_Kar1">
+        <first>Debanjana</first>
+        <last>Kar</last>
+        <affiliation>International Business Machines</affiliation>
+      </author>
+      <author id="leopold-boss" orcid="0009-0001-5177-0342" openreview="~Leopold_Böss1">
+        <first>Leopold</first>
+        <last>Böss</last>
+        <affiliation>Interdisciplinary Transformation University</affiliation>
+      </author>
+      <author openreview="~Dacia_Braca1">
+        <first>Dacia</first>
+        <last>Braca</last>
+      </author>
+      <author id="sebastian-maximilian-dennerlein" orcid="0000-0001-6011-4382" openreview="~Sebastian_Maximilian_Dennerlein1">
+        <first>Sebastian Maximilian</first>
+        <last>Dennerlein</last>
+        <affiliation>Interdisciplinary Transformation University</affiliation>
+      </author>
+      <author id="nina-christine-hubig" orcid="0000-0002-8911-7832" openreview="~Nina_Christine_Hubig1">
+        <first>Nina Christine</first>
+        <last>Hubig</last>
+        <affiliation>IT:U</affiliation>
+      </author>
+      <author openreview="~Philipp_Wintersberger1">
+        <first>Philipp</first>
+        <last>Wintersberger</last>
+        <affiliation>Interdisciplinary Transformation University</affiliation>
+      </author>
+      <author openreview="~Yufang_Hou2">
+        <first>Yufang</first>
+        <last>Hou</last>
+        <affiliation>IT:U Interdisciplinary Transformation University Austria, Technische Universität Darmstadt and IBM Research Ireland</affiliation>
+      </author>
+      <pages>821-838</pages>
+      <abstract>The rapid adoption of LLM-based conversational systems is already transforming the landscape of educational technology. However, the current state-of-the-art learning models do not take into account the student’s affective states. Multiple studies in educational psychology support the claim that positive or negative emotional states can impact a student’s learning capabilities. To bridge this gap, we present MathBuddy, an emotionally aware LLM-powered Math Tutor, which dynamically models the student’s emotions and maps them to relevant pedagogical strategies, making the tutor-student conversation a more empathetic one. The student’s emotions are captured from the conversational text as well as from their facial expressions. The student’s emotions are aggregate from both modalities to confidently prompt our LLM Tutor for an emotionally-aware response. We have evaluated our model using automatic evaluation metrics across eight pedagogical dimensions and user studies. We report a massive 23 point performance gain using the win rate and a 3 point gain at an overall level using DAMR scores which strongly supports our hypothesis of improving LLM-based tutor’s pedagogical abilities by modeling students’ emotions. Our dataset and code are available at: <url>https://github.com/ITU-NLP/MathBuddy</url>.</abstract>
+      <pdf hash="303b7d66" />
+      <bibkey>kar-etal-2025-mathbuddy</bibkey>
+      <doi>10.18653/v1/2025.emnlp-demos.63</doi>
+    </paper>
+    <paper id="11">
+      <title>
+        <fixed-case>M</fixed-case>ath<fixed-case>T</fixed-case>utor<fixed-case>B</fixed-case>ench: A Benchmark for Measuring Open-ended Pedagogical Capabilities of <fixed-case>LLM</fixed-case> Tutors</title>
+      <author id="jakub-macina" orcid="0000-0001-5063-0543" openreview="~Jakub_Macina1">
+        <first>Jakub</first>
+        <last>Macina</last>
+        <affiliation>Department of Computer Science, ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author openreview="~Nico_Daheim1">
+        <first>Nico</first>
+        <last>Daheim</last>
+        <affiliation>ETHZ - ETH Zurich and Technische Universität Darmstadt</affiliation>
+      </author>
+      <author openreview="~Ido_Hakimi1">
+        <first>Ido</first>
+        <last>Hakimi</last>
+        <affiliation>ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author openreview="~Manu_Kapur1">
+        <first>Manu</first>
+        <last>Kapur</last>
+        <affiliation>ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author id="iryna-gurevych" orcid="0000-0003-2187-7621" openreview="~Iryna_Gurevych1">
+        <first>Iryna</first>
+        <last>Gurevych</last>
+        <affiliation>Institute for Computer Science, Artificial Intelligence and Technology, Mohamed bin Zayed University of Artificial Intelligence and Technische Universität Darmstadt</affiliation>
+      </author>
+      <author openreview="~Mrinmaya_Sachan3">
+        <first>Mrinmaya</first>
+        <last>Sachan</last>
+        <affiliation>Swiss Federal Institute of Technology</affiliation>
+      </author>
+      <pages>204-221</pages>
+      <abstract>Evaluating the pedagogical capabilities of AI-based tutoring models is critical for making guided progress in the field. Yet, we lack a reliable, easy-to-use, and simple-to-run evaluation that reflects the pedagogical abilities of models. To fill this gap, we present MathTutorBench, an open-source benchmark for holistic tutoring model evaluation. MathTutorBench contains a collection of datasets and metrics that broadly cover tutor abilities as defined by learning sciences research in dialog-based teaching. To score the pedagogical quality of open-ended teacher responses, we train a reward model and show it can discriminate expert from novice teacher responses with high accuracy. We evaluate a wide set of closed- and open-weight models on MathTutorBench and find that subject expertise, indicated by solving ability, does not immediately translate to good teaching. Rather, pedagogy and subject expertise appear to form a trade-off that is navigated by the degree of tutoring specialization of the model. Furthermore, tutoring appears to become more challenging in longer dialogs, where simpler questioning strategies begin to fail. We release the benchmark, code, and leaderboard openly to enable rapid benchmarking of future models.</abstract>
+      <pdf hash="08fb4bf8" />
+      <attachment type="checklist" hash="925cfb0d">2025.emnlp-main.11.checklist.pdf</attachment>
+      <bibkey>macina-etal-2025-mathtutorbench</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.11</doi>
+    </paper>
+    <paper id="15">
+      <title>From Problem-Solving to Teaching Problem-Solving: Aligning <fixed-case>LLM</fixed-case>s with Pedagogy using Reinforcement Learning</title>
+      <author openreview="~David_Dinucu-Jianu1">
+        <first>David</first>
+        <last>Dinucu-Jianu</last>
+        <affiliation>ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author id="jakub-macina" orcid="0000-0001-5063-0543" openreview="~Jakub_Macina1">
+        <first>Jakub</first>
+        <last>Macina</last>
+        <affiliation>Department of Computer Science, ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author openreview="~Nico_Daheim1">
+        <first>Nico</first>
+        <last>Daheim</last>
+        <affiliation>ETHZ - ETH Zurich and Technische Universität Darmstadt</affiliation>
+      </author>
+      <author openreview="~Ido_Hakimi1">
+        <first>Ido</first>
+        <last>Hakimi</last>
+        <affiliation>ETHZ - ETH Zurich</affiliation>
+      </author>
+      <author id="iryna-gurevych" orcid="0000-0003-2187-7621" openreview="~Iryna_Gurevych1">
+        <first>Iryna</first>
+        <last>Gurevych</last>
+        <affiliation>Institute for Computer Science, Artificial Intelligence and Technology, Mohamed bin Zayed University of Artificial Intelligence and Technische Universität Darmstadt</affiliation>
+      </author>
+      <author openreview="~Mrinmaya_Sachan3">
+        <first>Mrinmaya</first>
+        <last>Sachan</last>
+        <affiliation>Swiss Federal Institute of Technology</affiliation>
+      </author>
+      <pages>272-292</pages>
+      <abstract>Large language models (LLMs) can transform education, but their optimization for direct question-answering often undermines effective pedagogy which requires strategically withholding answers. To mitigate this, we propose an online reinforcement learning (RL)-based alignment framework that can quickly adapt LLMs into effective tutors using simulated student-tutor interactions by emphasizing pedagogical quality and guided problem-solving over simply giving away answers. We use our method to train a 7B parameter tutor model without human annotations which reaches similar performance to larger proprietary models like LearnLM. We introduce a controllable reward weighting to balance pedagogical support and student solving accuracy, allowing us to trace the Pareto frontier between these two objectives. Our models better preserve reasoning capabilities than single-turn SFT baselines and can optionally enhance interpretability through thinking tags that expose the model’s instructional planning.</abstract>
+      <pdf hash="f1bd4b9c" />
+      <attachment type="checklist" hash="8172f323">2025.emnlp-main.15.checklist.pdf</attachment>
+      <bibkey>dinucu-jianu-etal-2025-problem</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.15</doi>
+    </paper>
+    <paper id="24">
+      <title>
+        <fixed-case>M</fixed-case>ed<fixed-case>T</fixed-case>utor: A Retrieval-Augmented <fixed-case>LLM</fixed-case> System for Case-Based Medical Education</title>
+      <author openreview="~Dongsuk_Jang1">
+        <first>Dongsuk</first>
+        <last>Jang</last>
+      </author>
+      <author id="ziyao-shangguan" orcid="0009-0000-8211-7656" openreview="~Ziyao_Shangguan1">
+        <first>Ziyao</first>
+        <last>Shangguan</last>
+        <affiliation>Yale University</affiliation>
+      </author>
+      <author openreview="~Kyle_Tegtmeyer1">
+        <first>Kyle</first>
+        <last>Tegtmeyer</last>
+      </author>
+      <author openreview="~Anurag_Gupta3">
+        <first>Anurag</first>
+        <last>Gupta</last>
+      </author>
+      <author openreview="~Jan_T_Czerminski1">
+        <first>Jan</first>
+        <last>Czerminski</last>
+        <affiliation>Yale University</affiliation>
+      </author>
+      <author openreview="~Sophie_Chheang1">
+        <first>Sophie</first>
+        <last>Chheang</last>
+      </author>
+      <author id="arman-cohan" orcid="0000-0002-8954-2724" openreview="~Arman_Cohan1">
+        <first>Arman</first>
+        <last>Cohan</last>
+        <affiliation>Yale University and Allen Institute for Artificial Intelligence</affiliation>
+      </author>
+      <pages>319-353</pages>
+      <abstract>The learning process for medical residents presents significant challenges, demanding both the ability to interpret complex case reports and the rapid acquisition of accurate medical knowledge from reliable sources. Residents typically study case reports and engage in discussions with peers and mentors, but finding relevant educational materials and evidence to support their learning from these cases is often time-consuming and challenging. To address this, we introduce MedTutor, a novel system designed to augment resident training by automatically generating evidence-based educational content and multiple-choice questions from clinical case reports. MedTutor leverages a Retrieval-Augmented Generation (RAG) pipeline that takes clinical case reports as input and produces targeted educational materials. The system’s architecture features a hybrid retrieval mechanism that synergistically queries a local knowledge base of medical textbooks and academic literature (using PubMed, Semantic Scholar APIs) for latest related research, ensuring the generated content is both foundationally sound and current. The retrieved evidence is filtered and ordered using a state-of-the-art reranking model and then an LLM generates the final long-form output describing the main educational content regarding the case-report.We conduct a rigorous evaluation of the system. First, two radiologists assessed the quality of outputs, finding them to be of high clinical and educational value. Second, we perform a large-scale evaluation using an LLM-as-a Judge to understand if LLMs can be used to evaluate the output of the system. Our analysis using correlation of LLMs with human expert judgments reveals a moderate alignment and highlights the continued necessity of expert oversight.</abstract>
+      <pdf hash="b83cd3f4" />
+      <bibkey>jang-etal-2025-medtutor</bibkey>
+      <doi>10.18653/v1/2025.emnlp-demos.24</doi>
+      <revision id="1" hash="872a3e22" />
+      <revision id="2" hash="b83cd3f4" date="2026-02-15">Correct citations and references.</revision>
+    </paper>
+    <paper id="827">
+      <title>Can <fixed-case>LLM</fixed-case>s simulate the same correct solutions to free-response math problems as real students?</title>
+      <author openreview="~Yuya_Asano1">
+        <first>Yuya</first>
+        <last>Asano</last>
+        <affiliation>University of Pittsburgh</affiliation>
+      </author>
+      <author id="diane-litman" orcid="0000-0001-7282-7531" openreview="~Diane_Litman1">
+        <first>Diane</first>
+        <last>Litman</last>
+        <affiliation>University of Pittsburgh</affiliation>
+      </author>
+      <author openreview="~Erin_Walker1">
+        <first>Erin</first>
+        <last>Walker</last>
+        <affiliation>University of Pittsburgh</affiliation>
+      </author>
+      <pages>16336-16365</pages>
+      <abstract>Large language models (LLMs) have emerged as powerful tools for developing educational systems. While previous studies have explored modeling student mistakes, a critical gap remains in understanding whether LLMs can generate correct solutions that represent student responses to free-response problems. In this paper, we compare the distribution of solutions produced by four LLMs (one proprietary, two open-sourced general, and one open-sourced math models) with various sampling and prompting techniques and those generated by students, using conversations where students teach math problems to a conversational robot. Our study reveals discrepancies between the correct solutions produced by LLMs and by students. We discuss the practical implications of these findings for the design and evaluation of LLM-supported educational systems.</abstract>
+      <pdf hash="efa2df59" />
+      <attachment type="checklist" hash="6d9f055e">2025.emnlp-main.827.checklist.pdf</attachment>
+      <bibkey>asano-etal-2025-llms</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.827</doi>
+    </paper>
+    <paper id="1222">
+      <title>Can Large Language Models Be Good Language Teachers?</title>
+      <author id="liqing-xu" orcid="0009-0008-7673-797X" openreview="~LiQing_Xu1">
+        <first>LiQing</first>
+        <last>Xu</last>
+      </author>
+      <author id="qiwei-li" orcid="0009-0007-2531-6537" openreview="~Qiwei_Li2">
+        <first>Qiwei</first>
+        <last>Li</last>
+      </author>
+      <author id="tianshuo-peng" orcid="0009-0009-7347-0648" openreview="~Tianshuo_Peng1">
+        <first>Tianshuo</first>
+        <last>Peng</last>
+      </author>
+      <author id="zuchao-li" orcid="0000-0003-0436-8446" openreview="~Zuchao_Li1">
+        <first>Zuchao</first>
+        <last>Li</last>
+      </author>
+      <author openreview="~hai_zhao1">
+        <first>Hai</first>
+        <last>Zhao</last>
+        <affiliation>Shanghai Jiao Tong University</affiliation>
+      </author>
+      <author id="ping-wang" orcid="0000-0003-0033-4150" openreview="~Ping_Wang11">
+        <first>Ping</first>
+        <last>Wang</last>
+        <affiliation>Wuhan University</affiliation>
+      </author>
+      <pages>23957-23971</pages>
+      <abstract>Large language models (LLMs) have achieved remarkable success across diverse domains. However, their potential as effective language teachers—particularly in complex pedagogical scenarios like teaching Chinese as a second language—remains inadequately assessed. To address this gap, we propose the first pedagogical competence benchmark for LLMs, rigorously evaluating their performance against international standards for Chinese language teachers. Our framework spans three core dimensions: (1) basic knowledge evaluation, covering 32 subtopics across five major categories; (2) international teacher examination, based on data collected from international Chinese teacher certification exams; and (3) teaching practice evaluation, where target LLMs summarize knowledge points and design instructional content for student models, followed by testing the student models to assess the LLM’s ability to distill and teach key concepts.We conduct a comprehensive evaluation of 13 latest multilingual and Chinese LLMs. While most models demonstrate promising pedagogical potential, there remains substantial room for improvement in their teaching capabilities. This study contributes to the development of AI-assisted language education tools capable of rivaling human teaching excellence. The benchmark dataset and evaluation scripts used in this study are publicly available at <url>https://github.com/Line-Kite/CLTE</url>.</abstract>
+      <pdf hash="8f9eb9ed" />
+      <attachment type="checklist" hash="bf9c1094">2025.emnlp-main.1222.checklist.pdf</attachment>
+      <bibkey>xu-etal-2025-large</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1222</doi>
+    </paper>
+    <paper id="885">
+      <title>Position: <fixed-case>LLM</fixed-case>s Can be Good Tutors in <fixed-case>E</fixed-case>nglish Education</title>
+      <author id="jingheng-ye" orcid="0009-0005-9366-4985" openreview="~Jingheng_Ye1">
+        <first>Jingheng</first>
+        <last>Ye</last>
+      </author>
+      <author openreview="~Shen_Wang2">
+        <first>Shen</first>
+        <last>Wang</last>
+      </author>
+      <author openreview="~Deqing_Zou1">
+        <first>Deqing</first>
+        <last>Zou</last>
+      </author>
+      <author id="yibo-yan" orcid="0009-0006-2546-1403" openreview="~Yibo_Yan1">
+        <first>Yibo</first>
+        <last>Yan</last>
+        <affiliation>The Hong Kong University of Science and Technology and Alibaba</affiliation>
+      </author>
+      <author id="kun-wang" orcid="0000-0003-0602-169X" openreview="~Kun_Wang15">
+        <first>Kun</first>
+        <last>Wang</last>
+      </author>
+      <author id="hai-tao-zheng" orcid="0000-0001-5128-5649" openreview="~Hai-Tao_Zheng2">
+        <first>Hai-Tao</first>
+        <last>Zheng</last>
+        <affiliation>Tsinghua University, Tsinghua University</affiliation>
+      </author>
+      <author openreview="~Ruitong_Liu2">
+        <first>Ruitong</first>
+        <last>Liu</last>
+        <affiliation>Tsinghua University</affiliation>
+      </author>
+      <author id="zenglin-xu" orcid="0000-0001-5550-6461" openreview="~Zenglin_Xu2">
+        <first>Zenglin</first>
+        <last>Xu</last>
+        <affiliation>Shanghai Academy of AI for Science and Fudan University</affiliation>
+      </author>
+      <author id="irwin-king" orcid="0000-0001-8106-6447" openreview="~Irwin_King1">
+        <first>Irwin</first>
+        <last>King</last>
+      </author>
+      <author id="philip-s-yu" orcid="0000-0002-3491-5968" openreview="~Philip_S._Yu1">
+        <first>Philip S.</first>
+        <last>Yu</last>
+        <affiliation>University of Illinois Chicago</affiliation>
+      </author>
+      <author id="qingsong-wen" orcid="0000-0003-4516-2524" openreview="~Qingsong_Wen2">
+        <first>Qingsong</first>
+        <last>Wen</last>
+        <affiliation>Squirrel Ai Learning</affiliation>
+      </author>
+      <pages>17516-17535</pages>
+      <abstract>While recent efforts have begun integrating large language models (LLMs) into English education, they often rely on traditional approaches to learning tasks without fully embracing educational methodologies, thus lacking adaptability to language learning. To address this gap, we argue that <b>LLMs have the potential to serve as effective tutors in English Education</b>. Specifically, LLMs can play three critical roles: (1) as data enhancers, improving the creation of learning materials or serving as student simulations; (2) as task predictors, serving as learner assessment or optimizing learning pathway; and (3) as agents, enabling personalized and inclusive education. We encourage interdisciplinary research to explore these roles, fostering innovation while addressing challenges and risks, ultimately advancing English Education through the thoughtful integration of LLMs.</abstract>
+      <pdf hash="a6ce39fa" />
+      <attachment type="checklist" hash="067cd47d">2025.emnlp-main.885.checklist.pdf</attachment>
+      <bibkey>ye-etal-2025-position</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.885</doi>
+    </paper>
+    <paper id="1309">
+      <title>Semantic Networks Extracted from Students’ Think-Aloud Data are Correlated with Students’ Learning Performance</title>
+      <author openreview="~Pingjing_Yang1">
+        <first>Pingjing</first>
+        <last>Yang</last>
+        <affiliation>University of Illinois at Urbana-Champaign</affiliation>
+      </author>
+      <author id="sullam-jeoung" orcid="0009-0008-8403-5441" openreview="~Sullam_Jeoung1">
+        <first>Sullam</first>
+        <last>Jeoung</last>
+        <affiliation>Amazon</affiliation>
+      </author>
+      <author openreview="~Jennifer_Cromley1">
+        <first>Jennifer</first>
+        <last>Cromley</last>
+        <affiliation>University of Illinois at Urbana-Champaign</affiliation>
+      </author>
+      <author id="jana-diesner" orcid="0000-0001-8183-7109" openreview="~Jana_Diesner1">
+        <first>Jana</first>
+        <last>Diesner</last>
+        <affiliation>Technische Universität München</affiliation>
+      </author>
+      <pages>25791-25804</pages>
+      <abstract>When students reflect on their learning from a textbook via think-aloud processes, network representations can be used to capture the concepts and relations from these data. What can we learn from the resulting network representations about students’ learning processes, knowledge acquisition, and learning outcomes? This study brings methods from entity and relation extraction using classic and LLM-based methods to the application domain of educational psychology. We built a ground-truth baseline of relational data that represents relevant (to educational science), textbook-based information as a semantic network. Among the tested models, SPN4RE and LUKE achieved the best performance in extracting concepts and relations from students’ verbal data. Network representations of students’ verbalizations varied in structure, reflecting different learning processes. Correlating the students’ semantic networks with learning outcomes revealed that denser and more interconnected semantic networks were associated with more elaborated knowledge acquisition. Structural features such as the number of edges and surface overlap with textbook networks significantly correlated with students’ posttest performance.</abstract>
+      <pdf hash="4947dc05" />
+      <attachment type="checklist" hash="e1069a01">2025.emnlp-main.1309.checklist.pdf</attachment>
+      <bibkey>yang-etal-2025-semantic</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1309</doi>
+    </paper>
+    <paper id="1490">
+      <title>
+        <fixed-case>SCRIBE</fixed-case>: Structured Chain Reasoning for Interactive Behaviour Explanations using Tool Calling</title>
+      <author id="fares-fawzi" orcid="0000-0002-5331-579X" openreview="~Fares_Fawzi1">
+        <first>Fares</first>
+        <last>Fawzi</last>
+        <affiliation>EPFL - EPF Lausanne</affiliation>
+      </author>
+      <author id="vinitra-swamy" orcid="0000-0002-6840-5923" openreview="~Vinitra_Swamy1">
+        <first>Vinitra</first>
+        <last>Swamy</last>
+        <affiliation>Swiss Federal Institute of Technology Lausanne</affiliation>
+      </author>
+      <author id="dominik-glandorf" orcid="0009-0000-0038-2721" openreview="~Dominik_Glandorf1">
+        <first>Dominik</first>
+        <last>Glandorf</last>
+        <affiliation>EPFL - EPF Lausanne</affiliation>
+      </author>
+      <author id="tanya-nazaretsky" orcid="0000-0003-1343-0627" openreview="~Tanya_Nazaretsky1">
+        <first>Tanya</first>
+        <last>Nazaretsky</last>
+        <affiliation>EPFL - EPF Lausanne</affiliation>
+      </author>
+      <author id="tanja-kaser" orcid="0000-0003-0672-0415" openreview="~Tanja_Käser1">
+        <first>Tanja</first>
+        <last>Käser</last>
+        <affiliation>EPFL</affiliation>
+      </author>
+      <pages>29285-29310</pages>
+      <abstract>Language models can be used to provide interactive, personalized student feedback in educational settings. However, real-world deployment faces three key challenges: privacy concerns, limited computational resources, and the need for pedagogically valid responses. These constraints require small, open-source models that can run locally and reliably ground their outputs in correct information. We introduce SCRIBE, a framework for multi-hop, tool-augmented reasoning designed to generate valid responses to student questions about feedback reports. SCRIBE combines domain-specific tools with a self-reflective inference pipeline that supports iterative reasoning, tool use, and error recovery. We distil these capabilities into 3B and 8B models via two-stage LoRA fine-tuning on synthetic GPT-4o-generated data. Evaluation with a human-aligned GPT-Judge and a user study with 108 students shows that 8B-SCRIBE models achieve comparable or superior quality to much larger models in key dimensions such as relevance and actionability, while being perceived on par with GPT-4o and Llama-3.3 70B by students. These findings demonstrate the viability of SCRIBE for low-resource, privacy-sensitive educational applications.</abstract>
+      <pdf hash="88a3ef0c" />
+      <attachment type="checklist" hash="248d8bdf">2025.emnlp-main.1490.checklist.pdf</attachment>
+      <bibkey>fawzi-etal-2025-scribe</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1490</doi>
+    </paper>
+    <paper id="39">
+      <title>
+        <fixed-case>AERA</fixed-case> Chat: An Interactive Platform for Automated Explainable Student Answer Assessment</title>
+      <author openreview="~Jiazheng_Li2">
+        <first>Jiazheng</first>
+        <last>Li</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author openreview="~Artem_Bobrov1">
+        <first>Artem</first>
+        <last>Bobrov</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author id="runcong-zhao" orcid="0009-0008-2939-6631" openreview="~Runcong_Zhao1">
+        <first>Runcong</first>
+        <last>Zhao</last>
+      </author>
+      <author openreview="~Cesare_Aloisi1">
+        <first>Cesare</first>
+        <last>Aloisi</last>
+      </author>
+      <author id="yulan-he" orcid="0000-0003-3948-5845" openreview="~Yulan_He1">
+        <first>Yulan</first>
+        <last>He</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <pages>536-545</pages>
+      <abstract>Explainability in automated student answer scoring systems is critical for building trust and enhancing usability among educators. Yet, generating high-quality assessment rationales remains challenging due to the scarcity of annotated data and the prohibitive cost of manual verification, prompting heavy reliance on rationales produced by large language models (LLMs), which are often noisy and unreliable. To address these limitations, we present AERA Chat, an interactive visualization platform designed for automated explainable student answer assessment. AERA Chat leverages multiple LLMs to concurrently score student answers and generate explanatory rationales, offering innovative visualization features that highlight critical answer components and rationale justifications. The platform also incorporates intuitive annotation and evaluation tools, supporting educators in marking tasks and researchers in evaluating rationale quality from different models. We demonstrate the effectiveness of our platform through evaluations of multiple rationale-generation methods on several datasets, showcasing its capability for facilitating robust rationale evaluation and comparative analysis.</abstract>
+      <pdf hash="6ec0995d" />
+      <bibkey>li-etal-2025-aera</bibkey>
+      <doi>10.18653/v1/2025.emnlp-demos.39</doi>
+    </paper>
+    <paper id="97">
+      <title>Computational Blueprints: Generating Isomorphic Mathematics Problems with Large Language Models</title>
+      <author id="jeong-hoon-kim" orcid="0000-0001-9996-9396" openreview="~Jeong-hoon_Kim2">
+        <first>Jeong-Hoon</first>
+        <last>Kim</last>
+        <affiliation>Turing Co.,Ltd and Korea Advanced Institute of Science &amp; Technology</affiliation>
+      </author>
+      <author openreview="~Jinwoo_Nam1">
+        <first>Jinwoo</first>
+        <last>Nam</last>
+        <affiliation>Turing Co. Ltd.</affiliation>
+      </author>
+      <author openreview="~Geunsik_Jo2">
+        <first>Geunsik</first>
+        <last>Jo</last>
+        <affiliation>turing and Chosun University</affiliation>
+      </author>
+      <pages>1389-1401</pages>
+      <abstract>Personalized mathematics education is growing rapidly, creating a strong demand for large sets of similar practice problems.Yet existing studies on mathematics problem generation have focused on data augmentation for training neural language models rather than on direct educational deployment. To bridge this gap, we define a new task, Isomorphic Math Problem Generation (IMPG), designed to produce structurally consistent variants of source problems. Subsequently, we explored LLM-based frameworks for automatic IMPG through successive refinements, and established Computational Blueprints for Isomorphic Twins (CBIT).With meta-level generation and template-based selective variation, CBIT achieves high mathematical correctness and structural consistency while reducing the cost of generation.Empirical results across refinements demonstrate that CBIT is superior on generation accuracy and cost-effectiveness at scale.Most importantly, CBIT-generated problems exhibited an error rate 17.8% lower than expert-authored items, with deployment to 6,732 learners on a commercial education platform yielding 186,870 interactions.</abstract>
+      <pdf hash="43b3faab" />
+      <bibkey>kim-etal-2025-computational</bibkey>
+      <doi>10.18653/v1/2025.emnlp-industry.97</doi>
+    </paper>
+    <paper id="1275">
+      <title>
+        <fixed-case>HESEIA</fixed-case>: A community-based dataset for evaluating social biases in large language models, co-designed in real school settings in <fixed-case>L</fixed-case>atin <fixed-case>A</fixed-case>merica</title>
+      <author id="guido-ivetta" orcid="0009-0006-3248-1461" openreview="~Guido_Ivetta1">
+        <first>Guido</first>
+        <last>Ivetta</last>
+        <affiliation>Universidad Nacional de Córdoba</affiliation>
+      </author>
+      <author id="marcos-j-gomez" orcid="0000-0002-1781-9990" openreview="~Marcos_J_Gomez1">
+        <first>Marcos J</first>
+        <last>Gomez</last>
+        <affiliation>Universidad Nacional de Córdoba</affiliation>
+      </author>
+      <author id="sofia-martinelli" orcid="0009-0001-6144-7231" openreview="~Sofía_Martinelli1">
+        <first>Sofía</first>
+        <last>Martinelli</last>
+      </author>
+      <author openreview="~Pietro_Palombini1">
+        <first>Pietro</first>
+        <last>Palombini</last>
+      </author>
+      <author id="m-emilia-echeveste" orcid="0000-0001-8338-0384" openreview="~M_Emilia_Echeveste1">
+        <first>M Emilia</first>
+        <last>Echeveste</last>
+        <affiliation>Universidad Nacional de Córdoba</affiliation>
+      </author>
+      <author openreview="~Nair_Carolina_Mazzeo2">
+        <first>Nair Carolina</first>
+        <last>Mazzeo</last>
+        <affiliation>Fundación Vía Libre</affiliation>
+      </author>
+      <author id="beatriz-busaniche" orcid="0009-0005-9932-3022" openreview="~Beatriz_Busaniche1">
+        <first>Beatriz</first>
+        <last>Busaniche</last>
+        <affiliation>Universidad Torcuato di Tella and Universidad de Buenos Aires</affiliation>
+      </author>
+      <author id="luciana-benotti" orcid="0000-0001-7456-4333" openreview="~Luciana_Benotti1">
+        <first>Luciana</first>
+        <last>Benotti</last>
+        <affiliation>Universidad nacional de Córdoba</affiliation>
+      </author>
+      <pages>25095-25117</pages>
+      <abstract>Most resources for evaluating social biases in Large Language Models are developed without co-design from the communities affected by these biases, and rarely involve participatory approaches. We introduce HESEIA, a dataset of 46,499 sentences created in a professional development course. The course involved 370 high-school teachers and 5,370 students from 189 Latin-American schools. Unlike existing benchmarks, HESEIA captures intersectional biases across multiple demographic axes and school subjects. It reflects local contexts through the lived experience and pedagogical expertise of educators. Teachers used minimal pairs to create sentences that express stereotypes relevant to their school subjects and communities. We show the dataset diversity in term of demographic axes represented and also in terms of the knowledge areas included. We demonstrate that the dataset contains more stereotypes unrecognized by current LLMs than previous datasets. HESEIA is available to support bias assessments grounded in educational communities.</abstract>
+      <pdf hash="25c4a89e" />
+      <attachment type="checklist" hash="84fa9982">2025.emnlp-main.1275.checklist.pdf</attachment>
+      <bibkey>ivetta-etal-2025-heseia</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1275</doi>
+    </paper>
+    <paper id="68">
+      <title>
+        <fixed-case>U</fixed-case>ni<fixed-case>EDU</fixed-case>: Toward Unified and Efficient Large Multimodal Models for Educational Tasks</title>
+      <author id="zhendong-chu" orcid="0000-0002-5707-1112" openreview="~Zhendong_Chu1">
+        <first>Zhendong</first>
+        <last>Chu</last>
+        <affiliation>Squirrel Ai Learning</affiliation>
+      </author>
+      <author id="jian-xie" orcid="0009-0000-2867-4726" openreview="~Jian_Xie3">
+        <first>Jian</first>
+        <last>Xie</last>
+      </author>
+      <author openreview="~Shen_Wang2">
+        <first>Shen</first>
+        <last>Wang</last>
+      </author>
+      <author id="zichao-wang" orcid="0000-0002-6974-9939" openreview="~Zichao_Wang1">
+        <first>Zichao</first>
+        <last>Wang</last>
+        <affiliation>Adobe Research</affiliation>
+      </author>
+      <author id="qingsong-wen" orcid="0000-0003-4516-2524" openreview="~Qingsong_Wen2">
+        <first>Qingsong</first>
+        <last>Wen</last>
+        <affiliation>Squirrel Ai Learning</affiliation>
+      </author>
+      <pages>1007-1016</pages>
+      <abstract>Education materials for K-12 students often consist of multiple modalities, such as text and images, posing challenges for models to fully understand nuanced information in these materials. In this paper, we propose a unified language and vision assistant UniEDU designed for various educational applications, including knowledge recommendation, knowledge tracing, time cost prediction, and user answer prediction, all within a single model. Unlike conventional task-specific models, UniEDU offers a unified solution that excels across multiple educational tasks while maintaining strong generalization capabilities. Its adaptability makes it well-suited for real-world deployment in diverse learning environments. Furthermore, UniEDU is optimized for industry-scale deployment by significantly reducing computational overhead—achieving approximately a 300% increase in efficiency—while maintaining competitive performance with minimal degradation compared to fully fine-tuned models. This work represents a significant step toward creating versatile AI systems tailored to the evolving demands of education.</abstract>
+      <pdf hash="5efb9ede" />
+      <bibkey>chu-etal-2025-uniedu</bibkey>
+      <doi>10.18653/v1/2025.emnlp-industry.68</doi>
+    </paper>
+    <paper id="1274">
+      <title>
+        <fixed-case>SMART</fixed-case>: Simulated Students Aligned with Item Response Theory for Question Difficulty Prediction</title>
+      <author id="alexander-scarlatos" orcid="0000-0001-6419-5909" openreview="~Alexander_Scarlatos1">
+        <first>Alexander</first>
+        <last>Scarlatos</last>
+        <affiliation>Department of Computer Science, University of Massachusetts at Amherst</affiliation>
+      </author>
+      <author id="nigel-fernandez" orcid="0000-0002-2258-0208" openreview="~Nigel_Fernandez1">
+        <first>Nigel</first>
+        <last>Fernandez</last>
+      </author>
+      <author openreview="~Christopher_Ormerod1">
+        <first>Christopher</first>
+        <last>Ormerod</last>
+        <affiliation>Cambium Assessment</affiliation>
+      </author>
+      <author openreview="~Susan_Lottridge1">
+        <first>Susan</first>
+        <last>Lottridge</last>
+      </author>
+      <author id="andrew-lan" orcid="0000-0002-8475-6600" openreview="~Andrew_Lan1">
+        <first>Andrew</first>
+        <last>Lan</last>
+        <affiliation>University of Massachusetts, Amherst</affiliation>
+      </author>
+      <pages>25071-25094</pages>
+      <abstract>Item (question) difficulties play a crucial role in educational assessments, enabling accurate and efficient assessment of student abilities and personalization to maximize learning outcomes. Traditionally, estimating item difficulties can be costly, requiring real students to respond to items, followed by fitting an item response theory (IRT) model to get difficulty estimates. This approach cannot be applied to the cold-start setting for previously unseen items either. In this work, we present SMART (Simulated Students Aligned with IRT), a novel method for aligning simulated students with instructed ability, which can then be used in simulations to predict the difficulty of open-ended items. We achieve this alignment using direct preference optimization (DPO), where we form preference pairs based on how likely responses are under a ground-truth IRT model. We perform a simulation by generating thousands of responses, evaluating them with a large language model (LLM)-based scoring model, and fit the resulting data to an IRT model to obtain item difficulty estimates. Through extensive experiments on two real-world student response datasets, we show that SMART outperforms other item difficulty prediction methods by leveraging its improved ability alignment.</abstract>
+      <pdf hash="eb024634" />
+      <attachment type="checklist" hash="0e0cea34">2025.emnlp-main.1274.checklist.pdf</attachment>
+      <bibkey>scarlatos-etal-2025-smart</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1274</doi>
+    </paper>
+    <paper id="1760">
+      <title>
+        <fixed-case>E</fixed-case>du<fixed-case>V</fixed-case>id<fixed-case>QA</fixed-case>: Generating and Evaluating Long-form Answers to Student Questions based on Lecture Videos</title>
+      <author openreview="~Sourjyadip_Ray1">
+        <first>Sourjyadip</first>
+        <last>Ray</last>
+      </author>
+      <author openreview="~Shubham_Sharma6">
+        <first>Shubham</first>
+        <last>Sharma</last>
+      </author>
+      <author openreview="~Somak_Aditya1">
+        <first>Somak</first>
+        <last>Aditya</last>
+        <affiliation>Indian Institute of Technology Kharagpur</affiliation>
+      </author>
+      <author openreview="~Pawan_Goyal1">
+        <first>Pawan</first>
+        <last>Goyal</last>
+        <affiliation>IIT Kharagpur</affiliation>
+      </author>
+      <pages>34701-34727</pages>
+      <abstract>As digital platforms redefine educational paradigms, ensuring interactivity remains vital for effective learning. This paper explores using Multimodal Large Language Models (MLLMs) to automatically respond to student questions from online lectures - a novel question answering task of real world significance. We introduce the EduVidQA Dataset with 5252 question-answer pairs (both synthetic and real-world) from 296 computer science videos covering diverse topics and difficulty levels. To understand the needs of the dataset and task evaluation, we empirically study the qualitative preferences of students, which we provide as an important contribution to this line of work. Our benchmarking experiments consist of 6 state-of-the-art MLLMs, through which we study the effectiveness of our synthetic data for finetuning, as well as showing the challenging nature of the task. We evaluate the models using both text-based and qualitative metrics, thus showing a nuanced perspective of the models’ performance, which is paramount to future work. This work not only sets a benchmark for this important problem, but also opens exciting avenues for future research in the field of Natural Language Processing for Education.</abstract>
+      <pdf hash="d00c1560" />
+      <attachment type="checklist" hash="c396761e">2025.emnlp-main.1760.checklist.pdf</attachment>
+      <bibkey>ray-etal-2025-eduvidqa</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1760</doi>
+    </paper>
+    <paper id="42">
+      <title>
+        <fixed-case>EMNLP</fixed-case>: Educator-role Moral and Normative Large Language Models Profiling</title>
+      <author id="yilin-jiang" orcid="0009-0004-3179-6969" openreview="~Yilin_Jiang1">
+        <first>Yilin</first>
+        <last>Jiang</last>
+      </author>
+      <author id="mingzi-zhang" orcid="0009-0006-8539-5559" openreview="~Mingzi_Zhang2">
+        <first>Mingzi</first>
+        <last>Zhang</last>
+      </author>
+      <author id="sheng-jin" orcid="0009-0002-0090-7553" openreview="~Sheng_Jin6">
+        <first>Sheng</first>
+        <last>Jin</last>
+      </author>
+      <author id="zengyi-yu" orcid="0009-0003-4571-340X" openreview="~Zengyi_Yu1">
+        <first>Zengyi</first>
+        <last>Yu</last>
+      </author>
+      <author id="xiangjie-kong" orcid="0000-0003-2698-3319" openreview="~Xiangjie_Kong1">
+        <first>Xiangjie</first>
+        <last>Kong</last>
+      </author>
+      <author id="binghao-tu" orcid="0009-0008-5065-2839" openreview="~Binghao_Tu1">
+        <first>Binghao</first>
+        <last>Tu</last>
+      </author>
+      <pages>815-843</pages>
+      <abstract>Simulating Professions (SP) enables Large Language Models (LLMs) to emulate professional roles. However, comprehensive psychological and ethical evaluation in these contexts remains lacking. This paper introduces EMNLP, an Educator-role Moral and Normative LLMs Profiling framework for personality profiling, moral development stage measurement, and ethical risk under soft prompt injection. EMNLP extends existing scales and constructs 88 teacher-specific moral dilemmas, enabling profession-oriented comparison with human teachers. A targeted soft prompt injection set evaluates compliance and vulnerability in teacher SP. Experiments on 14 LLMs show teacher-role LLMs exhibit more idealized and polarized personalities than human teachers, excel in abstract moral reasoning, but struggle with emotionally complex situations. Models with stronger reasoning are more vulnerable to harmful prompt injection, revealing a paradox between capability and safety. The model temperature and other hyperparameters have limited influence except in some risk behaviors. This paper presents the first benchmark to assess ethical and psychological alignment of teacher-role LLMs for educational AI. Resources are available at <url>https://e-m-n-l-p.github.io/</url>.</abstract>
+      <pdf hash="f78a909e" />
+      <attachment type="checklist" hash="806cc7ea">2025.emnlp-main.42.checklist.pdf</attachment>
+      <bibkey>jiang-etal-2025-emnlp</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.42</doi>
+    </paper>
+    <paper id="553">
+      <title>
+        <fixed-case>LLM</fixed-case>s cannot spot math errors, even when allowed to peek into the solution</title>
+      <author id="kv-aditya-srivatsa" orcid="0000-0002-7583-7580" openreview="~KV_Aditya_Srivatsa1">
+        <first>Kv Aditya</first>
+        <last>Srivatsa</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <author id="kaushal-maurya" orcid="0000-0003-0249-6508" openreview="~Kaushal_Kumar_Maurya1">
+        <first>Kaushal Kumar</first>
+        <last>Maurya</last>
+      </author>
+      <author id="ekaterina-kochmar" orcid="0000-0003-3328-1374" openreview="~Ekaterina_Kochmar2">
+        <first>Ekaterina</first>
+        <last>Kochmar</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <pages>10914-10928</pages>
+      <abstract>Large language models (LLMs) demonstrate remarkable performance on math word problems, yet they have been shown to struggle with meta-reasoning tasks such as identifying errors in student solutions. In this work, we investigate the challenge of locating the first error step in stepwise solutions using two error reasoning datasets: VtG and PRM800K. Our experiments show that state-of-the-art LLMs struggle to locate the first error step in student solutions even when given access to the reference solution. To that end, we propose an approach that generates an intermediate corrected student solution, aligning more closely with the original student’s solution, which helps improve performance.</abstract>
+      <pdf hash="069b945b" />
+      <attachment type="checklist" hash="b040617a">2025.emnlp-main.553.checklist.pdf</attachment>
+      <bibkey>srivatsa-etal-2025-llms-spot</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.553</doi>
+    </paper>
+    <paper id="1619">
+      <title>
+        <fixed-case>VEHME</fixed-case>: A Vision-Language Model For Evaluating Handwritten Mathematics Expressions</title>
+      <author openreview="~Thu_Phuong_Nguyen1">
+        <first>Thu Phuong</first>
+        <last>Nguyen</last>
+        <affiliation>Ulsan National Institute of Science and Technology</affiliation>
+      </author>
+      <author id="duc-m-nguyen" orcid="0009-0009-6979-309X" openreview="~Duc_M._Nguyen1">
+        <first>Duc M.</first>
+        <last>Nguyen</last>
+      </author>
+      <author openreview="~Hyotaek_Jeon1">
+        <first>Hyotaek</first>
+        <last>Jeon</last>
+        <affiliation>Pohang University of Science and Technology</affiliation>
+      </author>
+      <author id="hyunwook-lee" orcid="0000-0002-5506-7347" openreview="~Hyunwook_Lee1">
+        <first>Hyunwook</first>
+        <last>Lee</last>
+        <affiliation>Pohang University of Science and Technology</affiliation>
+      </author>
+      <author openreview="~Hyunmin_Song1">
+        <first>Hyunmin</first>
+        <last>Song</last>
+        <affiliation>Ulsan National Institute of Science and Technology</affiliation>
+      </author>
+      <author openreview="~Sungahn_Ko1">
+        <first>Sungahn</first>
+        <last>Ko</last>
+        <affiliation>POSTECH</affiliation>
+      </author>
+      <author id="taehwan-kim" orcid="0000-0002-6571-4632" openreview="~Taehwan_Kim1">
+        <first>Taehwan</first>
+        <last>Kim</last>
+        <affiliation>Ulsan National Institute of Science and Technology</affiliation>
+      </author>
+      <pages>31793-31813</pages>
+      <abstract>Automatically assessing handwritten mathematical solutions is an important problem in educational technology with practical applications, but remains a significant challenge due to the diverse formats, unstructured layouts, and symbolic complexity of student work. To address this challenge, we introduce VEHME-a <tex-math>\textbf{V}</tex-math>ision-Language Model for <tex-math>\textbf{E}</tex-math>valuating <tex-math>\textbf{H}</tex-math>andwritten <tex-math>\textbf{M}</tex-math>athematics <tex-math>\textbf{E}</tex-math>xpressions—designed to assess open-form handwritten math responses with high accuracy and interpretable reasoning traces. VEHME integrates a two-phase training pipeline: (i) supervised fine-tuning using structured reasoning data, and (ii) reinforcement learning that aligns model outputs with multi-dimensional grading objectives, including correctness, reasoning depth, and error localization. To enhance spatial understanding, we propose an Expression-Aware Visual Prompting Module, trained on our synthesized multi-line math expressions dataset to robustly guide attention in visually heterogeneous inputs. Evaluated on AIHub and FERMAT datasets, VEHME achieves state-of-the-art performance among open-source models and approaches the accuracy of proprietary systems, demonstrating its potential as a scalable and accessible tool for automated math assessment. Our training and experiment code is publicly available at our GitHub repository.</abstract>
+      <pdf hash="39f253c7" />
+      <attachment type="checklist" hash="1421d7ba">2025.emnlp-main.1619.checklist.pdf</attachment>
+      <bibkey>nguyen-etal-2025-vehme</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1619</doi>
+    </paper>
+    <paper id="546">
+      <title>
+        <fixed-case>D</fixed-case>ischarge<fixed-case>S</fixed-case>im: A Simulation Benchmark for Educational Doctor–Patient Communication at Discharge</title>
+      <author id="zonghai-yao" orcid="0000-0002-5707-8410" openreview="~Zonghai_Yao1">
+        <first>Zonghai</first>
+        <last>Yao</last>
+        <affiliation>University of Massachusetts at Amherst</affiliation>
+      </author>
+      <author openreview="~Michael_Sun2">
+        <first>Michael</first>
+        <last>Sun</last>
+      </author>
+      <author id="won-seok-jang" orcid="0009-0001-5439-7299" openreview="~Won_Seok_Jang1">
+        <first>Won Seok</first>
+        <last>Jang</last>
+        <affiliation>University of Massachusetts at Lowell</affiliation>
+      </author>
+      <author id="sunjae-kwon" orcid="0000-0002-5425-6779" openreview="~SUNJAE_KWON1">
+        <first>Sunjae</first>
+        <last>Kwon</last>
+      </author>
+      <author openreview="~Soie_Kwon2">
+        <first>Soie</first>
+        <last>Kwon</last>
+        <affiliation>Chung-Ang University</affiliation>
+      </author>
+      <author id="hong-yu" orcid="0000-0001-9263-5035" openreview="~hong_yu1">
+        <first>Hong</first>
+        <last>Yu</last>
+        <affiliation>University of Massachusetts at Lowell</affiliation>
+      </author>
+      <pages>10772-10798</pages>
+      <abstract>Discharge communication is a critical yet underexplored component of patient care, where the goal shifts from diagnosis to education. While recent large language model (LLM) benchmarks emphasize in-visit diagnostic reasoning, they fail to evaluate models’ ability to support patients after the visit. We introduce DischargeSim, a novel benchmark that evaluates LLMs on their ability to act as personalized discharge educators. DischargeSim simulates post-visit, multi-turn conversations between LLM-driven DoctorAgents and PatientAgents with diverse psychosocial profiles (e.g., health literacy, education, emotion). Interactions are structured across six clinically grounded discharge topics and assessed along three axes: (1) dialogue quality via automatic and LLM-as-judge evaluation, (2) personalized document generation including free-text summaries and structured AHRQ checklists, and (3) patient comprehension through a downstream multiple-choice exam. Experiments across 18 LLMs reveal significant gaps in discharge education capability, with performance varying widely across patient profiles. Notably, model size does not always yield better education outcomes, highlighting trade-offs in strategy use and content prioritization. DischargeSim offers a first step toward benchmarking LLMs in post-visit clinical education and promoting equitable, personalized patient support.</abstract>
+      <pdf hash="3f6c0f2c" />
+      <attachment type="checklist" hash="7597cd22">2025.emnlp-main.546.checklist.pdf</attachment>
+      <bibkey>yao-etal-2025-dischargesim</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.546</doi>
+    </paper>
+    <paper id="723">
+      <title>Can <fixed-case>LLM</fixed-case>s Reason Abstractly Over Math Word Problems Without <fixed-case>C</fixed-case>o<fixed-case>T</fixed-case>? Disentangling Abstract Formulation From Arithmetic Computation</title>
+      <author openreview="~Ziling_Cheng1">
+        <first>Ziling</first>
+        <last>Cheng</last>
+      </author>
+      <author id="meng-cao-8413" orcid="0009-0000-2207-8413" openreview="~Meng_Cao3">
+        <first>Meng</first>
+        <last>Cao</last>
+        <affiliation>McGill University</affiliation>
+      </author>
+      <author id="leila-pishdad" orcid="0000-0001-7825-5757" openreview="~Leila_Pishdad1">
+        <first>Leila</first>
+        <last>Pishdad</last>
+      </author>
+      <author openreview="~Yanshuai_Cao1">
+        <first>Yanshuai</first>
+        <last>Cao</last>
+      </author>
+      <author id="jackie-chi-kit-cheung" orcid="0009-0003-8694-6429" openreview="~Jackie_CK_Cheung1">
+        <first>Jackie CK</first>
+        <last>Cheung</last>
+        <affiliation>McGill University, Mila Research Institute and Microsoft</affiliation>
+      </author>
+      <pages>14306-14333</pages>
+      <abstract>Final-answer-based metrics are commonly used for evaluating large language models (LLMs) on math word problems, often taken as proxies for reasoning ability. However, such metrics conflate two distinct sub-skills: abstract formulation (capturing mathematical relationships using expressions) and arithmetic computation (executing the calculations). Through a disentangled evaluation on GSM8K and SVAMP, we find that the final-answer accuracy of Llama-3 and Qwen2.5 (1B-32B) without CoT is overwhelmingly bottlenecked by the arithmetic computation step and not by the abstract formulation step. Contrary to the common belief, we show that CoT primarily aids in computation, with limited impact on abstract formulation. Mechanistically, we show that these two skills are composed conjunctively even in a single forward pass without any reasoning steps via an abstract-then-compute mechanism: models first capture problem abstractions, then handle computation. Causal patching confirms these abstractions are present, transferable, composable, and precede computation. These behavioural and mechanistic findings highlight the need for disentangled evaluation to accurately assess LLM reasoning and to guide future improvements.</abstract>
+      <pdf hash="6883822a" />
+      <attachment type="checklist" hash="6044a677">2025.emnlp-main.723.checklist.pdf</attachment>
+      <bibkey>cheng-etal-2025-llms</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.723</doi>
+    </paper>
+    <paper id="1736">
+      <title>
+        <fixed-case>E</fixed-case>du<fixed-case>A</fixed-case>dapt: A Question Answer Benchmark Dataset for Evaluating Grade-Level Adaptability in <fixed-case>LLM</fixed-case>s</title>
+      <author openreview="~Numaan_Naeem1">
+        <first>Numaan</first>
+        <last>Naeem</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <author id="abdellah-el-mekki" orcid="0000-0002-7394-3611" openreview="~Abdellah_EL_MEKKI1">
+        <first>Abdellah</first>
+        <last>El Mekki</last>
+        <affiliation>University of British Columbia</affiliation>
+      </author>
+      <author id="muhammad-abdul-mageed" orcid="0000-0002-8590-2040" openreview="~Muhammad_Abdul-Mageed2">
+        <first>Muhammad</first>
+        <last>Abdul-Mageed</last>
+        <affiliation>University of British Columbia</affiliation>
+      </author>
+      <pages>34236-34263</pages>
+      <abstract>Large language models (LLMs) are transforming education by answering questions, explaining complex concepts, and generating content across a wide range of subjects. Despite strong performance on academic benchmarks, they often fail to tailor responses to students’ grade levels. This is a critical need in K-12 education, where age-appropriate vocabulary and explanation are essential for effective learning. Existing models frequently produce outputs that are too advanced or vague for younger learners, and there are no standardized benchmarks to evaluate their ability to adjust across cognitive and developmental stages. To address this gap, we introduce EduAdapt, a benchmark of nearly 48k grade-labeled QA pairs across nine science subjects, spanning Grades 1-12 and grouped into four grade levels. We evaluate a diverse set of open-source LLMs on EduAdapt and find that while larger models generally perform better, they still struggle with generating suitable responses for early-grade students (Grades 1-5). Our work presents the first dataset and evaluation framework for assessing grade-level adaptability in LLMs, aiming to foster more developmentally aligned educational AI systems through better training and prompting strategies. EduAdapt code and datasets are publicly available at <url>https://github.com/NaumanNaeem/EduAdapt</url>.</abstract>
+      <pdf hash="90a34c09" />
+      <attachment type="checklist" hash="7eafafc3">2025.emnlp-main.1736.checklist.pdf</attachment>
+      <bibkey>naeem-etal-2025-eduadapt</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1736</doi>
+    </paper>
+    <paper id="45">
+      <title>
+        <fixed-case>L</fixed-case>earn<fixed-case>L</fixed-case>ens: <fixed-case>LLM</fixed-case>-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop</title>
+      <author id="runcong-zhao" orcid="0009-0008-2939-6631" openreview="~Runcong_Zhao1">
+        <first>Runcong</first>
+        <last>Zhao</last>
+      </author>
+      <author openreview="~Artem_Bobrov1">
+        <first>Artem</first>
+        <last>Bobrov</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author openreview="~Jiazheng_Li2">
+        <first>Jiazheng</first>
+        <last>Li</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author openreview="~Cesare_Aloisi1">
+        <first>Cesare</first>
+        <last>Aloisi</last>
+      </author>
+      <author id="yulan-he" orcid="0000-0003-3948-5845" openreview="~Yulan_He1">
+        <first>Yulan</first>
+        <last>He</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <pages>625-633</pages>
+      <abstract>Effective feedback is essential for student learning but is time-intensive for teachers. We present LearnLens, a modular, LLM-based system that generates personalised, curriculum-aligned feedback in science education. LearnLens comprises three components: (1) an error-aware assessment module that captures nuanced reasoning errors; (2) a curriculum-grounded generation module that uses a structured, topic-linked memory chain rather than traditional similarity-based retrieval, improving relevance and reducing noise; and (3) an educator-in-the-loop interface for customisation and oversight. LearnLens addresses key challenges in existing systems, offering scalable, high-quality feedback that empowers both teachers and students.</abstract>
+      <pdf hash="38a618b2" />
+      <bibkey>zhao-etal-2025-learnlens</bibkey>
+      <doi>10.18653/v1/2025.emnlp-demos.45</doi>
+    </paper>
+    <paper id="1397">
+      <title>
+        <fixed-case>PII</fixed-case>vot: A Lightweight <fixed-case>NLP</fixed-case> Anonymization Framework for Question-Anchored Tutoring Dialogues</title>
+      <author id="matthew-zent" orcid="0000-0003-4555-8764" openreview="~Matthew_Zent2">
+        <first>Matthew</first>
+        <last>Zent</last>
+        <affiliation>Eedi and University of Minnesota - Twin Cities</affiliation>
+      </author>
+      <author openreview="~Digory_Smith1">
+        <first>Digory</first>
+        <last>Smith</last>
+        <affiliation>Eedi</affiliation>
+      </author>
+      <author id="simon-woodhead" orcid="0000-0002-2192-9797" openreview="~Simon_Woodhead1">
+        <first>Simon</first>
+        <last>Woodhead</last>
+        <affiliation>Eedi</affiliation>
+      </author>
+      <pages>27479-27488</pages>
+      <abstract>Personally identifiable information (PII) anonymization is a high-stakes task that poses a barrier to many open-science data sharing initiatives. While PII identification has made large strides in recent years, in practice, error thresholds and the recall/precision trade-off still limit the uptake of these anonymization pipelines. We present PIIvot, a lighter-weight framework for PII anonymization that leverages knowledge of the data context to simplify the PII detection problem. To demonstrate its effectiveness, we also contribute QATD_2k, the largest open-source real-world tutoring dataset of its kind, to support the demand for quality educational dialogue data.</abstract>
+      <pdf hash="f1afe1c5" />
+      <attachment type="checklist" hash="64fe84d0">2025.emnlp-main.1397.checklist.pdf</attachment>
+      <bibkey>zent-etal-2025-piivot</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1397</doi>
+    </paper>
+    <paper id="1401">
+      <title>
+        <fixed-case>H</fixed-case>ealth<fixed-case>C</fixed-case>ards: Exploring Text-to-Image Generation as Visual Aids for Healthcare Knowledge Democratizing and Education</title>
+      <author id="qian-wu" orcid="0000-0002-2417-8837" openreview="~Qian_Wu4">
+        <first>Qian</first>
+        <last>Wu</last>
+        <affiliation>Chinese University of Hong Kong</affiliation>
+      </author>
+      <author id="zheyao-gao" orcid="0000-0003-0045-0397" openreview="~Zheyao_Gao1">
+        <first>Zheyao</first>
+        <last>Gao</last>
+      </author>
+      <author id="longfei-gou" orcid="0009-0001-2761-5975" openreview="~Longfei_Gou1">
+        <first>Longfei</first>
+        <last>Gou</last>
+      </author>
+      <author id="yifan-hou" orcid="0000-0002-3197-4460" openreview="~Yifan_Hou1">
+        <first>Yifan</first>
+        <last>Hou</last>
+        <affiliation>Department of Computer Science, Swiss Federal Institute of Technology</affiliation>
+      </author>
+      <author id="ann-sin-nga-lau" orcid="0000-0002-6388-4988" openreview="~Ann_Sin_Nga_Lau1">
+        <first>Ann Sin Nga</first>
+        <last>Lau</last>
+        <affiliation>The Chinese University of Hong Kong and The Chinese University of Hong Kong</affiliation>
+      </author>
+      <author id="qi-dou" orcid="0000-0002-3416-9950" openreview="~Qi_Dou2">
+        <first>Qi</first>
+        <last>Dou</last>
+        <affiliation>The Chinese University of Hong Kong</affiliation>
+      </author>
+      <pages>27536-27558</pages>
+      <abstract>The evolution of text-to-image (T2I) generation techniques has introduced new capabilities for information visualization, with the potential to advance knowledge democratization and education. In this paper, we investigate how T2I models can be adapted to generate educational health knowledge contents, exploring their potential to make healthcare information more visually accessible and engaging. We explore methods to harness recent T2I models for generating health knowledge flashcards—visual educational aids that present healthcare information through appealing and concise imagery. To support this goal, we curated a diverse, high-quality healthcare knowledge flashcard dataset containing 2,034 samples sourced from credible medical resources. We further validate the effectiveness of fine-tuning open-source models with our dataset, demonstrating their promise as specialized health flashcard generators. Our code and dataset are available at: <url>https://github.com/med-air/HealthCards</url>.</abstract>
+      <pdf hash="9d72f092" />
+      <attachment type="checklist" hash="d6344382">2025.emnlp-main.1401.checklist.pdf</attachment>
+      <bibkey>wu-etal-2025-healthcards</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1401</doi>
+    </paper>
+    <paper id="305">
+      <title>Diagram-Driven Course Questions Generation</title>
+      <author id="xinyu-zhang-0116" orcid="0009-0008-7658-0116" openreview="~Xinyu_Zhang26">
+        <first>Xinyu</first>
+        <last>Zhang</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author id="lingling-zhang" orcid="0000-0003-3074-8565" openreview="~Lingling_Zhang1">
+        <first>Lingling</first>
+        <last>Zhang</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author id="yanrui-wu" orcid="0009-0005-5425-174X" openreview="~Yanrui_Wu2">
+        <first>Yanrui</first>
+        <last>Wu</last>
+      </author>
+      <author id="muye-huang" orcid="0009-0002-8128-3534" openreview="~Muye_Huang1">
+        <first>Muye</first>
+        <last>Huang</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author id="wenjun-wu" orcid="0000-0002-9377-9062" openreview="~Wenjun_Wu1">
+        <first>Wenjun</first>
+        <last>Wu</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author id="bo-li-6102" orcid="0000-0002-4033-6102" openreview="~Bo_Li57">
+        <first>Bo</first>
+        <last>Li</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author openreview="~Shaowei_Wang2">
+        <first>Shaowei</first>
+        <last>Wang</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <author id="basura-fernando" orcid="0000-0002-6920-9916" openreview="~Basura_Fernando1">
+        <first>Basura</first>
+        <last>Fernando</last>
+        <affiliation>Nanyang Technological University and A*STAR</affiliation>
+      </author>
+      <author id="jun-liu" orcid="0000-0002-6004-0675" openreview="~Jun_Liu10">
+        <first>Jun</first>
+        <last>Liu</last>
+        <affiliation>Xi’an Jiaotong University</affiliation>
+      </author>
+      <pages>5984-5999</pages>
+      <abstract>Visual Question Generation (VQG) research focuses predominantly on natural images while neglecting the diagram, which is a critical component in educational materials. To meet the needs of pedagogical assessment, we propose the Diagram-Driven Course Questions Generation (DDCQG) task and construct DiagramQG, a comprehensive dataset with 15,720 diagrams and 25,798 questions across 37 subjects and 371 courses. Our approach employs <i>course</i> and <i>input</i> text constraints to generate course-relevant questions about specific diagram elements. We reveal three challenges of DDCQG: domain-specific knowledge requirements across courses, long-tail distribution in course coverage, and high information density in diagrams. To address these, we propose the Hierarchical Knowledge Integration framework (HKI-DDCQG), which utilizes trainable CLIP for identifying relevant diagram patches, leverages frozen vision-language models for knowledge extraction, and generates questions with trainable T5. Experiments demonstrate that HKI-DDCQG outperforms existing models on DiagramQG while maintaining strong generalizability across natural image datasets, establishing a strong baseline for DDCQG.</abstract>
+      <pdf hash="f5405e8b" />
+      <attachment type="checklist" hash="bd4ca78c">2025.emnlp-main.305.checklist.pdf</attachment>
+      <bibkey>zhang-etal-2025-diagram</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.305</doi>
+    </paper>
+    <paper id="155">
+      <title>Two Heads Are Better Than One: Dual-Model Verbal Reflection at Inference-Time</title>
+      <author openreview="~Jiazheng_Li2">
+        <first>Jiazheng</first>
+        <last>Li</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author id="yuxiang-zhou" orcid="0009-0004-3720-9083" openreview="~Yuxiang_Zhou3">
+        <first>Yuxiang</first>
+        <last>Zhou</last>
+        <affiliation>Queen Mary, University of London</affiliation>
+      </author>
+      <author id="junru-lu" orcid="0000-0003-4668-5351" openreview="~Junru_Lu1">
+        <first>Junru</first>
+        <last>Lu</last>
+        <affiliation>Tencent Youtu Lab</affiliation>
+      </author>
+      <author openreview="~Gladys_Tyen1">
+        <first>Gladys</first>
+        <last>Tyen</last>
+        <affiliation>Google</affiliation>
+      </author>
+      <author id="lin-gui" orcid="0000-0002-8054-9524" openreview="~Lin_Gui3">
+        <first>Lin</first>
+        <last>Gui</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <author openreview="~Cesare_Aloisi1">
+        <first>Cesare</first>
+        <last>Aloisi</last>
+      </author>
+      <author id="yulan-he" orcid="0000-0003-3948-5845" openreview="~Yulan_He1">
+        <first>Yulan</first>
+        <last>He</last>
+        <affiliation>King’s College London, University of London</affiliation>
+      </author>
+      <pages>3119-3140</pages>
+      <abstract>Although preference optimization methods have improved reasoning performance in Large Language Models (LLMs), they often lack transparency regarding why one reasoning outcome is preferred over another. This limitation is especially critical in Automated Student Answer Scoring (ASAS), where explainability is essential to justify assessment outcomes. Verbal reinforcement learning offers the potential to generate explicit reflection, but it tends to produce superficial critiques that can harm assessment performance. Existing LLMs also struggle to reliably detect subtle reasoning errors in ASAS tasks. Moreover, manually identifying intermediate reasoning errors is expensive and difficult to scale. To address these challenges, we introduce a <b>contrastive reflection synthesis pipeline</b> that generates precise verbal feedback by identifying discrepancies in structure reasoning graph paths. Leveraging these synthetic reflection data, we propose <i>DARS</i>, a Dual-model Reflective Scoring framework featuring a dedicated Critic model trained for effective reflection. <i>DARS</i> achieves strong performance and consistently outperforms existing ASAS baselines across all evaluation metrics. Extensive experiments further provide novel insights into the value of reflection data, framework design, and the scaling behavior of <i>DARS</i>. We release the DARS code at <url>https://github.com/lijiazheng99/DARS</url>.</abstract>
+      <pdf hash="3c59afd7" />
+      <attachment type="checklist" hash="582298bf">2025.emnlp-main.155.checklist.pdf</attachment>
+      <bibkey>li-etal-2025-two</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.155</doi>
+    </paper>
+    <paper id="491">
+      <title>
+        <fixed-case>U</fixed-case>niversal<fixed-case>CEFR</fixed-case>: Enabling Open Multilingual Research on Language Proficiency Assessment</title>
+      <author id="joseph-marvin-imperial" orcid="0000-0003-1073-6129" openreview="~Joseph_Marvin_Imperial1">
+        <first>Joseph Marvin</first>
+        <last>Imperial</last>
+        <affiliation>University of Bath</affiliation>
+      </author>
+      <author id="abdullah-barayan" orcid="0009-0008-9505-3514" openreview="~Abdullah_Barayan1">
+        <first>Abdullah</first>
+        <last>Barayan</last>
+        <affiliation>Cardiff University and King Abdul Aziz University</affiliation>
+      </author>
+      <author id="regina-stodden" orcid="0000-0002-7470-0961" openreview="~Regina_Stodden1">
+        <first>Regina</first>
+        <last>Stodden</last>
+        <affiliation>Universität Bielefeld</affiliation>
+      </author>
+      <author id="rodrigo-wilkens" orcid="0000-0003-4366-1215" openreview="~Rodrigo_Wilkens1">
+        <first>Rodrigo</first>
+        <last>Wilkens</last>
+        <affiliation>University of Exeter</affiliation>
+      </author>
+      <author id="ricardo-munoz-sanchez" orcid="0000-0002-9902-2925" openreview="~Ricardo_Muñoz_Sánchez1">
+        <first>Ricardo</first>
+        <last>Muñoz Sánchez</last>
+        <affiliation>Gothenburg University</affiliation>
+      </author>
+      <author openreview="~Lingyun_Gao3">
+        <first>Lingyun</first>
+        <last>Gao</last>
+      </author>
+      <author openreview="~Melissa_Torgbi1">
+        <first>Melissa</first>
+        <last>Torgbi</last>
+      </author>
+      <author id="dawn-knight" orcid="0000-0002-4745-6502" openreview="~Dawn_Knight1">
+        <first>Dawn</first>
+        <last>Knight</last>
+        <affiliation>Cardiff University</affiliation>
+      </author>
+      <author id="gail-forey" orcid="0000-0003-4562-942X" openreview="~Gail_Forey1">
+        <first>Gail</first>
+        <last>Forey</last>
+        <affiliation>University of Bath</affiliation>
+      </author>
+      <author id="reka-r-jablonkai" orcid="0000-0001-9616-5683" openreview="~Reka_R._Jablonkai1">
+        <first>Reka R.</first>
+        <last>Jablonkai</last>
+        <affiliation>University of Bath</affiliation>
+      </author>
+      <author id="ekaterina-kochmar" orcid="0000-0003-3328-1374" openreview="~Ekaterina_Kochmar2">
+        <first>Ekaterina</first>
+        <last>Kochmar</last>
+        <affiliation>Mohamed bin Zayed University of Artificial Intelligence</affiliation>
+      </author>
+      <author id="robert-joshua-reynolds" orcid="0000-0003-0306-087X" openreview="~Robert_Joshua_Reynolds1">
+        <first>Robert Joshua</first>
+        <last>Reynolds</last>
+        <affiliation>Brigham Young University</affiliation>
+      </author>
+      <author id="eugenio-ribeiro" orcid="0000-0001-7147-8675" openreview="~Eugénio_Ribeiro1">
+        <first>Eugénio</first>
+        <last>Ribeiro</last>
+        <affiliation>ISCTE - Instituto Universitário de Lisboa and INESC-ID Lisboa</affiliation>
+      </author>
+      <author id="horacio-saggion" orcid="0000-0003-0016-7807" openreview="~Horacio_Saggion2">
+        <first>Horacio</first>
+        <last>Saggion</last>
+        <affiliation>Universitat Pompeu Fabra and Universitat Pompeu Fabra</affiliation>
+      </author>
+      <author id="elena-volodina" orcid="0000-0003-1935-1321" openreview="~Elena_Volodina1">
+        <first>Elena</first>
+        <last>Volodina</last>
+        <affiliation>Göteborg University</affiliation>
+      </author>
+      <author id="sowmya-vajjala" orcid="0000-0002-4033-9936" openreview="~Sowmya_Vajjala2">
+        <first>Sowmya</first>
+        <last>Vajjala</last>
+        <affiliation>National Research Council Canada</affiliation>
+      </author>
+      <author id="thomas-francois" orcid="0000-0001-9415-7639" openreview="~Thomas_François1">
+        <first>Thomas</first>
+        <last>François</last>
+        <affiliation>UCL</affiliation>
+      </author>
+      <author id="fernando-alva-manchego" orcid="0000-0001-6218-8377" openreview="~Fernando_Alva-Manchego1">
+        <first>Fernando</first>
+        <last>Alva-Manchego</last>
+        <affiliation>Cardiff University</affiliation>
+      </author>
+      <author id="harish-tayyar-madabushi" orcid="0000-0001-5260-3653" openreview="~Harish_Tayyar_Madabushi1">
+        <first>Harish</first>
+        <last>Tayyar Madabushi</last>
+        <affiliation>University of Bath</affiliation>
+      </author>
+      <pages>9703-9755</pages>
+      <abstract>We introduce UniversalCEFR, a large-scale multilingual multidimensional dataset of texts annotated according to the CEFR (Common European Framework of Reference) scale in 13 languages. To enable open research in both automated readability and language proficiency assessment, UniversalCEFR comprises 505,807 CEFR-labeled texts curated from educational and learner-oriented resources, standardized into a unified data format to support consistent processing, analysis, and modeling across tasks and languages. To demonstrate its utility, we conduct benchmark experiments using three modelling paradigms: a) linguistic feature-based classification, b) fine-tuning pre-trained LLMs, and c) descriptor-based prompting of instruction-tuned LLMs. Our results further support using linguistic features and fine-tuning pretrained models in multilingual CEFR level assessment. Overall, UniversalCEFR aims to establish best practices in data distribution in language proficiency research by standardising dataset formats and promoting their accessibility to the global research community.</abstract>
+      <pdf hash="787be205" />
+      <attachment type="checklist" hash="bc1cab9b">2025.emnlp-main.491.checklist.pdf</attachment>
+      <bibkey>imperial-etal-2025-universalcefr</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.491</doi>
+    </paper>
+    <paper id="1786">
+      <title>
+        <fixed-case>S</fixed-case>imulator<fixed-case>A</fixed-case>rena: Are User Simulators Reliable Proxies for Multi-Turn Evaluation of <fixed-case>AI</fixed-case> Assistants?</title>
+      <author openreview="~Yao_Dou1">
+        <first>Yao</first>
+        <last>Dou</last>
+      </author>
+      <author id="michel-galley" orcid="0000-0002-3310-1831" openreview="~Michel_Galley1">
+        <first>Michel</first>
+        <last>Galley</last>
+        <affiliation>Microsoft</affiliation>
+      </author>
+      <author id="baolin-peng" orcid="0009-0004-3255-8735" openreview="~Baolin_Peng2">
+        <first>Baolin</first>
+        <last>Peng</last>
+        <affiliation>Research, Microsoft</affiliation>
+      </author>
+      <author openreview="~Chris_Kedzie2">
+        <first>Chris</first>
+        <last>Kedzie</last>
+      </author>
+      <author id="weixin-cai" orcid="0000-0003-2680-3066" openreview="~Weixin_Cai1">
+        <first>Weixin</first>
+        <last>Cai</last>
+        <affiliation>Microsoft</affiliation>
+      </author>
+      <author id="alan-ritter" orcid="0009-0001-4602-138X" openreview="~Alan_Ritter1">
+        <first>Alan</first>
+        <last>Ritter</last>
+        <affiliation>Georgia Institute of Technology</affiliation>
+      </author>
+      <author openreview="~Chris_Quirk1">
+        <first>Chris</first>
+        <last>Quirk</last>
+      </author>
+      <author id="wei-xu" orcid="0000-0002-7044-3232" openreview="~Wei_Xu5">
+        <first>Wei</first>
+        <last>Xu</last>
+        <affiliation>Georgia Institute of Technology</affiliation>
+      </author>
+      <author openreview="~Jianfeng_Gao1">
+        <first>Jianfeng</first>
+        <last>Gao</last>
+      </author>
+      <pages>35212-35290</pages>
+      <abstract>Large language models (LLMs) are increasingly used in interactive applications, and human evaluation remains the gold standard for assessing their performance in multi-turn conversations. Since human studies are costly, time-consuming, and hard to reproduce, recent work explores using LLMs to simulate users for automatic assistant evaluation. However, there is no benchmark or systematic study to evaluate whether these simulated users are reliable stand-ins for real users. To address this, we introduce SimulatorArena, a benchmark of 909 annotated human–LLM conversations on two interactive tasks—math tutoring and document creation. SimulatorArena evaluates simulators based on how closely their messages match human behavior and how well their assistant ratings align with human judgments. Experiments on various simulator methods show that simulators conditioned on user profiles, capturing traits like background and message styles, align closely with human judgments. They reach Spearman’s <tex-math>\rho</tex-math> of 0.7 on both tasks, providing a practical, scalable alternative to human evaluation. Using the best simulator for each task, we benchmark 18 assistants, including the latest LLMs such as GPT-5, Claude 4.1 Opus, and Gemini 2.5 Pro.</abstract>
+      <pdf hash="1d0f85c9" />
+      <attachment type="checklist" hash="678c66cc">2025.emnlp-main.1786.checklist.pdf</attachment>
+      <bibkey>dou-etal-2025-simulatorarena</bibkey>
+      <doi>10.18653/v1/2025.emnlp-main.1786</doi>
+    </paper>
+  </volume>
+</collection>

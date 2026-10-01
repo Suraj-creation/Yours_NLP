@@ -1,0 +1,6 @@
+measure,before,after
+Documents,30,30
+Tokens,164513,136273
+Unique tokens,12106,8931
+Vocabulary size (lower-cased word types),10820,8931
+Characters,837474,807942

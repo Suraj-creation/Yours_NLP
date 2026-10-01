@@ -1,0 +1,7 @@
+method,kind,unique_forms,over_stemming_errors,under_stemming_errors,pairs_tested
+porter,stemmer,4791,13,8,64
+snowball,stemmer,4754,11,8,64
+lancaster,stemmer,4228,17,3,64
+regexp,stemmer,5446,1,22,64
+wordnet_nopos,lemmatizer,3977,0,29,64
+spacy,lemmatizer,3796,1,16,64

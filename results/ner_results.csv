@@ -1,0 +1,173 @@
+sentence,entity,gold_type,predicted_type_model,status_model,predicted_type_ruler,status_ruler,domain_type
+N01,Priya Raman,PERSON,PERSON,correct,PERSON,correct,False
+N01,Greenfield Public School,ORG,ORG,correct,ORG,correct,False
+N01,Bengaluru,GPE,GPE,correct,GPE,correct,False
+N01,Karnataka,GPE,GPE,correct,GPE,correct,False
+N02,3 August 2026,DATE,DATE,correct,DATE,correct,False
+N02,28 August 2026,DATE,,missed,,missed,False
+N03,Rohan,PERSON,GPE,incorrect,GPE,incorrect,False
+N03,Meera,PERSON,PERSON,correct,PERSON,correct,False
+N03,numerator,CONCEPT,,missed,CONCEPT,correct,True
+N03,denominator,CONCEPT,,missed,CONCEPT,correct,True
+N04,fraction,CONCEPT,,missed,CONCEPT,correct,True
+N04,"Rs 2,500",MONEY,,missed,MONEY,correct,False
+N04,Suresh Kumar,PERSON,PERSON,correct,PERSON,correct,False
+N05,Inter-School Math Olympiad,EVENT,,missed,,missed,False
+N05,18 October 2026,DATE,DATE,correct,DATE,correct,False
+N05,Mysuru,GPE,GPE,correct,GPE,correct,False
+N06,Google Classroom,PRODUCT,ORG,incorrect,PRODUCT,correct,False
+N06,4 September 2026,DATE,DATE,incorrect,DATE,incorrect,False
+N07,Parent Maths Workshop,EVENT,PERSON,incorrect,PERSON,incorrect,False
+N07,25 September 2026,DATE,DATE,correct,DATE,correct,False
+N07,Rs 200,MONEY,,missed,MONEY,correct,False
+N08,Fraction Fair 2026,EVENT,DATE,incorrect,CONCEPT,incorrect,False
+N08,6 November 2026,DATE,DATE,correct,DATE,correct,False
+N09,Aarav,PERSON,,missed,,missed,False
+N09,Neha Kapoor,PERSON,PERSON,correct,PERSON,correct,False
+N09,Bengaluru,GPE,GPE,correct,GPE,correct,False
+N09,Learner,,PERSON,spurious,PERSON,spurious,False
+N10,2026-09-01,DATE,,missed,DATE,correct,False
+N10,Aarav,PERSON,ORG,incorrect,ORG,incorrect,False
+N10,adding numerators and denominators,MISCONCEPTION,,missed,MISCONCEPTION,correct,True
+N11,"Rs 1,200",MONEY,,missed,MONEY,correct,False
+N12,Samsung,ORG,ORG,correct,ORG,correct,False
+N12,"Rs 18,000",MONEY,,missed,MONEY,correct,False
+N12,Mumbai,GPE,GPE,correct,GPE,correct,False
+N12,"Rs 17,100",MONEY,,missed,MONEY,correct,False
+N12,Pune,GPE,,missed,,missed,False
+N13,Kabir,PERSON,,missed,,missed,False
+N13,5 September 2026,DATE,DATE,correct,DATE,correct,False
+N14,Knowledge Tracing,CONCEPT,,missed,CONCEPT,correct,True
+N14,Doyoun Kim,PERSON,PERSON,correct,PERSON,correct,False
+N14,Seoul National University,ORG,ORG,correct,ORG,correct,False
+N14,Suin Kim,PERSON,PERSON,correct,PERSON,correct,False
+N14,Elice,ORG,,missed,,missed,False
+N14,Yohan Jo,PERSON,PERSON,correct,PERSON,correct,False
+N14,Seoul National University,ORG,ORG,correct,ORG,correct,False
+N14,Programming Education Integrating Students' Questions,,ORG,spurious,ORG,spurious,False
+N15,SQKT,KT_MODEL,,missed,KT_MODEL,correct,True
+N15,knowledge tracing,CONCEPT,,missed,CONCEPT,correct,True
+N16,SQKT,KT_MODEL,,missed,KT_MODEL,correct,True
+N16,AUC,METRIC,ORG,incorrect,METRIC,correct,True
+N17,CIKT,KT_MODEL,,missed,KT_MODEL,correct,True
+N17,Knowledge Tracing,CONCEPT,,missed,CONCEPT,correct,True
+N18,Runze Li,PERSON,PERSON,correct,PERSON,correct,False
+N18,Siyu Wu,PERSON,PERSON,correct,PERSON,correct,False
+N18,Jun Wang,PERSON,PERSON,correct,PERSON,correct,False
+N18,Wei Zhang,PERSON,PERSON,correct,PERSON,correct,False
+N18,East China Normal University,ORG,ORG,correct,ORG,correct,False
+N19,Jialin Ouyang,PERSON,PERSON,correct,PERSON,correct,False
+N19,Columbia University,ORG,ORG,correct,ORG,correct,False
+N20,Nicy Scaria,PERSON,ORG,incorrect,ORG,incorrect,False
+N20,Indian Institute of Science,ORG,ORG,correct,ORG,correct,False
+N20,Deepak Subramani,PERSON,PERSON,correct,PERSON,correct,False
+N20,Indian Institute of Science,ORG,ORG,correct,ORG,correct,False
+N21,Yann Hicke,PERSON,PERSON,correct,PERSON,correct,False
+N21,Cornell University,ORG,ORG,correct,ORG,correct,False
+N21,Abhishek Masand,PERSON,PERSON,correct,PERSON,correct,False
+N21,Cornell University,ORG,ORG,correct,ORG,correct,False
+N22,GPT-5,PRODUCT,,missed,PRODUCT,correct,False
+N22,Claude 4.1 Opus,PRODUCT,PERSON,incorrect,PRODUCT,incorrect,False
+N22,Gemini 2.5 Pro,PRODUCT,,missed,PRODUCT,incorrect,False
+N23,GSM8K,DATASET,ORG,incorrect,ORG,incorrect,True
+N23,SVAMP,DATASET,,missed,,missed,True
+N23,accuracy,METRIC,,missed,METRIC,correct,True
+N23,Llama-3,PRODUCT,,missed,PRODUCT,correct,False
+N23,Qwen2.5,PRODUCT,,missed,,missed,False
+N24,MathDial,DATASET,,missed,DATASET,correct,True
+N24,Rich Pedagogical Properties Grounded,,ORG,spurious,ORG,spurious,False
+N25,Jakub Macina,PERSON,PERSON,correct,PERSON,correct,False
+N25,Nico Daheim,PERSON,PERSON,correct,PERSON,correct,False
+N25,Sankalan Pal Chowdhury,PERSON,PERSON,correct,PERSON,correct,False
+N26,TalkMoves,DATASET,,missed,DATASET,correct,True
+N26,K-12 Mathematics Lesson,,PERSON,spurious,PERSON,spurious,False
+N27,NCTE Transcripts,DATASET,,missed,DATASET,correct,True
+N27,Dorottya Demszky,PERSON,PERSON,correct,PERSON,correct,False
+N27,Stanford University,ORG,ORG,correct,ORG,correct,False
+N27,Heather Hill,PERSON,PERSON,correct,PERSON,correct,False
+N27,Harvard,ORG,ORG,correct,ORG,correct,False
+N27,Dataset,,ORG,spurious,ORG,spurious,False
+N28,MaE,DATASET,ORG,incorrect,DATASET,correct,True
+N29,GPT-4,PRODUCT,PERSON,incorrect,PRODUCT,correct,False
+N29,accuracy,METRIC,,missed,METRIC,correct,True
+N29,Dataset,,ORG,spurious,ORG,spurious,False
+N29,83.9%,,ORG,spurious,ORG,spurious,False
+N30,Nancy Otero,PERSON,PERSON,correct,PERSON,correct,False
+N30,Stefania Druga,PERSON,PERSON,correct,PERSON,correct,False
+N30,Andrew Lan,PERSON,PERSON,correct,PERSON,correct,False
+N31,Ashlock,PERSON,,missed,,missed,False
+N31,2006,DATE,DATE,correct,DATE,correct,False
+N32,Bush,PERSON,PERSON,correct,PERSON,correct,False
+N32,2011,DATE,DATE,correct,DATE,correct,False
+N33,Karan,PERSON,,missed,,missed,False
+N33,"$3,650",MONEY,,missed,MONEY,correct,False
+N33,five months,DATE,DATE,correct,DATE,correct,False
+N33,rate,CONCEPT,,missed,CONCEPT,correct,True
+N34,$50,MONEY,,missed,MONEY,correct,False
+N35,Mandy,PERSON,PERSON,correct,PERSON,correct,False
+N35,$205,MONEY,,missed,MONEY,correct,False
+N35,the first 6 months,DATE,DATE,correct,DATE,correct,False
+N36,Harry,PERSON,PERSON,correct,PERSON,correct,False
+N36,$30,MONEY,,missed,MONEY,correct,False
+N37,Felipa,PERSON,ORG,incorrect,ORG,incorrect,False
+N37,$95,MONEY,,missed,MONEY,correct,False
+N38,$5.03,MONEY,,missed,MONEY,correct,False
+N38,decimal,CONCEPT,,missed,CONCEPT,correct,True
+N38,mixed number,CONCEPT,,missed,CONCEPT,correct,True
+N39,$1,MONEY,,missed,MONEY,correct,False
+N39,$1.00,MONEY,,missed,MONEY,correct,False
+N40,Danielle,PERSON,GPE,incorrect,GPE,incorrect,False
+N41,Brian,PERSON,PERSON,correct,PERSON,correct,False
+N42,Graham,PERSON,PERSON,correct,PERSON,correct,False
+N42,Kelly,PERSON,PERSON,correct,PERSON,correct,False
+N42,two fourths,,DATE,spurious,DATE,spurious,False
+N43,least common denominator,CONCEPT,,missed,CONCEPT,correct,True
+N43,LCD,CONCEPT,ORG,incorrect,CONCEPT,correct,True
+N43,equivalent fraction,CONCEPT,,missed,CONCEPT,correct,True
+N44,mixed number,CONCEPT,,missed,CONCEPT,correct,True
+N44,improper fraction,CONCEPT,,missed,CONCEPT,correct,True
+N44,Convert,,PERSON,spurious,PERSON,spurious,False
+N45,reciprocal,CONCEPT,,missed,CONCEPT,correct,True
+N46,number line,CONCEPT,,missed,CONCEPT,correct,True
+N47,fraction,CONCEPT,,missed,CONCEPT,correct,True
+N47,larger denominator is always the larger fraction,MISCONCEPTION,,missed,CONCEPT,incorrect,True
+N48,BKT,KT_MODEL,ORG,incorrect,KT_MODEL,correct,True
+N48,DKT,KT_MODEL,ORG,incorrect,KT_MODEL,correct,True
+N49,Bayesian Knowledge Tracing,KT_MODEL,PERSON,incorrect,KT_MODEL,correct,True
+N49,Corbett,PERSON,PERSON,correct,PERSON,correct,False
+N49,Anderson,PERSON,PERSON,correct,PERSON,correct,False
+N49,1994,DATE,DATE,correct,DATE,correct,False
+N50,Deep Knowledge Tracing,KT_MODEL,PERSON,incorrect,KT_MODEL,correct,True
+N50,ASSISTments,DATASET,ORG,incorrect,DATASET,correct,True
+N50,AUC,METRIC,ORG,incorrect,METRIC,correct,True
+N50,BKT,KT_MODEL,ORG,incorrect,KT_MODEL,correct,True
+N51,Q-MCKT,KT_MODEL,,missed,KT_MODEL,correct,True
+N51,ASSIST2009,DATASET,,missed,DATASET,correct,True
+N51,EdNet,DATASET,ORG,incorrect,DATASET,correct,True
+N52,FoundationalASSIST,DATASET,,missed,DATASET,correct,True
+N52,ASSISTments,ORG,ORG,correct,DATASET,incorrect,False
+N53,F1,METRIC,GPE,incorrect,METRIC,correct,True
+N53,ECE,METRIC,ORG,incorrect,METRIC,correct,True
+N53,RMSE,METRIC,ORG,incorrect,METRIC,correct,True
+N54,Cohen's kappa,METRIC,,missed,METRIC,correct,True
+N54,ASSIST2009,DATASET,,missed,DATASET,correct,True
+N55,TalkMoves,DATASET,ORG,incorrect,DATASET,correct,True
+N55,talk moves,CONCEPT,,missed,CONCEPT,correct,True
+N56,ETH Zurich,ORG,PERSON,incorrect,ORG,correct,False
+N56,MathDial,DATASET,DATE,incorrect,DATASET,correct,True
+N56,CC,,ORG,spurious,ORG,spurious,False
+N57,OpenStax,ORG,,missed,ORG,correct,False
+N57,Rice University,ORG,ORG,correct,ORG,correct,False
+N57,Houston,GPE,GPE,correct,GPE,correct,False
+N57,2e,,DATE,spurious,DATE,spurious,False
+N58,Eedi,ORG,ORG,correct,ORG,correct,False
+N58,Mining Misconceptions in Mathematics,EVENT,ORG,incorrect,ORG,incorrect,False
+N58,Kaggle,ORG,PERSON,incorrect,ORG,correct,False
+N58,2024,DATE,DATE,correct,DATE,correct,False
+N59,longer decimal is bigger,MISCONCEPTION,,missed,MISCONCEPTION,correct,True
+N60,add across,MISCONCEPTION,,missed,MISCONCEPTION,correct,True
+N60,common denominator,CONCEPT,,missed,CONCEPT,correct,True
+N61,ACL 2025,EVENT,DATE,incorrect,DATE,incorrect,False
+N61,Vienna,GPE,GPE,correct,GPE,correct,False
+N61,Austria,GPE,GPE,correct,GPE,correct,False
+N61,July 2025,DATE,DATE,correct,DATE,correct,False

@@ -1,0 +1,54 @@
+# Module 3 mandatory experiment. Each run = a full pipeline from cleaned text to index.
+# order: stop_then_norm = remove stop words on the surface form, then normalise
+#        norm_then_stop = normalise first, then check the normalised form against the list
+A:
+  label: "Pipeline A"
+  description: "NLTK tokens, NLTK stop words, Porter stemming (the brief's left branch)"
+  tokenizer: nltk
+  stopwords: nltk
+  normalizer: porter
+  order: stop_then_norm
+B:
+  label: "Pipeline B"
+  description: "spaCy tokens, no stop-word removal, WordNet lemmas with POS (the brief's right branch)"
+  tokenizer: spacy
+  stopwords: none
+  normalizer: wordnet_pos
+  order: stop_then_norm
+H:
+  label: "H: hybrid hypothesis"
+  description: "Hybrid tokens, POS-aware spaCy lemmas from the cased linguistic branch, custom stop list on lemma forms"
+  tokenizer: hybrid
+  stopwords: custom
+  normalizer: spacy
+  order: norm_then_stop
+C1:
+  label: "C1 order test"
+  description: "As A, but stem BEFORE stop-word removal (Exercise 9)"
+  tokenizer: nltk
+  stopwords: nltk
+  normalizer: porter
+  order: norm_then_stop
+C2:
+  label: "C2 no-POS lemma"
+  description: "As B, but WordNet lemmas WITHOUT POS tags (shows the POS -> lemma dependency)"
+  tokenizer: spacy
+  stopwords: none
+  normalizer: wordnet_nopos
+  order: stop_then_norm
+C3:
+  label: "C3 BPE index"
+  description: "tiktoken cl100k_base subword pieces as index terms, no stop words, no normalisation"
+  tokenizer: tiktoken_cl100k
+  stopwords: none
+  normalizer: none
+  order: stop_then_norm
+H2:
+  label: "H2: hybrid, revised (post-hoc)"
+  description: "As H, but context-free lemmas on the index branch (queries have no sentence context) and hyphenated compounds also indexed by their parts. Designed AFTER error analysis of H on the same 15 queries, so its scores are optimistic and it is not eligible for selection."
+  tokenizer: hybrid
+  stopwords: custom
+  normalizer: wordnet_cf
+  order: norm_then_stop
+  compound_parts: true
+  posthoc: true

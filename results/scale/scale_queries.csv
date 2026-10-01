@@ -1,0 +1,61 @@
+collection,pipeline,query,type,results,time_ms,top5
+mathdial,A,denominator,Keyword (unigram),8,0.2674,MD00676 MD01999 MD01778 MD02196 MD02794
+mathdial,A,common denominator,Phrase (bigram),1,0.2403,MD00676
+mathdial,A,fraction AND misconception,Boolean AND,2,0.2725,MD00792 MD00505
+mathdial,A,added the numerators,Phrase (trigram),0,0.3269,
+mathdial,A,decimal OR percent,Boolean OR,88,0.6654,MD01517 MD01904 MD00008 MD01102 MD02727
+mathdial,A,half OR halves,Boolean OR,546,2.3831,MD00796 MD00392 MD01994 MD01431 MD00773
+mathdial,A,number line,Phrase (bigram),0,0.514,
+mathdial,A,"""equivalent fraction""",Phrase (bigram),1,0.2452,MD00497
+mathdial,A,divide AND NOT fraction,Boolean NOT,830,3.2113,MD02600 MD02032 MD02596 MD00093 MD00820
+mathdial,A,percent AND (discount OR interest),Advanced Boolean,1,0.3241,MD01102
+mathdial,B,denominator,Keyword (unigram),7,0.4878,MD00676 MD01999 MD01778 MD02196 MD00400
+mathdial,B,common denominator,Phrase (bigram),1,0.5005,MD00676
+mathdial,B,fraction AND misconception,Boolean AND,2,0.4793,MD00792 MD00505
+mathdial,B,added the numerators,Phrase (trigram),0,0.8328,
+mathdial,B,decimal OR percent,Boolean OR,88,0.7638,MD01517 MD01904 MD00008 MD01102 MD02727
+mathdial,B,half OR halves,Boolean OR,539,3.5575,MD00638 MD02511 MD00245 MD01688 MD02064
+mathdial,B,number line,Phrase (bigram),0,0.5092,
+mathdial,B,"""equivalent fraction""",Phrase (bigram),1,0.6062,MD00497
+mathdial,B,divide AND NOT fraction,Boolean NOT,831,4.0537,MD02600 MD02032 MD02596 MD00093 MD00820
+mathdial,B,percent AND (discount OR interest),Advanced Boolean,1,0.5569,MD01102
+mathdial,H2,denominator,Keyword (unigram),7,0.4531,MD00676 MD01999 MD01778 MD02196 MD00400
+mathdial,H2,common denominator,Phrase (bigram),1,0.3379,MD00676
+mathdial,H2,fraction AND misconception,Boolean AND,2,0.4325,MD00792 MD00505
+mathdial,H2,added the numerators,Phrase (trigram),0,0.7162,
+mathdial,H2,decimal OR percent,Boolean OR,88,0.9318,MD01517 MD01904 MD00008 MD01102 MD02727
+mathdial,H2,half OR halves,Boolean OR,550,3.9154,MD00796 MD00392 MD01994 MD00773 MD01431
+mathdial,H2,number line,Phrase (bigram),0,0.6148,
+mathdial,H2,"""equivalent fraction""",Phrase (bigram),1,0.5177,MD00497
+mathdial,H2,divide AND NOT fraction,Boolean NOT,831,5.6459,MD02600 MD02032 MD02596 MD00093 MD00820
+mathdial,H2,percent AND (discount OR interest),Advanced Boolean,1,1.1988,MD01102
+talkmoves,A,denominator,Keyword (unigram),161,0.6972,TM0269 TM0538 TM0281 TM0528 TM0398
+talkmoves,A,common denominator,Phrase (bigram),64,0.8731,TM0269 TM0538 TM0365 TM0528 TM0398
+talkmoves,A,fraction AND misconception,Boolean AND,9,0.34,TM0310 TM0489 TM0478 TM0305 TM0312
+talkmoves,A,added the numerators,Phrase (trigram),3,1.2804,TM0291 TM0288 TM0506
+talkmoves,A,decimal OR percent,Boolean OR,131,0.7419,TM0362 TM0278 TM0094 TM0364 TM0300
+talkmoves,A,half OR halves,Boolean OR,310,1.4094,TM0485 TM0272 TM0095 TM0348 TM0478
+talkmoves,A,number line,Phrase (bigram),69,2.6352,TM0204 TM0478 TM0311 TM0391 TM0379
+talkmoves,A,"""equivalent fraction""",Phrase (bigram),58,0.895,TM0555 TM0284 TM0253 TM0349 TM0528
+talkmoves,A,divide AND NOT fraction,Boolean NOT,112,0.6601,TM0474 TM0359 TM0095 TM0476 TM0347
+talkmoves,A,percent AND (discount OR interest),Advanced Boolean,7,0.5929,TM0199 TM0364 TM0185 TM0186 TM0184
+talkmoves,B,denominator,Keyword (unigram),161,0.9133,TM0269 TM0538 TM0281 TM0528 TM0398
+talkmoves,B,common denominator,Phrase (bigram),64,1.3461,TM0269 TM0538 TM0365 TM0528 TM0398
+talkmoves,B,fraction AND misconception,Boolean AND,9,0.4106,TM0310 TM0489 TM0478 TM0305 TM0312
+talkmoves,B,added the numerators,Phrase (trigram),14,3.379,TM0538 TM0473 TM0555 TM0288 TM0539
+talkmoves,B,decimal OR percent,Boolean OR,131,1.3644,TM0362 TM0278 TM0094 TM0364 TM0300
+talkmoves,B,half OR halves,Boolean OR,309,3.8963,TM0485 TM0500 TM0095 TM0559 TM0432
+talkmoves,B,number line,Phrase (bigram),69,6.5199,TM0204 TM0478 TM0311 TM0391 TM0379
+talkmoves,B,"""equivalent fraction""",Phrase (bigram),58,4.2341,TM0555 TM0284 TM0253 TM0349 TM0528
+talkmoves,B,divide AND NOT fraction,Boolean NOT,111,2.1771,TM0474 TM0359 TM0095 TM0476 TM0347
+talkmoves,B,percent AND (discount OR interest),Advanced Boolean,5,0.8742,TM0199 TM0364 TM0186 TM0185 TM0184
+talkmoves,H2,denominator,Keyword (unigram),161,0.8168,TM0269 TM0538 TM0281 TM0528 TM0398
+talkmoves,H2,common denominator,Phrase (bigram),64,0.971,TM0269 TM0538 TM0365 TM0528 TM0398
+talkmoves,H2,fraction AND misconception,Boolean AND,9,0.226,TM0310 TM0489 TM0478 TM0305 TM0312
+talkmoves,H2,added the numerators,Phrase (trigram),16,0.67,TM0538 TM0365 TM0473 TM0291 TM0555
+talkmoves,H2,decimal OR percent,Boolean OR,131,0.7684,TM0362 TM0278 TM0094 TM0364 TM0300
+talkmoves,H2,half OR halves,Boolean OR,310,1.3854,TM0485 TM0272 TM0095 TM0348 TM0478
+talkmoves,H2,number line,Phrase (bigram),69,1.9565,TM0204 TM0478 TM0311 TM0391 TM0379
+talkmoves,H2,"""equivalent fraction""",Phrase (bigram),58,0.891,TM0555 TM0284 TM0253 TM0349 TM0528
+talkmoves,H2,divide AND NOT fraction,Boolean NOT,112,1.3172,TM0474 TM0359 TM0095 TM0476 TM0347
+talkmoves,H2,percent AND (discount OR interest),Advanced Boolean,7,0.3184,TM0199 TM0364 TM0185 TM0186 TM0184

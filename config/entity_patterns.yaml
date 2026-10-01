@@ -1,0 +1,6 @@
+# EntityRuler gazetteer (Exercise 13). Domain types come from config/domain_lexicon.csv
+# (every term, case-insensitive, plural forms added automatically). The entries below add
+# names that appear in the corpus but are missing from spaCy's training data.
+# Entities NOT listed here (e.g. GSM8K, SVAMP) test whether the ruler generalises: it does not.
+PRODUCT: [GPT-4, GPT-4o, GPT-5, ChatGPT, GeoGebra, Google Classroom, Claude, Gemini, Llama-3]
+ORG: [OpenStax, Eedi, ETH Zurich, Kaggle]

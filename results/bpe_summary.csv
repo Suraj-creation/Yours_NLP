@@ -1,0 +1,12 @@
+method,vocabulary_size,corpus_tokens,trained_on,oov_rate_unseen_text
+tiktoken gpt2,50257,213228,OpenAI web data,0.0
+tiktoken cl100k_base,100277,205643,OpenAI web data,0.0
+tiktoken o200k_base,200019,203427,OpenAI web data,0.0
+our BPE 500 merges,537,277042,this corpus,0.0
+our BPE 1000 merges,1037,226013,this corpus,0.0
+our BPE 2000 merges,2037,187771,this corpus,0.0
+NLTK word_tokenize,11996,163796,rules / pretrained,
+spaCy,11504,165568,rules / pretrained,
+Custom (regex rules),11673,164601,rules / pretrained,
+Hybrid (spaCy + rules),12284,159870,rules / pretrained,
+SimpleTokenizerV2 (word-level),11663,168552,this corpus,0.0658

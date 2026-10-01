@@ -1,0 +1,5 @@
+stopword_list,list_size,index_tokens,vocabulary,mean_f1,domain_words_removed
+none,0,136273,8931,0.6791,
+nltk,198,86065,8818,0.6791,"above, after, again, all, aren't, before, below, both, couldn't, didn't, doesn't, don't, down, each, few, further, isn't, more, most, no, nor, not, off, only, out, over, same, shouldn't, than, under, up, very, wasn't, won't"
+spacy,326,78631,8707,0.6694,"above, after, again, all, before, below, both, down, each, few, further, more, most, no, nor, not, off, only, out, over, same, than, under, up, very"
+custom,181,88792,8830,0.6791,

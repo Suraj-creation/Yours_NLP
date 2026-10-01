@@ -1,0 +1,9 @@
+tokenizer,label,tokens,dictionary_size,dictionary_lowercased,punctuation_tokens
+whitespace,Whitespace,135634,17110,15874,2394
+nltk,NLTK word_tokenize,163796,11996,10783,28689
+nltk_wordpunct,NLTK wordpunct,182358,9254,8015,38126
+nltk_treebank,NLTK Treebank,163617,12044,10833,28580
+nltk_tweet,NLTK Tweet,168411,10941,9709,31331
+spacy,spaCy,165568,11504,10280,29295
+custom,Custom (regex rules),164601,11673,10439,29357
+hybrid,Hybrid (spaCy + rules),159870,12284,11058,26186

@@ -1,0 +1,5 @@
+method,pages,characters,words,dictionary_word_share,hyphen_breaks,seconds,doc_id,boilerplate_phrases_found
+pypdf,11.0,15218,3021,0.6948,0.0,0.204,D13,
+pdfplumber,11.0,14683,2260,0.8327,0.0,0.762,D13,
+trafilatura,,1731,290,,,,D29,0.0
+beautifulsoup,,2188,333,,,,D29,7.0

@@ -1,0 +1,7 @@
+collection,pipeline,index_terms,vocabulary,build_seconds,index_json_mb,median_query_ms
+mathdial,A,832525,9893,65.4,7.6,0.326
+mathdial,B,1405561,9640,158.4,11.73,0.582
+mathdial,H2,862029,10970,79.5,7.92,0.665
+talkmoves,A,1095842,11334,179.3,9.06,0.807
+talkmoves,B,2052184,13123,239.6,15.13,1.771
+talkmoves,H2,1112808,12153,89.2,9.19,0.854

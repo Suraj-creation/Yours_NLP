@@ -1,0 +1,14 @@
+entity,spacy_default_tokens,hybrid_tokens_model_only,hybrid_tokens_plus_ruler
+"Rs 2,500","2,500 (CARDINAL)","2,500 (CARDINAL)","Rs 2,500 (MONEY)"
+Rs 200,200 (CARDINAL),200 (CARDINAL),Rs 200 (MONEY)
+"Rs 1,200","1,200 (CARDINAL)","1,200 (CARDINAL)","Rs 1,200 (MONEY)"
+"Rs 18,000","18,000 (CARDINAL)","18,000 (CARDINAL)","Rs 18,000 (MONEY)"
+"Rs 17,100","17,100 (CARDINAL)","17,100 (CARDINAL)","Rs 17,100 (MONEY)"
+"$3,650","3,650 (MONEY)",missed,"$3,650 (MONEY)"
+$50,50 (MONEY),missed,$50 (MONEY)
+$205,205 (MONEY),missed,$205 (MONEY)
+$30,30 (MONEY),missed,$30 (MONEY)
+$95,95 (MONEY),missed,$95 (MONEY)
+$5.03,5.03 (MONEY),missed,$5.03 (MONEY)
+$1,1 (MONEY),missed,$1 (MONEY)
+$1.00,1.00 (MONEY),missed,$1.00 (MONEY)

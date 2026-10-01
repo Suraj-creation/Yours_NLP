@@ -1,0 +1,65 @@
+word_a,word_b,should_merge,note
+fraction,fractions,1,same concept family: conflating helps retrieval
+fraction,fractional,1,same concept family: conflating helps retrieval
+denominator,denominators,1,same concept family: conflating helps retrieval
+numerator,numerators,1,same concept family: conflating helps retrieval
+divide,dividing,1,same concept family: conflating helps retrieval
+divide,division,1,same concept family: conflating helps retrieval
+divide,divided,1,same concept family: conflating helps retrieval
+multiply,multiplication,1,same concept family: conflating helps retrieval
+multiply,multiplied,1,same concept family: conflating helps retrieval
+multiply,multiplying,1,same concept family: conflating helps retrieval
+simplify,simplified,1,same concept family: conflating helps retrieval
+simplify,simplification,1,same concept family: conflating helps retrieval
+simplify,simplifying,1,same concept family: conflating helps retrieval
+equivalent,equivalence,1,same concept family: conflating helps retrieval
+decimal,decimals,1,same concept family: conflating helps retrieval
+percent,percents,1,same concept family: conflating helps retrieval
+percentage,percentages,1,same concept family: conflating helps retrieval
+subtract,subtraction,1,same concept family: conflating helps retrieval
+add,addition,1,same concept family: conflating helps retrieval
+add,added,1,same concept family: conflating helps retrieval
+compare,comparing,1,same concept family: conflating helps retrieval
+compare,comparison,1,same concept family: conflating helps retrieval
+estimate,estimation,1,same concept family: conflating helps retrieval
+reciprocal,reciprocals,1,same concept family: conflating helps retrieval
+ratio,ratios,1,same concept family: conflating helps retrieval
+proportion,proportional,1,same concept family: conflating helps retrieval
+misconception,misconceptions,1,same concept family: conflating helps retrieval
+explain,explanation,1,same concept family: conflating helps retrieval
+explain,explained,1,same concept family: conflating helps retrieval
+student,students,1,same concept family: conflating helps retrieval
+tutor,tutoring,1,same concept family: conflating helps retrieval
+teach,teaching,1,same concept family: conflating helps retrieval
+learner,learners,1,same concept family: conflating helps retrieval
+trace,tracing,1,same concept family: conflating helps retrieval
+predict,prediction,1,same concept family: conflating helps retrieval
+calculate,calculation,1,same concept family: conflating helps retrieval
+round,rounding,1,same concept family: conflating helps retrieval
+convert,conversion,1,same concept family: conflating helps retrieval
+measure,measurement,1,same concept family: conflating helps retrieval
+reason,reasoning,1,same concept family: conflating helps retrieval
+numerator,numerical,0,different meanings: conflating is over-stemming
+numerator,number,0,different meanings: conflating is over-stemming
+numerical,number,0,different meanings: conflating is over-stemming
+general,generous,0,different meanings: conflating is over-stemming
+university,universe,0,different meanings: conflating is over-stemming
+organ,organization,0,different meanings: conflating is over-stemming
+conception,concept,0,different meanings: conflating is over-stemming
+decimal,decimate,0,different meanings: conflating is over-stemming
+whole,wholesale,0,different meanings: conflating is over-stemming
+mean,meaning,0,different meanings: conflating is over-stemming
+sum,summary,0,different meanings: conflating is over-stemming
+product,production,0,different meanings: conflating is over-stemming
+prime,primary,0,different meanings: conflating is over-stemming
+factor,factory,0,different meanings: conflating is over-stemming
+table,tablet,0,different meanings: conflating is over-stemming
+term,terminal,0,different meanings: conflating is over-stemming
+figure,figurative,0,different meanings: conflating is over-stemming
+even,event,0,different meanings: conflating is over-stemming
+part,party,0,different meanings: conflating is over-stemming
+generate,general,0,different meanings: conflating is over-stemming
+continue,continent,0,different meanings: conflating is over-stemming
+equation,equator,0,different meanings: conflating is over-stemming
+author,authority,0,different meanings: conflating is over-stemming
+experiment,experience,0,different meanings: conflating is over-stemming

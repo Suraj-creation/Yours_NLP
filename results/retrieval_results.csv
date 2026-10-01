@@ -1,0 +1,106 @@
+pipeline,qid,query,type,retrieved_documents,results,time_ms,analysed_terms
+A,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,0.1274,denomin
+A,Q02,misconception,Keyword (unigram),D16 D15 D09 D12 D11 D29 D14 D17 D18 D27,10,0.1061,misconcept
+A,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,0.2281,common denomin
+A,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.1789,knowledg trace model
+A,Q05,added the numerators,Phrase (trigram),D16,1,0.1676,ad numer
+A,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,0.182,fraction ; misconcept
+A,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,0.2595,lcd ; least common denomin
+A,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,0.1678,denomin ; NOT common
+A,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D14 D10,5,0.2535,dialogu ; tutor ; teacher
+A,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.2159,knowledg trace ; NOT program
+A,Q11,decimal OR percent,Boolean OR,D08 D16 D29 D27 D05 D18 D30 D06 D26 D07 D25 D15,12,0.1902,decim ; percent
+A,Q12,"""student explanation""",Phrase (bigram),D11,1,0.1555,student explan
+A,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,0.2022,number line
+A,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,0.2747,misconcept ; student ; fraction
+A,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D09 D11,3,0.2147,llm ; knowledg trace
+B,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,0.2109,denominator
+B,Q02,misconception,Keyword (unigram),D16 D15 D09 D12 D11 D29 D14 D17 D18 D27,10,0.1855,misconception
+B,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,0.2573,common denominator
+B,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.3033,knowledge trace model
+B,Q05,added the numerators,Phrase (trigram),D16 D04 D03 D01 D25,5,0.577,add the numerator
+B,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,0.2672,fraction ; misconception
+B,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,0.4013,lcd ; least common denominator
+B,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,0.1787,denominator ; NOT common
+B,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D14 D10,5,0.4094,dialogue ; tutor ; teacher
+B,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.363,knowledge trace ; NOT program
+B,Q11,decimal OR percent,Boolean OR,D08 D16 D29 D27 D05 D18 D30 D06 D26 D07 D25 D15,12,0.2832,decimal ; percent
+B,Q12,"""student explanation""",Phrase (bigram),D11,1,0.2937,student explanation
+B,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,0.1683,number line
+B,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,0.4097,misconception ; student ; fraction
+B,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D09,2,0.3461,llm ; knowledge trace
+H,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,2.4152,denominator
+H,Q02,misconception,Keyword (unigram),D16 D15 D09 D11 D12 D29 D14 D17 D18 D27,10,2.2296,misconception
+H,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,2.5581,common denominator
+H,Q04,knowledge tracing model,Phrase (trigram),D09,1,2.4718,knowledge tracing model
+H,Q05,added the numerators,Phrase (trigram),D16 D04 D03 D01 D25,5,2.4259,add numerator
+H,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,4.3151,fraction ; misconception
+H,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,4.8911,lcd ; least common denominator
+H,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,4.3206,denominator ; NOT common
+H,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D14 D10,5,6.2311,dialogue ; tutor ; teacher
+H,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D11,1,4.6008,knowledge trace ; NOT program
+H,Q11,decimal OR percent,Boolean OR,D08 D16 D27 D29 D05 D18 D06 D07 D26 D30 D25 D15,12,4.4265,decimal ; percent
+H,Q12,"""student explanation""",Phrase (bigram),D11,1,2.5275,student explanation
+H,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,2.8336,number line
+H,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,7.5643,misconception ; student ; fraction
+H,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D11,1,4.5733,llm ; knowledge trace
+C1,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,0.1359,denomin
+C1,Q02,misconception,Keyword (unigram),D16 D15 D09 D12 D11 D29 D14 D17 D18 D27,10,0.1328,misconcept
+C1,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,0.2364,common denomin
+C1,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.2079,knowledg trace model
+C1,Q05,added the numerators,Phrase (trigram),D16,1,0.1873,ad numer
+C1,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,0.1871,fraction ; misconcept
+C1,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,0.2633,lcd ; least common denomin
+C1,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,0.1833,denomin ; NOT common
+C1,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D14 D10,5,0.2651,dialogu ; tutor ; teacher
+C1,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.2298,knowledg trace ; NOT program
+C1,Q11,decimal OR percent,Boolean OR,D08 D16 D29 D27 D05 D18 D30 D06 D26 D07 D25 D15,12,0.1902,decim ; percent
+C1,Q12,"""student explanation""",Phrase (bigram),D11,1,0.2321,student explan
+C1,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,0.2127,number line
+C1,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,0.2751,misconcept ; student ; fraction
+C1,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D09 D11,3,0.2216,llm ; knowledg trace
+C2,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,0.0854,denominator
+C2,Q02,misconception,Keyword (unigram),D16 D15 D09 D12 D11 D29 D14 D17 D18 D27,10,0.0662,misconception
+C2,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,0.1493,common denominator
+C2,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.0981,knowledge tracing model
+C2,Q05,added the numerators,Phrase (trigram),D16,1,0.2234,added the numerator
+C2,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,0.1087,fraction ; misconception
+C2,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,0.1648,lcd ; least common denominator
+C2,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,0.1008,denominator ; NOT common
+C2,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D10 D14,5,0.1542,dialogue ; tutor ; teacher
+C2,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.1144,knowledge tracing ; NOT programming
+C2,Q11,decimal OR percent,Boolean OR,D08 D16 D29 D27 D05 D18 D30 D06 D26 D07 D25 D15,12,0.1335,decimal ; percent
+C2,Q12,"""student explanation""",Phrase (bigram),D11,1,0.1011,student explanation
+C2,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,0.1548,number line
+C2,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,0.1578,misconception ; student ; fraction
+C2,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D09 D11,3,0.1177,llm ; knowledge tracing
+C3,Q01,denominator,Keyword (unigram),D03 D04 D05,3,0.0411,den ominator
+C3,Q02,misconception,Keyword (unigram),D16 D15,2,0.1031,mis con ception
+C3,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D26 D13 D28,10,0.093,common denominator
+C3,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.0475,knowledge tracing model
+C3,Q05,added the numerators,Phrase (trigram),,0,0.1463,added the numer ators
+C3,Q06,fraction AND misconception,Boolean AND,D16,1,0.1268,fraction ; mis con ception
+C3,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D07 D26 D27,6,0.0971,lcd ; least common denominator
+C3,Q08,denominator AND NOT common,Boolean NOT,,0,0.054,den ominator ; NOT common
+C3,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,,0,0.0869,dialog ue ; t utor ; teacher
+C3,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.0629,knowledge tracing ; NOT programming
+C3,Q11,decimal OR percent,Boolean OR,D08 D16 D18 D05 D06 D26 D27 D07 D30 D25 D29 D15,12,0.073,decimal ; percent
+C3,Q12,"""student explanation""",Phrase (bigram),,0,0.0374,student explanation
+C3,Q13,number line,Phrase (bigram),D05 D01 D24 D06 D25 D26 D27 D30,8,0.098,number line
+C3,Q14,misconception AND student AND fraction,Boolean AND,D16,1,0.1442,mis con ception ; student ; fraction
+C3,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D09,2,0.0849,ll m ; knowledge tracing
+H2,Q01,denominator,Keyword (unigram),D04 D16 D08 D01 D02 D03 D07 D05 D25 D27 D29 D26 D06 D13 D28,15,0.094,denominator
+H2,Q02,misconception,Keyword (unigram),D16 D15 D09 D12 D11 D29 D14 D17 D18 D27,10,0.0837,misconception
+H2,Q03,common denominator,Phrase (bigram),D04 D03 D16 D07 D05 D25 D29 D27 D26 D13 D28,11,0.2061,common denominator
+H2,Q04,knowledge tracing model,Phrase (trigram),D09,1,0.1455,knowledge trace model
+H2,Q05,added the numerators,Phrase (trigram),D16 D04 D03 D01 D25,5,0.1487,add numerator
+H2,Q06,fraction AND misconception,Boolean AND,D16 D15 D29 D27 D17 D18,6,0.1453,fraction ; misconception
+H2,Q07,"LCD OR ""least common denominator""",Boolean OR,D04 D16 D25 D27 D07 D26,6,0.2175,lcd ; least common denominator
+H2,Q08,denominator AND NOT common,Boolean NOT,D01 D06,2,0.1207,denominator ; NOT common
+H2,Q09,dialogue AND (tutor OR teacher),Advanced Boolean,D11 D12 D09 D14 D10,5,0.1901,dialogue ; tutor ; teacher
+H2,Q10,"""knowledge tracing"" AND NOT programming",Boolean NOT,D10,1,0.1469,knowledge trace ; NOT program
+H2,Q11,decimal OR percent,Boolean OR,D08 D16 D29 D27 D05 D18 D30 D06 D26 D07 D25 D15,12,0.1442,decimal ; percent
+H2,Q12,"""student explanation""",Phrase (bigram),D11,1,0.142,student explanation
+H2,Q13,number line,Phrase (bigram),D01 D05 D24 D06 D25 D26 D27 D29 D30,9,0.1853,number line
+H2,Q14,misconception AND student AND fraction,Boolean AND,D16 D15 D17 D18 D29 D27,6,0.1987,misconception ; student ; fraction
+H2,Q15,"LLM AND ""knowledge tracing""",Boolean AND,D10 D11 D09,3,0.154,llm ; knowledge trace

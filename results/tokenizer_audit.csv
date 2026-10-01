@@ -1,0 +1,17 @@
+tokenizer,problem,occurrences,examples,fix
+nltk,fraction split,1,12 / 8,custom rule `fraction`
+nltk,hyphenated word split,94,fifths - one | no - I | pieces - meaning,remove spaCy hyphen infix; rule `compound`
+nltk,currency symbol split,1479,costs $ 3.45 | costs $ 1.25 | is $ 0.33,rule `currency`
+nltk,percent split,608,"57 % of | 25 % means | 25/100,3 % means",rule `percent`
+nltk,abbreviation broken,11,", etc . | , etc . | , etc .",rule `abbreviation`
+nltk,contraction split,796,That 's right | Let 's think | you 're right,rule `compound` / `informal`
+nltk,operator split from expression,943,24 + 5 | 2^9 = 2+2+2+2+2+2+2+2+2=18 | 5/6 = 1,rule `expression`
+nltk,case duplicates in dictionary,1197,Fraction / fraction,lowercase on the index branch only (after NER)
+spacy,fraction split,1,12 / 8,custom rule `fraction`
+spacy,hyphenated word split,1075,twenty - fourths | twenty - fourths | three - fifths,remove spaCy hyphen infix; rule `compound`
+spacy,currency symbol split,1469,costs $ 3.45 | costs $ 1.25 | is $ 0.33,rule `currency`
+spacy,percent split,598,"57 % of | 25 % means | 25/100,3 % means",rule `percent`
+spacy,abbreviation broken,5,", etc . | , etc . | , etc .",rule `abbreviation`
+spacy,contraction split,806,That 's right | Let 's think | you 're right,rule `compound` / `informal`
+spacy,operator split from expression,1196,5·2 + 1 | 5/5 + 4/5=9/5 | 3 + 2)/6,rule `expression`
+spacy,case duplicates in dictionary,1216,Fraction / fraction,lowercase on the index branch only (after NER)

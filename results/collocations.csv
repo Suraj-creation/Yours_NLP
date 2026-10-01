@@ -1,0 +1,51 @@
+ngram,count,log_likelihood,pmi,n
+correct answer,249,2289.1,7.127,2
+incorrect solution,212,2013.03,7.421,2
+incorrect answer,225,1857.24,6.697,2
+vacuum cleaner,111,1794.51,10.362,2
+solve yes,136,1469.37,8.271,2
+ashlock 2006,84,1330.78,10.522,2
+source ashlock,84,1111.66,9.264,2
+7th grade,62,1010.91,10.909,2
+wet dog,65,995.21,10.466,2
+mixed number,100,941.81,7.103,2
+language model,93,912.49,7.817,2
+smell like,66,895.37,9.709,2
+like wet,64,886.6,9.771,2
+large language,75,852.88,8.813,2
+annual pension,58,836.47,10.055,2
+following exercise,60,809.39,9.958,2
+common denominator,77,730.81,7.692,2
+equivalent fraction,86,713.04,6.769,2
+improper fraction,68,700.49,7.461,2
+let 's,72,662.37,7.396,2
+common factor,56,640.77,8.938,2
+decimal point,65,603.81,7.569,2
+number line,71,568.01,6.571,2
+artificial intelligence,29,545.18,12.288,2
+ca n't,42,540.79,9.456,2
+out how many,32,3762.63,14.014,3
+teacher how many,28,3587.79,11.305,3
+calculate how many,3,3550.42,11.143,3
+leave how many,7,3519.46,11.595,3
+danielle how many,3,3510.23,13.025,3
+gumballs how many,3,3508.26,12.539,3
+pencil how many,3,3507.81,12.426,3
+candle how many,4,3507.03,11.321,3
+say how many,3,3503.01,11.131,3
+day how many,3,3502.75,11.056,3
+operation when student,100,2674.58,14.553,3
+source ashlock 2006,84,2457.31,19.786,3
+correct answer w=20,3,2327.54,16.361,3
+correct answer include,5,2317.95,12.417,3
+correct answer 4/9,3,2315.4,14.624,3
+correct answer 500,3,2311.49,13.776,3
+correct answer 2/3,3,2305.79,10.827,3
+correct answer 15,3,2301.89,11.361,3
+incorrect solution let,29,2267.45,14.876,3
+incorrect solution since,13,2098.25,13.36,3
+incorrect solution karan,9,2088.16,14.666,3
+incorrect solution elliott,8,2079.93,14.679,3
+incorrect solution marcy,6,2052.99,13.519,3
+incorrect solution sally,6,2052.42,13.451,3
+incorrect solution carla,5,2051.94,14.303,3
